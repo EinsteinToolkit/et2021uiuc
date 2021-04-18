@@ -5,7 +5,8 @@ html {
 body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: medium;
-  padding-top: 50px;
+  margin-top: 0.5ex;
+  padding-top: 50px; /* fixed height of navbar brand image */
 }
 
 p {
