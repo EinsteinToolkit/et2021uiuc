@@ -10,7 +10,7 @@ Venue: Online event.
 
 <div class="col-xs-12 col-sm-8" markdown="1">
 <div class="textwrapleft" markdown="1">
-![Illinois Wordmark](http://www.ncsa.illinois.edu/Conferences/ETK17/includes/logo_uiuc.png)
+![Illinois Wordmark](https://www.ncsa.illinois.edu/Conferences/ETK17/includes/logo_uiuc.png)
 ![Einstein Toolkit Meeting Flyer](images/logo/logo.png)
 </div>
 
@@ -38,6 +38,6 @@ Recordings will be made available in the
 </div>
 <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1 col-lg-offset-0" markdown="1">
 ## Sponsored by
-![NSF logo](http://www.ncsa.illinois.edu/Conferences/ETK17/includes/logo_nsf.jpg){: class="textwrapright" style='height: 4em' }
+![NSF logo](https://www.ncsa.illinois.edu/Conferences/ETK17/includes/logo_nsf.jpg){: class="textwrapright" style='height: 4em' }
 NSF [OAC-2004879](https://nsf.gov/awardsearch/showAward?AWD_ID=2004879&HistoricalAwards=false) "The Einstein Toolkit ecosystem: Enabling fundamental research in the era of multi-messenger astrophysics".
 </div>
