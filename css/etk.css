@@ -1,0 +1,268 @@
+html {
+  font-size: medium;
+}
+
+body {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: medium;
+  padding-top: 50px;
+}
+
+p {
+  text-align: justify
+}
+
+.logo img {
+    float: left;
+    margin: 5px;
+}
+
+.carousel img {
+  min-width: 100%;
+  max-width: none;
+}
+
+.carousel-caption a {
+  color: inherit;
+}
+
+dl.col-grid > dd {
+    padding-left: 1ex;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: large;
+}
+h3{
+  font-weight: bold;	
+  font-size: medium;
+}
+
+h4{
+  font-weight: bold;	
+  font-size: medium;
+}
+
+h5{
+  font-weight: bold;
+  font-size: medium;
+}
+
+h6{
+  font-weight: bold;
+  font-size: medium;
+}
+
+
+
+
+.navbar{
+  border-radius: 7px;
+}
+.bold{
+  font-weight: bold;
+}
+
+.navbar-brand{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.logo {
+  height: 100%;
+#  image-rendering: -webkit-optimize-contrast;
+  image-rendering: auto;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.location {
+  font-size: 8pt;
+}
+
+.main-menu {
+  font-size: medium;
+}
+.main-menu:hover {
+  text-decoration: none;
+}
+
+.listmenu {
+  background-color: #222;
+  text-align: center;
+}
+
+.nav > li > a.main-menu {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.nav > li > a.main-menu-active {
+  /* this should really be whatever :hover does */
+  color: white;
+}
+
+/* following: www.cssscript.com/pure-css-mobile-compatible-responsive-dropdown-menu/ */
+[id^=dropit] { display: none; }
+[id^=dropit]:checked + div { display: block; }
+.navbar-toggle + a,
+ .collapse { display: none; }
+
+.dropdown-menu > .active > a {
+  color     : white;
+  font-size : smaller;
+  padding   : 10px;
+  background: #222;
+}
+.dropdown-menu > li > a {
+  color     : white;
+  font-size : smaller;
+  padding   : 10px;
+  background: #222;
+}
+.dropdown-menu > li > a:hover {
+  background: #2e6da4;
+}
+
+/* no linebreaks in times */
+.tzinfo tr:nth-child(n+1) td:nth-child(n+1) {
+  white-space: nowrap;
+  text-align: right;
+}
+/* alternating backgrounds */
+.tzinfo tr:nth-child(even) {background: #EEE}
+/* .tzinfo tr:nth-child(odd) {background: #FFF} */
+
+/* no linebreaks in times */
+.schedule tr:nth-child(n+1) td:nth-child(-n+2) {
+  white-space: nowrap;
+  text-align: right;
+}
+/* some fixed width for class name */
+.schedule td:nth-child(n+3) {
+  width: 17%;
+  overflow: hidden;
+}
+/* alternating backgrounds */
+.schedule tr:nth-child(even) {background: #EEE}
+/* table.schedule tr:nth-child(odd) {background: #FFF} */
+.schedule table, tr, th, td {
+  padding: 0.5ex;
+  /* remove these once the layout looks ok */
+  border-width: 1px;
+  border-style: solid;
+}
+
+.textwrapleft {
+  float: right;
+  margin-left: 1ex;
+}
+
+.textwrapright {
+  float: left;
+  margin-right: 1ex;
+}
+
+div.section {
+/*  position: relative;
+  top: 35px;*/
+}
+.local_anchor:before {
+  content: "";
+  display: block;
+  height: 30px;
+  margin: -30px 0 0;
+  text-decoration: none;
+}
+.sections-separator {
+  position: relative;
+  top: 75px;
+}
+.separator {
+  background-color: black;
+  border-color: black;
+  border-width: 1px;
+}
+
+.hline {
+  border-top: solid;
+  border-width: thin;
+  padding-top: 10px;
+  padding: 0;
+}
+.htable {
+  border-top: solid;
+  border-width: thin;
+  padding-top: 10px;
+  padding: 0;
+  text-align: center;
+}
+.image {
+  border: 1px solid;
+  padding: 2px;
+  width: 100%;
+  margin-top: 5px;
+}
+/* handle unequal height in grids */
+.row.fix {
+  display: flex;
+  flex-wrap: wrap;
+}
+.htablec {
+  border-top: solid;
+  border-width: thin;
+  padding-top: 10px;
+  text-align: center;
+}
+.tabled {
+  border: none;
+  text-align: left;
+}
+.footer {
+  position: relative;
+  font-size: 12px;
+/*  top: 100px; */
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
+.carousel-inner > .item > img{
+}
+
+.btn-warning {
+  background: #f36831;
+}
+
+.btn {
+  margin-top: 0.5em;
+}
+
+@media only screen and (min-width: 992px) {}
+
+.videocontainer {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Google CSE */
+.gsc-control-cse {
+  padding: 0px !important;
+}

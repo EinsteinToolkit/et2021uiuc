@@ -1,0 +1,81 @@
+---
+---
+{% include base.html %}
+<!DOCTYPE html>
+<html lang="en">
+<!--
+Citation reference for use by http://CiteAs.org
+http://dx.doi.org/10.1088/0264-9381/29/11/115001
+-->
+<head>
+  <link href="{{ base }}/styles/etk.css" rel="stylesheet" type="text/css">
+  <link href="{{ base }}/css/etk.css" rel="stylesheet" type="text/css">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include head.html %}
+  <title>Registered Participants</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- from https://github.com/typeiii/jquery-csv-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.11/jquery.csv.min.js"></script>
+</head>
+<body id="index">
+  {% include navbar.html %}
+<script>
+(function(){
+  // see https://stackoverflow.com/questions/62611127/trouble-accessing-google-sheet-as-a-tsv-file
+  var url="https://script.google.com/macros/s/AKfycbwqQWhIKVEviv1KvFArYBQfYcazAFufJTsNJ4qOWBpq3rjHRMnfhyFEymZYw__SV2U/exec"
+  var participantsFile = new XMLHttpRequest();
+  participantsFile.onreadystatechange = function() {
+    if (participantsFile.readyState == 4 && participantsFile.status == 200) {
+      // helper function to turn any string into save to include escaped string
+      function stripHTML(s) {
+        var text = document.createTextNode(s);
+        var p = document.createElement('p');
+        p.appendChild(text);
+        return p.innerHTML;
+      };
+
+      lines = $.csv.toArrays(participantsFile.responseText);
+      
+      // TODO: could use createelelemt etc
+      text ='<ul>\n';
+      // loops over all rows except the top "header" row, stops at first empty row
+      for(var i=1; i<lines.length; i++) {
+        fields = lines[i]; //.split('\t');
+        if (fields[0] == "") break;
+        if(fields[4].trim() == "TRUE") {
+            text += "<li>" + stripHTML(fields[2]) + "</li>";
+        }
+        // text += '<tr><td>' + stripHTML(fields[0]) + '</td>' +
+        //             '<td>' + stripHTML(fields[1]) + '</td>' +
+        //             '<td>' + stripHTML(fields[2]).replaceAll('\n','<br/>') + '</td>' +
+        //             '<td>' + (fields[4].trim() == "TRUE" ? "yes" : fields[4].trim() == "FALSE" ? "no" : "") + '</td></tr>\n';
+      }
+      text += '</ul>'
+      
+      sidebar=document.getElementById('participants');
+      sidebar.innerHTML=text;
+    }
+  };
+  participantsFile.open("GET", url, true);
+  participantsFile.send(null);
+})();
+</script>
+  <div class="container">
+    <div class="row fix">
+      <div class="col-xs-12">
+        <h1>Participants</h1>
+        <div id="participants"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        {% include footer.html %}
+      </div>
+    </div>
+  </div>
+{% include postbody.html %}
+</body>
+</html>

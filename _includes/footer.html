@@ -1,0 +1,17 @@
+<div class="footer">
+<hr class="separator" />
+{% comment %}We cannot use {{%- -%}} since liquid in Jekyll is too old.{% endcomment %}
+The Einstein Toolkit has been supported by NSF 
+{% capture list_of_grants %}
+{% for grant in site.data.grants %}
+<a href='https://nsf.gov/awardsearch/showAward?AWD_ID={{grant.id}}&HistoricalAwards=false'>{{grant.id}}</a>
+{% if grant.name != nil %}
+  {% if grant.name != empty%}\ {{grant.name}}{%endif%}
+    {% if forloop.last != true %}, NSF {% endif %}
+  {% else %}/{% endif %}
+{% endfor %}.
+{% endcapture %}
+{{ list_of_grants | join_lines | replace: '\ ',' '}}
+Any opinions, findings, and conclusions or recommendations expressed in this material
+are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+</div>

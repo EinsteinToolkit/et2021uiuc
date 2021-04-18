@@ -1,0 +1,27 @@
+---
+---
+@import "bootstrap";
+@import url('http://fonts.googleapis.com/css?family=Didact+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.orange-embossed{
+  display: inline-block;
+  padding: 0px;
+  padding-top: 0.2ex;
+  text-shadow: -.05ex -.05ex .05ex rgba(255,255,255,1.0), .05ex .05ex .05ex rgba(0,0,0,1.0);
+  color: #ff4700;
+  font-family: 'Didact Gothic';
+  font-size: $navbar-height * 0.60;
+}
+
+.white-flat{
+  display: inline-block;
+  padding: 0px;
+  margin-top: -0.2ch;
+  padding-left: 1.5em;
+  color: #ffffff;
+  text-align: right;
+  font-family: 'Roboto';
+  font-size: $navbar-height * 0.55;
+  letter-spacing: 0.1ex;
+}

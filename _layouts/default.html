@@ -1,0 +1,28 @@
+{% include base.html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="{{ base }}/styles/etk.css" rel="stylesheet" type="text/css">
+  <link href="{{ base }}/css/etk.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <title>{{ page.title }}</title>
+  {% include head.html %}
+</head>
+<body id="index">
+  {% include navbar.html %}
+  <div class="container">
+    <div class="row">
+{{ content }}
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        {% include footer.html %}
+      </div>
+    </div>
+  </div>
+{% include postbody.html %}
+</body>
+</html>

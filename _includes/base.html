@@ -1,0 +1,9 @@
+{% assign base = '' %}
+<!-- append a string to the end of url since index.html is stripped from
+     /foo/index.html and split | size counts the number of fields and not
+     separators -->
+{% assign depth = page.url | append: 'index.html' | split: '/' | size | minus: 1 %}
+{% if    depth <= 1 %}{% assign base = '.' %}
+{% elsif depth == 2 %}{% assign base = '..' %}
+{% elsif depth == 3 %}{% assign base = '../..' %}
+{% elsif depth == 4 %}{% assign base = '../../..' %}{% endif %}

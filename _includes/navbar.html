@@ -1,0 +1,35 @@
+{% include base.html %}
+<header>
+<nav id="nav" class="navbar navbar-inverse navbar-fixed-top" data-nav-helper="true">
+  <div id="menu" class="container">
+  <div  class="navbar-header">
+      <a class="navbar-brand" href="{{base}}/index.html"><img class="logo" src="{{base}}/images/logo/einstein_right_cleaned.svg" alt="Einstein"></a>
+      <a class="navbar-brand" href="{{base}}/index.html">
+        <div>
+          <span class="orange-embossed">einstein</span><br/>
+          <span class="white-flat">toolkit</span>
+        </div>
+      </a>
+  <label for="dropit" class="navbar-toggle">
+    <span class ="sr-only"> Show and Hide the Navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </label>
+  </div>
+  <input type="checkbox" id="dropit" />
+  <div class="container collapse navbar-collapse">
+
+    <ul class="nav navbar-nav">
+      <li ><a class="main-menu {% if page.url == '/' %}main-menu-active{% endif %}" href="{{base}}/index.html">Home</a></li>
+      <li ><a class="main-menu {% if page.url contains '/about.html' %}main-menu-active{% endif %}" href="{{base}}/about.html">About</a></li>
+      <li ><a class="main-menu {% if page.url contains '/program.html' %}main-menu-active{% endif %}" href="{{base}}/program.html">Program</a></li>
+      <li ><a class="main-menu {% if page.url contains '/instructions.html' %}main-menu-active{% endif %}" href="{{base}}/instructions.html">Instructions</a></li>
+      <li ><a class="main-menu {% if page.url contains '/participants.html' %}main-menu-active{% endif %}" href="{{base}}/participants.html">Participants</a></li>
+      <li ><a class="main-menu {% if page.url contains '/register.html' %}main-menu-active{% endif %}" href="{{base}}/register.html">Register!</a></li>
+    </ul>
+  </div>
+  </div>
+
+</nav>
+</header>
