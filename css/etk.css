@@ -102,6 +102,7 @@ a:hover {
 .nav > li > a.main-menu {
   padding-left: 0.5em;
   padding-right: 0.5em;
+  font-size: large;
 }
 
 .nav > li > a.main-menu-active {
