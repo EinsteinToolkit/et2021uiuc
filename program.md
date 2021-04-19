@@ -5,7 +5,7 @@ day1_1:
   title: Foo bar
   desc: >-
     some long text with a link
-    [https://google.com](google)
+    [google](https://google.com)
 day1_4:
   title: some tutorial
 day2_1:
