@@ -12,8 +12,11 @@ day2_1:
   title: Late Welcome
 ---
 
+<div class="container-fluid" markdown="1">
 # Program
+</div>
 
+<div class="col-xs-6" markdown="1">
 ## Time zones
 
 <div class="tzinfo" markdown="1">
@@ -25,7 +28,9 @@ day2_1:
 | Central EU time | 4:00 PM |  8:20 PM |
 
 </div>
+</div>
 
+<div class="col-xs-12" markdown="1">
 ## Schedule overview
 
 All times US Central time.
@@ -81,11 +86,15 @@ All times US Central time.
   <td markdown="span">**{{page.day5_5.title}}**</td>
 </tr>
 </table>
+</div>
 
+<div class="col-xs-6" markdown="1">
 ## Per-day schedules
 
 All times US Central time.
+</div>
 
+<div class="col-xs-6" markdown="1">
 ### Day 1
 
 <table class="day-schedule">
@@ -110,7 +119,9 @@ All times US Central time.
   <td markdown="span">**{{page.day1_5.title}}**<br>{{page.day1_5.desc}}</td>
 </tr>
 </table>
+</div>
 
+<div class="col-xs-6" markdown="1">
 ### Day 2
 
 <table class="day-schedule">
@@ -135,3 +146,4 @@ All times US Central time.
   <td markdown="span">**{{page.day2_5.title}}**<br>{{page.day2_5.desc}}</td>
 </tr>
 </table>
+</div>

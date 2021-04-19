@@ -3,6 +3,7 @@ layout: default
 title: Registration
 ---
 
+<div class="container-fluild">
 # Register for the 2021 virtual Einstein Toolkit school
 
 The Einstein Toolkit school is offered free of charge, with no fees of any kind
@@ -19,3 +20,4 @@ for at least **3 business** days for processing.
 
 If you have any questions, please contact the organizers at
 [workshops@einsteintoolkit.org](mailto:workshops@einsteintoolkit.org).
+</div>
