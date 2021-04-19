@@ -17,12 +17,12 @@ day2_1:
   title: Late Welcome
 ---
 
-<div class="container-fluid" markdown="1">
-# Program
+<div class="col-xs-12">
+<h1>Program</h1>
 </div>
 
-<div class="col-xs-6" markdown="1">
-## Time zones
+<div class="col-xs-6">
+<h2>Time zones</h2>
 
 <div class="tzinfo" markdown="1">
 
@@ -101,14 +101,15 @@ All times US Central time.
 </table>
 </div>
 
-<div class="col-xs-12" markdown="1">
-## Per-day schedules
+<div class="col-xs-12">
+<h2>Per-day schedules</h2>
 
 All times US Central time.
-</div>
 
-<div class="col-lg-6" markdown="1">
-### Day 1
+<div class="row">
+
+<div class="col-sm-6">
+<h3>Day 1</h3>
 
 <table class="day-schedule">
 <tr><th> start </th><th> end </th> <th> </th>
@@ -139,8 +140,8 @@ All times US Central time.
 </table>
 </div>
 
-<div class="col-lg-6" markdown="1">
-### Day 2
+<div class="col-sm-6">
+<h3>Day 2</h3>
 
 <table class="day-schedule">
 <tr><th> start </th><th> end </th> <th>  </th>
@@ -170,3 +171,6 @@ All times US Central time.
 </tr>
 </table>
 </div>
+
+</div> <!-- row -->
+</div> <!-- per-day schedule -->
