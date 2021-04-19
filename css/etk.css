@@ -162,6 +162,21 @@ a:hover {
   border-style: solid;
 }
 
+/* no linebreaks in times */
+.day-schedule tr:nth-child(n+1) td:nth-child(-n+2) {
+  white-space: nowrap;
+  text-align: right;
+}
+/* alternating backgrounds */
+.day-schedule tr:nth-child(even) {background: #EEE}
+/* table.schedule tr:nth-child(odd) {background: #FFF} */
+.day-schedule table, tr, th, td {
+  padding: 0.5ex;
+  /* remove these once the layout looks ok */
+  border-width: 1px;
+  border-style: solid;
+}
+
 #participants {
   /* the proper rules ready for future */
   column-gap: 2em;

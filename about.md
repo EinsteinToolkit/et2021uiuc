@@ -3,7 +3,6 @@ layout: default
 title: About
 ---
 
-<a class='local_anchor' id="top"> </a>
 # About the Summer School
 
 <div class="col-sm-3" markdown="1">
