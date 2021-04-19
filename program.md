@@ -35,6 +35,14 @@ day2_1:
 
 All times US Central time.
 
+<!-- add schedule entries to the yaml data in the preamble.
+     right now you will have to manually add a rowspan attribute and comment
+     out some columns for multi-hour entries.
+     This templating *could* be all done in Liquid but seems to not be worth
+     the effort, though might become interesting if the entries become more
+     complex, eg aquire an author and Zoom link entry or so.
+-->
+
 <table class="schedule">
 <tr><th> start </th><th> end </th>
 <th> Day 1 </th>
@@ -44,25 +52,25 @@ All times US Central time.
 <th> Day 5 </th>
 </tr>
 <tr><td>9:00 AM</td><td>9:45 AM</td>
-  <td markdown="span" rowspan=3>**{{page.day1_1.title}}**</td>
-  <td markdown="span">**{{page.day2_1.title}}**</td>
-  <td markdown="span">**{{page.day3_1.title}}**</td>
-  <td markdown="span">**{{page.day4_1.title}}**</td>
-  <td markdown="span">**{{page.day5_1.title}}**</td>
+  <td markdown="span" rowspan=3><b>{{page.day1_1.title}}</b></td>
+  <td markdown="span"><b>{{page.day2_1.title}}</b></td>
+  <td markdown="span"><b>{{page.day3_1.title}}</b></td>
+  <td markdown="span"><b>{{page.day4_1.title}}</b></td>
+  <td markdown="span"><b>{{page.day5_1.title}}</b></td>
 </tr>
 <tr><td>9:50 AM</td><td>10:35 AM</td>
-  <!--<td markdown="span">**{{page.day1_2.title}}**</td>-->
-  <td markdown="span">**{{page.day2_2.title}}**</td>
-  <td markdown="span">**{{page.day3_2.title}}**</td>
-  <td markdown="span">**{{page.day4_2.title}}**</td>
-  <td markdown="span">**{{page.day5_2.title}}**</td>
+  <!--<td markdown="span"><b>{{page.day1_2.title}}</b></td>-->
+  <td markdown="span"><b>{{page.day2_2.title}}</b></td>
+  <td markdown="span"><b>{{page.day3_2.title}}</b></td>
+  <td markdown="span"><b>{{page.day4_2.title}}</b></td>
+  <td markdown="span"><b>{{page.day5_2.title}}</b></td>
 </tr>
 <tr><td>10:40 AM</td><td>10:25 AM</td>
-  <!--<td markdown="span">**{{page.day1_3.title}}**</td>-->
-  <td markdown="span">**{{page.day2_3.title}}**</td>
-  <td markdown="span">**{{page.day3_3.title}}**</td>
-  <td markdown="span">**{{page.day4_3.title}}**</td>
-  <td markdown="span">**{{page.day5_3.title}}**</td>
+  <!--<td markdown="span"><b>{{page.day1_3.title}}</b></td>-->
+  <td markdown="span"><b>{{page.day2_3.title}}</b></td>
+  <td markdown="span"><b>{{page.day3_3.title}}</b></td>
+  <td markdown="span"><b>{{page.day4_3.title}}</b></td>
+  <td markdown="span"><b>{{page.day5_3.title}}</b></td>
 </tr>
 <tr><td>11:25 AM</td><td>11:45 AM</td>
   <td>break</td>
@@ -72,18 +80,18 @@ All times US Central time.
   <td>break</td>
 </tr>
 <tr><td>11:45 AM</td><td>12:30 PM</td>
-  <td markdown="span">**{{page.day1_4.title}}**</td>
-  <td markdown="span">**{{page.day2_4.title}}**</td>
-  <td markdown="span">**{{page.day3_4.title}}**</td>
-  <td markdown="span">**{{page.day4_4.title}}**</td>
-  <td markdown="span">**{{page.day5_4.title}}**</td>
+  <td markdown="span"><b>{{page.day1_4.title}}</b></td>
+  <td markdown="span"><b>{{page.day2_4.title}}</b></td>
+  <td markdown="span"><b>{{page.day3_4.title}}</b></td>
+  <td markdown="span"><b>{{page.day4_4.title}}</b></td>
+  <td markdown="span"><b>{{page.day5_4.title}}</b></td>
 </tr>
 <tr><td>12:35 AM</td><td>1:20 PM</td>
-  <td markdown="span">**{{page.day1_5.title}}**</td>
-  <td markdown="span">**{{page.day2_5.title}}**</td>
-  <td markdown="span">**{{page.day3_5.title}}**</td>
-  <td markdown="span">**{{page.day4_5.title}}**</td>
-  <td markdown="span">**{{page.day5_5.title}}**</td>
+  <td markdown="span"><b>{{page.day1_5.title}}</b></td>
+  <td markdown="span"><b>{{page.day2_5.title}}</b></td>
+  <td markdown="span"><b>{{page.day3_5.title}}</b></td>
+  <td markdown="span"><b>{{page.day4_5.title}}</b></td>
+  <td markdown="span"><b>{{page.day5_5.title}}</b></td>
 </tr>
 </table>
 </div>
@@ -101,22 +109,22 @@ All times US Central time.
 <tr><th> start </th><th> end </th> <th> </th>
 </tr>
 <tr><td>9:00 AM</td><td>9:45 AM</td>
-  <td markdown="span" rowspan=3>**{{page.day1_1.title}}**<br>{{page.day1_1.desc}}</td>
+  <td markdown="span" rowspan=3><b>{{page.day1_1.title}}</b><br>{{page.day1_1.desc}}</td>
 </tr>
 <tr><td>9:50 AM</td><td>10:35 AM</td>
-  <!--<td markdown="span">**{{page.day1_2.title}}**<br>{{page.day1_2.desc}}</td>-->
+  <!--<td markdown="span"><b>{{page.day1_2.title}}</b><br>{{page.day1_2.desc}}</td>-->
 </tr>
 <tr><td>10:40 AM</td><td>10:25 AM</td>
-  <!--<td markdown="span">**{{page.day1_3.title}}**<br>{{page.day1_3.desc}}</td>-->
+  <!--<td markdown="span"><b>{{page.day1_3.title}}</b><br>{{page.day1_3.desc}}</td>-->
 </tr>
 <tr><td>11:25 AM</td><td>11:45 AM</td>
   <td>break</td>
 </tr>
 <tr><td>11:45 AM</td><td>12:30 PM</td>
-  <td markdown="span">**{{page.day1_4.title}}**<br>{{page.day1_4.desc}}</td>
+  <td markdown="span"><b>{{page.day1_4.title}}</b><br>{{page.day1_4.desc}}</td>
 </tr>
 <tr><td>12:35 AM</td><td>1:20 PM</td>
-  <td markdown="span">**{{page.day1_5.title}}**<br>{{page.day1_5.desc}}</td>
+  <td markdown="span"><b>{{page.day1_5.title}}</b><br>{{page.day1_5.desc}}</td>
 </tr>
 </table>
 </div>
@@ -128,22 +136,22 @@ All times US Central time.
 <tr><th> start </th><th> end </th> <th>  </th>
 </tr>
 <tr><td>9:00 AM</td><td>9:45 AM</td>
-  <td markdown="span">**{{page.day2_1.title}}**<br>{{page.day2_1.desc}}</td>
+  <td markdown="span"><b>{{page.day2_1.title}}</b><br>{{page.day2_1.desc}}</td>
 </tr>
 <tr><td>9:50 AM</td><td>10:35 AM</td>
-  <td markdown="span">**{{page.day2_2.title}}**<br>{{page.day2_2.desc}}</td>
+  <td markdown="span"><b>{{page.day2_2.title}}</b><br>{{page.day2_2.desc}}</td>
 </tr>
 <tr><td>10:40 AM</td><td>10:25 AM</td>
-  <td markdown="span">**{{page.day2_3.title}}**<br>{{page.day2_3.desc}}</td>
+  <td markdown="span"><b>{{page.day2_3.title}}</b><br>{{page.day2_3.desc}}</td>
 </tr>
 <tr><td>11:25 AM</td><td>11:45 AM</td>
   <td>break</td>
 </tr>
 <tr><td>11:45 AM</td><td>12:30 PM</td>
-  <td markdown="span">**{{page.day2_4.title}}**<br>{{page.day2_4.desc}}</td>
+  <td markdown="span"><b>{{page.day2_4.title}}</b><br>{{page.day2_4.desc}}</td>
 </tr>
 <tr><td>12:35 AM</td><td>1:20 PM</td>
-  <td markdown="span">**{{page.day2_5.title}}**<br>{{page.day2_5.desc}}</td>
+  <td markdown="span"><b>{{page.day2_5.title}}</b><br>{{page.day2_5.desc}}</td>
 </tr>
 </table>
 </div>
