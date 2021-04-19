@@ -9,6 +9,7 @@ title: About
 
 <div class="col-sm-3" markdown="1">
 ## Scientific Organizing Committee
+* Steven R. Brandt
 * Roland Haas
 * Helvi Witek
 * others ...
@@ -23,6 +24,7 @@ title: About
 
 <div class="col-sm-3" markdown="1">
 ## Lecturere
+* Steven R. Brandt
 * Helvi Witek
 * others ...
 </div>
