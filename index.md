@@ -33,7 +33,7 @@ and development
 
 <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1 col-lg-offset-0" markdown="1">
 ## How to View
-Connection information will be mailed to you once you [register](register.html).
+Connection information will be emailed to you once you [register](register.html).
 Recordings will be made available in the
 [Einstein Toolkit Youtube channel](https://www.youtube.com/channel/UC8IObWZ7_wEbWnbIKVIQRYQ).
 </div>
