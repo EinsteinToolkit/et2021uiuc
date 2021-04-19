@@ -162,6 +162,28 @@ a:hover {
   border-style: solid;
 }
 
+#participants {
+  /* the proper rules ready for future */
+  column-gap: 2em;
+  column-count: auto;
+  column-width: 20em;
+  /* Moz/Firefox rules */
+  -moz-column-gap: 2em;
+  -moz-column-count: auto;
+  -moz-column-width: 20em;
+  /* Safari & Chrome rules */
+  -webkit-column-gap: 2em;
+  -webkit-column-count: auto;
+  -webkit-column-width: 20em;
+}
+#participants li {
+  /* no line breaks */
+  page-break-inside: avoid; /* Firefox */
+  break-inside: avoid; /* IE 10+ */
+  break-inside: avoid-column;
+  -webkit-column-break-inside: avoid;
+}
+
 .textwrapleft {
   float: right;
   margin-left: 1ex;

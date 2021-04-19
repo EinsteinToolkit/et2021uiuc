@@ -44,7 +44,7 @@ http://dx.doi.org/10.1088/0264-9381/29/11/115001
         fields = lines[i]; //.split('\t');
         if (fields[0] == "") break;
         if(fields[4].trim() == "TRUE") {
-            text += "<li>" + stripHTML(fields[2]) + "</li>";
+            text += "<li>" + stripHTML(fields[2]) + "</li>\n";
         }
         // text += '<tr><td>' + stripHTML(fields[0]) + '</td>' +
         //             '<td>' + stripHTML(fields[1]) + '</td>' +
