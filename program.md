@@ -88,13 +88,13 @@ All times US Central time.
 </table>
 </div>
 
-<div class="col-xs-6" markdown="1">
+<div class="col-xs-12" markdown="1">
 ## Per-day schedules
 
 All times US Central time.
 </div>
 
-<div class="col-xs-6" markdown="1">
+<div class="col-lg-6" markdown="1">
 ### Day 1
 
 <table class="day-schedule">
@@ -121,7 +121,7 @@ All times US Central time.
 </table>
 </div>
 
-<div class="col-xs-6" markdown="1">
+<div class="col-lg-6" markdown="1">
 ### Day 2
 
 <table class="day-schedule">
