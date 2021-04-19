@@ -3,7 +3,7 @@ layout: default
 title: Registration
 ---
 
-<div class="container-fluild" markdown="1">
+<div class="col-xs-12" markdown="1">
 # Register for the 2021 virtual Einstein Toolkit school
 
 The Einstein Toolkit school is offered free of charge, with no fees of any kind
