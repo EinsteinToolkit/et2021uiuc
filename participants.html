@@ -19,7 +19,7 @@
 <script>
 (function(){
   // see https://stackoverflow.com/questions/62611127/trouble-accessing-google-sheet-as-a-tsv-file
-  var url="https://script.google.com/macros/s/AKfycbwqQWhIKVEviv1KvFArYBQfYcazAFufJTsNJ4qOWBpq3rjHRMnfhyFEymZYw__SV2U/exec"
+  var url="https://script.google.com/macros/s/AKfycbzaO60lL2WDcgor8HZ_vnwc1AbDs0ezXt4Xg-tEaPHcUVBS2zqTjUDnUDYNwzq_kfWD/exec";
   var participantsFile = new XMLHttpRequest();
   participantsFile.onreadystatechange = function() {
     if (participantsFile.readyState == 4 && participantsFile.status == 200) {
@@ -38,10 +38,10 @@
       // loops over all rows except the top "header" row, stops at first empty row
       for(var i=1; i<lines.length; i++) {
         fields = lines[i]; //.split('\t');
-        if (fields[0] == "") break;
-        if(fields[4].trim() == "TRUE") {
-            text += "<li>" + stripHTML(fields[2]) + "</li>\n";
-        }
+        //if (fields[0] == "") break;
+        //if(fields[2].trim() == "yes") {
+            text += "<li>" + stripHTML(fields[0] + " (" + fields[1] + ")") + "</li>\n";
+        //}
         // text += '<tr><td>' + stripHTML(fields[0]) + '</td>' +
         //             '<td>' + stripHTML(fields[1]) + '</td>' +
         //             '<td>' + stripHTML(fields[2]).replaceAll('\n','<br/>') + '</td>' +
