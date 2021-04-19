@@ -10,7 +10,8 @@ body {
 }
 
 p {
-  text-align: justify
+  text-align: justify;
+  max-width: 52em; /* 2 alphabets */
 }
 
 .logo img {
