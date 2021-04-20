@@ -1,3 +1,6 @@
 sass:
-        sass_dir: _sass
+  sass_dir: _sass
 incremental: true
+collections:
+  lectures:
+    output: true
