@@ -10,4 +10,4 @@
 {%-if include.files != empty-%}<br>**additional files:**
 {% for file in include.files %} [{{file}}]({{file}}){% endfor-%}
 {%-endif-%}
-{% if includes.recording != "" %}<br>**recording:** [mp4]({{include.recording}}){% endif %}
+{% if include.recording != empty %}<br>**recording:** [mp4]({{include.recording}}){% endif %}
