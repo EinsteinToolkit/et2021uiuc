@@ -4,3 +4,7 @@ incremental: true
 collections:
   lectures:
     output: true
+# Jekyll 4 supports an order attribute here, Jekyll 3 relies on file names
+# only
+#   order:
+#     - 00-AlbertEinsteint/index.d
