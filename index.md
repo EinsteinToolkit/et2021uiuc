@@ -5,7 +5,7 @@ title: North American Einstein Toolkit School 2021
 {% include base.html %}
 <div class="col-xs-12 col-sm-4" markdown="1">
 # North American Einstein Toolkit School 2021
-Date: TBD<br>
+Date: July 26<sup>th</sup> 2021 to July 30<sup>th</sup> 2021 <br>
 Venue: Online event.
 </div>
 
