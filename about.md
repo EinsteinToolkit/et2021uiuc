@@ -10,28 +10,28 @@ title: About
 <div class="col-sm-3" markdown="1">
 ## Scientific Organizing Committee
 * Steven R. Brandt
+* Zachariah Etienne
 * Roland Haas
+* Philipp Moesta
 * Helvi Witek
-* others ...
+* Yosef Zlochower
 </div>
 
 <div class="col-sm-3" markdown="1">
 ## Local  Organizing Committee
 * Roland Haas
 * Helvi Witek
-* others ...
+* TBD
 </div>
 
 <div class="col-sm-3" markdown="1">
 ## Lecturere
-* Steven R. Brandt
-* Helvi Witek
-* others ...
+* TBD
 </div>
 
 <div class="col-sm-3" markdown="1">
 ## Invited Speakers
-* others ...
+* TBD
 </div>
 
 <div class="col-sm-3" markdown="1">
