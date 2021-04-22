@@ -29,7 +29,7 @@
 
       lines = $.csv.toArrays(participantsFile.responseText);
       // sort by name and then Institution
-      lines = lines.sort(function(a,b){(a[0]+a[1]).localeCompare((b[0]+b[1]))});
+      lines = lines.sort(function(a,b){return (a[0]+a[1]).localeCompare((b[0]+b[1]))});
       
       // TODO: could use createelelemt etc
       text ='<ul>\n';
