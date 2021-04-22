@@ -11,8 +11,8 @@ charged. To keep count of the expected number of attendees and to avoid
 Zoom-bombing incidents we ask that you register using this [Google
 Form](https://forms.gle/kJEz8ERtDVpWJ7Fi6). During the registration process you can also
 request time for a short presentation of your own scientific results. We
-anticipate to be able to offer 7 minutes of talk time and 2 minutes of
-questions for each talk in the [lightning talk sections](program.html).
+anticipate to be able to offer the opportunity for short talks in the
+[lightning talk sections](program.html).
 
 Once your application has been approved by the organizers, you will be sent a
 confirmation email and login instructions for the Zoom meeting. Please allow
