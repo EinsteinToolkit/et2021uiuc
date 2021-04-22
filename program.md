@@ -19,7 +19,11 @@ day2_1:
 
 <div class="col-xs-12">
 <h1>Program</h1>
+
+TBD
 </div>
+
+{% comment %}
 
 <div class="col-xs-6">
 <h2>Time zones</h2>
@@ -174,3 +178,5 @@ All times US Central time.
 
 </div> <!-- row -->
 </div> <!-- per-day schedule -->
+
+{% endcomment %}
