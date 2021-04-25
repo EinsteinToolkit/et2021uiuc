@@ -21,7 +21,7 @@ title: About
 ## Local  Organizing Committee
 * Roland Haas
 * Helvi Witek
-* TBD
+* Miguel Gracia
 </div>
 
 <div class="col-sm-3" markdown="1">
