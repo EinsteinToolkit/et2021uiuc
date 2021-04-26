@@ -19,9 +19,9 @@ title: About
 
 <div class="col-sm-3" markdown="1">
 ## Local  Organizing Committee
+* Miguel Gracia
 * Roland Haas
 * Helvi Witek
-* Miguel Gracia
 </div>
 
 <div class="col-sm-3" markdown="1">
