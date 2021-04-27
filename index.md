@@ -15,8 +15,8 @@ Venue: Online event.
 ![Illinois Wordmark]({{base}}/images/logo/ET_UIUC.png){:class="textwrapleft" style='max-height:8em;max-width:50%'}
 
 We are pleased to announce the 2021 edition of the North American
-Einstein Toolkit Workshop. The Workshop to be held at the University of
-Illinois will provide an opportunity for researchers and students to
+Einstein Toolkit Workshop. The Workshop, hosted by the University of
+Illinois Urbana Champaign, will provide an opportunity for researchers and students to
 learn about the [Einstein Toolkit](https://einsteintoolkit.org/), a
 community-driven software platform of core computational tools to advance
 and support research in relativistic astrophysics and gravitational
@@ -27,7 +27,7 @@ tutorials including basic tutorials for new users and more advanced
 topics. The talks will, likewise, provide information for new users and
 will highlight exciting science cases and the latest developments in
 numerical relativity. On the final day, we will discuss future directions
-and development
+and development.
 </div>
 
 <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1 col-lg-offset-0" markdown="1">
