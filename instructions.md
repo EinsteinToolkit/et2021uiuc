@@ -4,7 +4,7 @@ title: instructions
 ---
 
 <div class="container-fluid" markdown="1">
-# Instrutions
+# Instructions
 
 TBA
 </div>
