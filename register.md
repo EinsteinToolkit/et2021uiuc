@@ -19,5 +19,5 @@ confirmation email and login instructions for the Zoom meeting. Please allow
 for at least **3 business** days for processing.
 
 If you have any questions, please contact the organizers at
-[workshops@einsteintoolkit.org](mailto:workshops@einsteintoolkit.org).
+[workshop@einsteintoolkit.org](mailto:workshop@einsteintoolkit.org).
 </div>

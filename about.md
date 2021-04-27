@@ -25,7 +25,7 @@ title: About
 </div>
 
 <div class="col-sm-3" markdown="1">
-## Lecturere
+## Lecturers
 * TBD
 </div>
 
@@ -35,6 +35,6 @@ title: About
 </div>
 
 <div class="col-sm-3" markdown="1">
-## Beta Testsers
+## Beta Testers
 * others ...
 </div>
