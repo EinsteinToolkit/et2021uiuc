@@ -18,7 +18,7 @@ Once your application has been approved by the organizers, you will be sent a
 confirmation email and login instructions for the Zoom meeting. Please allow
 for at least **3 business** days for processing.
 
-<b>Note:</b> While participating in the school you will agree to the participant's [code of conduct](codeofconduct.html).
+Before registering, please read the [code of conduct](codeofconduct.html).
 
 If you have any questions, please contact the organizers at
 [workshop@einsteintoolkit.org](mailto:workshop@einsteintoolkit.org).
