@@ -12,7 +12,7 @@ Venue: Online event.
 </div>
 
 <div class="col-xs-12 col-sm-8" markdown="1">
-![Illinois Wordmark]({{base}}/images/logo/ET_UIUC.png){:class="textwrapleft" style='max-height:8em;max-width:50%'}
+![Illinois Wordmark](http://einsteintoolkit.org/images/logo/logo.png){:class="textwrapleft" style='max-height:8em;max-width:50%'}
 
 We are pleased to announce the 2021 edition of the North American
 Einstein Toolkit Workshop. The Workshop, hosted by the University of
