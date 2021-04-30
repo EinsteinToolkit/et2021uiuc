@@ -30,26 +30,26 @@ numerical relativity. On the final day, we will discuss future directions
 and development.
 </div>
 
-<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1 col-lg-offset-0" markdown="1">
+<div class="col-xs-12 col-sm-6 col-md-4" markdown="1">
 ## How to View
 Connection information will be emailed to you once you [register](register.html).
 Recordings will be made available in the
 [Einstein Toolkit Youtube channel](https://www.youtube.com/channel/UC8IObWZ7_wEbWnbIKVIQRYQ).
 </div>
 
-<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1 col-lg-offset-0" markdown="1">
+<div class="col-xs-12 col-sm-6 col-md-4" markdown="1">
 ## Past Schools ans Worhshops
 * 2020: [LSU, virtual](https://www.cct.lsu.edu/Einsteintoolkitworkshop)
 * 2019: [London](https://sites.google.com/view/eetm2019/home)
 * 2019: [RIT](https://ccrg.rit.edu/content/events/2019-06-17/north-american-einstein-toolkit-workshop-2019)
 </div>
 
-<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1 col-lg-offset-0" markdown="1">
+<div class="col-xs-12 col-sm-6 col-md-4" markdown="1">
 ## Questions
 If you have any questions, please contact the organizers at [workshop@einsteintoolkit.org](mailto:workshop@einsteintoolkit.org).
 </div>
 
-<div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-1 col-lg-offset-0" markdown="1">
+<div class="col-xs-12 col-sm-6 col-md-4" markdown="1">
 ## Sponsored by
 ![NSF logo](images/logo/logo_nsf.jpg){: class="textwrapright" style='height: 4em' }
 NSF [OAC-2004879](https://nsf.gov/awardsearch/showAward?AWD_ID=2004879&HistoricalAwards=false) "The Einstein Toolkit ecosystem: Enabling fundamental research in the era of multi-messenger astrophysics".
