@@ -28,15 +28,15 @@
       };
 
       lines = $.csv.toArrays(participantsFile.responseText);
+      // remove "header" row
+      lines.shift();
       // sort by name and then Institution
       lines = lines.sort(function(a,b){return (a[0]+a[1]).localeCompare((b[0]+b[1]))});
       
       // TODO: could use createelelemt etc
       text ='<ul>\n';
-      // loops over all rows except the top "header" row, stops at first empty row
-      for(var i=1; i<lines.length; i++) {
+      for(var i=0; i<lines.length; i++) {
         fields = lines[i]; //.split('\t');
-        //if (fields[0] == "") break;
         if(fields[2].trim() == "TRUE") {
             text += "<li>" + stripHTML(fields[0] + " (" + fields[1] + ")") + "</li>\n";
         }

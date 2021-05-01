@@ -193,10 +193,17 @@ a:hover {
   -webkit-column-width: 20em;
 }
 #participants li {
+  /* see https://bugzilla.mozilla.org/show_bug.cgi?id=549114 Firefox is broken
+   * unless one breaks all other (correct browsers) with a
+   * display: table
+   */
   /* no line breaks */
   page-break-inside: avoid; /* Firefox */
   break-inside: avoid; /* IE 10+ */
   break-inside: avoid-column;
+  column-break-inside: avoid;
+  -o-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
   -webkit-column-break-inside: avoid;
 }
 
