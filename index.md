@@ -38,7 +38,7 @@ Recordings will be made available in the
 </div>
 
 <div class="col-xs-12 col-sm-6 col-md-4" markdown="1">
-## Past Schools ans Worhshops
+## Past Schools and Workshops
 * 2020: [LSU, virtual](https://www.cct.lsu.edu/Einsteintoolkitworkshop)
 * 2019: [London](https://sites.google.com/view/eetm2019/home)
 * 2019: [RIT](https://ccrg.rit.edu/content/events/2019-06-17/north-american-einstein-toolkit-workshop-2019)
