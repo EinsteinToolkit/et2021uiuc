@@ -1,7 +1,11 @@
 ---
 layout: default
 title: About
+
+manualrows: true
 ---
+
+<div class="row">
 
 <div class="col-xs-12" markdown="1">
 # About the Summer School
@@ -38,3 +42,12 @@ title: About
 ## Beta Testers
 * others ...
 </div>
+
+</div> <!--row-->
+<div class="row">
+
+<div class="col" markdown="1">
+If you have any questions, please contact the organizers at
+[workshop@einsteintoolkit.org](mailto:workshop@einsteintoolkit.org).
+
+</div> <!--row-->
