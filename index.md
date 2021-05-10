@@ -11,9 +11,9 @@ Venue: Online event.
 <a class="btn btn-info" href="{{base}}/register.html" role="button">Register</a>
 </div>
 
-<div class="col-xs-12 col-sm-8" markdown="1">
-![Illinois Wordmark](https://einsteintoolkit.org/images/logo/logo.png){:class="textwrapleft" style='max-height:8em;max-width:50%'}
-
+<div class="col-xs-12 col-sm-8">
+<img src="images/cornArtboard1.png" alt="Einstein guy in a corn field and Illinois and NCSA logos" class="textwrapleft" style="max-height:20em;max-width:33%">
+<div markdown="1">
 We are pleased to announce the 2021 edition of the North American
 Einstein Toolkit Workshop. The Workshop, hosted by the University of
 Illinois Urbana Champaign, will provide an opportunity for researchers and students to
@@ -28,6 +28,7 @@ topics. The talks will, likewise, provide information for new users and
 will highlight exciting science cases and the latest developments in
 numerical relativity. On the final day, we will discuss future directions
 and development.
+</div>
 </div>
 
 <div class="col-xs-12 col-sm-6 col-md-4" markdown="1">
