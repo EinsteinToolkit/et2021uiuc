@@ -156,7 +156,7 @@ a:hover {
 /* alternating backgrounds */
 .schedule tr:nth-child(even) {background: #EEE}
 /* table.schedule tr:nth-child(odd) {background: #FFF} */
-.schedule table, tr, th, td {
+.schedule table, .schedule tr, .schedule th, .schedule td {
   padding: 0.5ex;
   /* remove these once the layout looks ok */
   border-width: 1px;
@@ -171,7 +171,7 @@ a:hover {
 /* alternating backgrounds */
 .day-schedule tr:nth-child(even) {background: #EEE}
 /* table.schedule tr:nth-child(odd) {background: #FFF} */
-.day-schedule table, tr, th, td {
+.day-schedule table, .day-schedule tr, .day-schedule th, .day-schedule td {
   padding: 0.5ex;
   /* remove these once the layout looks ok */
   border-width: 1px;
