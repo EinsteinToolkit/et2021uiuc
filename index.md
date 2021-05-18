@@ -6,6 +6,8 @@ title: North American Einstein Toolkit School 2021
 <div class="col-xs-12 col-sm-4" markdown="1">
 # North American Einstein Toolkit School 2021
 Date: July 26<sup>th</sup> 2021 to July 30<sup>th</sup> 2021 <br>
+Time: 9:00 AM CDT to 1:30 PM CDT <br>
+Chat: [Gitter](https://gitter.im/EinsteinToolkit/workshop) <br>
 Venue: Online event.
 
 <a class="btn btn-info" href="{{base}}/register.html" role="button">Register</a>
