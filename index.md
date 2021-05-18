@@ -5,10 +5,12 @@ title: North American Einstein Toolkit School 2021
 {% include base.html %}
 <div class="col-xs-12 col-sm-4" markdown="1">
 # North American Einstein Toolkit School 2021
-Date: July 26<sup>th</sup> 2021 to July 30<sup>th</sup> 2021 <br>
-Time: 9:00 AM CDT to 1:30 PM CDT <br>
-Chat: [Gitter](https://gitter.im/EinsteinToolkit/workshop) <br>
-Venue: Online event.
+
+-------|--------------
+Date:  | July 26<sup>th</sup> 2021 to July 30<sup>th</sup> 2021
+Time:  | 9:00 AM CDT to 1:30 PM CDT
+Chat:  | [gitter.im/EinsteinToolkit/workshop](https://gitter.im/EinsteinToolkit/workshop)
+Venue:&nbsp;  | Online event.
 
 <a class="btn btn-info" href="{{base}}/register.html" role="button">Register</a>
 </div>
