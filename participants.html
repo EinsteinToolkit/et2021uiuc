@@ -38,7 +38,12 @@
       for(var i=0; i<lines.length; i++) {
         fields = lines[i]; //.split('\t');
         if(fields[2].trim() == "TRUE") {
-            text += "<li>" + stripHTML(fields[0] + " (" + fields[1] + ")") + "</li>\n";
+            text += "<li>";
+            text += stripHTML(fields[0]);
+            if (fields[1] != "") {
+                text += " (" + stripHTML(fields[1]) + ")";
+            }
+            text += "</li>\n";
         }
         // text += '<tr><td>' + stripHTML(fields[0]) + '</td>' +
         //             '<td>' + stripHTML(fields[1]) + '</td>' +
