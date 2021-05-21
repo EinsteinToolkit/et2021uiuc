@@ -23,8 +23,6 @@ day2_1:
 TBD
 </div>
 
-{% comment %}
-
 <div class="col-xs-6">
 <h2>Time zones</h2>
 
@@ -36,8 +34,10 @@ TBD
 | US Pacific time | 7:00 AM | 11:20 AM |
 | Central EU time | 4:00 PM |  8:20 PM |
 
+</div> <!--tzinfo-->
 </div>
-</div>
+
+{% comment %}
 
 <div class="col-xs-12" markdown="1">
 ## Schedule overview
