@@ -54,5 +54,6 @@ manualrows: true
 <div class="col-xs-12" markdown="1">
 If you have any questions, please contact the organizers at
 [workshop@einsteintoolkit.org](mailto:workshop@einsteintoolkit.org).
+</div>
 
 </div> <!--row-->
