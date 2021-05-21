@@ -135,13 +135,18 @@ a:hover {
 }
 
 /* no linebreaks in times */
-.tzinfo tr:nth-child(n+1) td:nth-child(n+1) {
+.tzinfo td:nth-child(n+2) {
   white-space: nowrap;
   text-align: right;
 }
 /* alternating backgrounds */
 .tzinfo tr:nth-child(even) {background: #EEE}
 /* .tzinfo tr:nth-child(odd) {background: #FFF} */
+
+.tzinfo table, .tzinfo tr, .tzinfo th, .tzinfo td {
+  padding-left: 0.5ex;
+  padding-right: 0.5ex;
+}
 
 /* no linebreaks in times */
 .schedule tr:nth-child(n+1) td:nth-child(-n+2) {
