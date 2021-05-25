@@ -37,7 +37,7 @@
       text ='<ul>\n';
       for(var i=0; i<lines.length; i++) {
         fields = lines[i]; //.split('\t');
-        if(fields[2].trim() == "TRUE") {
+        if(fields[2].trim() == "TRUE" && fields[0] != "") {
             text += "<li>";
             text += stripHTML(fields[0]);
             if (fields[1] != "") {
