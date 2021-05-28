@@ -90,7 +90,7 @@ All times US Central time.
 </tr>
 <tr><td>11:45 AM</td><td>12:30 PM</td>
   <td markdown="span"><b>{{page.day1_4.title}}</b></td>
-  <td markdown="span"><b>{{page.day2_4.title}}</b></td>
+  <td markdown="span"><b>{{site.lectures[0].title}}</b></td>
   <td markdown="span"><b>{{page.day3_4.title}}</b></td>
   <td markdown="span"><b>{{page.day4_4.title}}</b></td>
   <td markdown="span"><b>{{page.day5_4.title}}</b></td>
@@ -166,7 +166,7 @@ All times US Central time.
   <td>break</td>
 </tr>
 <tr><td>11:45 AM</td><td>12:30 PM</td>
-  <td><div markdown="1"><b>{{page.day2_4.title}}</b><br>{{page.day2_4.desc}}
+  <td><div markdown="1"><b><a href="{{site.lectures[0].url}}">{{site.lectures[0].title}}</a></b><br>{{site.lectures[0].author}}
   </div></td>
 </tr>
 <tr><td>12:35 AM</td><td>1:20 PM</td>
