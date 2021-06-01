@@ -8,7 +8,8 @@
   display: inline-block;
   padding: 0px;
   padding-top: 0.3ex;
-  text-shadow: -.05ex -.05ex .05ex rgba(255,255,255,1.0), .05ex .05ex .05ex rgba(0,0,0,1.0);
+  // font size is in px so shadow in px is ok as well
+  text-shadow: -1px -1px 1px rgba(255,255,255,1.0), 1px 1px 1px rgba(0,0,0,1.0);
   color: #ff4700;
   font-family: 'Didact Gothic';
   font-size: $navbar-height * 0.50;
