@@ -1,3 +1,4 @@
+baseurl: /et2021uiuc
 sass:
   sass_dir: _sass
 incremental: true
