@@ -1,5 +1,17 @@
 {% include base.html %}
 <header>
+<script>
+// some javascript to really make sure the navbar never overlaps
+// without we default to 50px (one line) as set in css
+window.onresize = function () {
+        var h = document.getElementById('nav').offsetHeight;
+        document.body.style["padding-top"] = h.toString() + "px";
+};
+window.onload = function () {
+        var h = document.getElementById('nav').offsetHeight;
+        document.body.style["padding-top"] = h.toString() + "px";
+};
+</script>
 <nav id="nav" class="navbar navbar-inverse navbar-fixed-top" data-nav-helper="true">
   <div id="menu" class="container">
   <div  class="navbar-header">
