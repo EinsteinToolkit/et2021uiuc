@@ -12,7 +12,7 @@ Zoom-bombing incidents we ask that you register using this [Google
 Form](https://forms.gle/kJEz8ERtDVpWJ7Fi6). During the registration process you can also
 request time for a short presentation of your own scientific results. We
 anticipate to be able to offer the opportunity for short talks in the
-[lightning talk sections](program.html).
+[lightning talk sections](program.html). The deadline to apply for a short talk is **June 23<sup>th</sup> 2021**.
 
 Once your application has been approved by the organizers, you will be sent a
 confirmation email and login instructions for the Zoom meeting. Please allow

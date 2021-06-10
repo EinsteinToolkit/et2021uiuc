@@ -3,20 +3,24 @@ layout: default
 title: North American Einstein Toolkit School 2021
 ---
 {% include base.html %}
-<div class="col-xs-12 col-sm-4" markdown="1">
+<div class="col-xs-12 col-sm-5 col-md-4" markdown="1">
 # North American Einstein Toolkit School 2021
+
+<!--<wbr> allows browsers to break a line here -->
 
 -------|--------------
 Date:  | July 26<sup>th</sup> 2021 to July 30<sup>th</sup> 2021
 Time:  | 9:00 AM CDT to 1:30 PM CDT
-Chat:  | [gitter.im/EinsteinToolkit/workshop](https://gitter.im/EinsteinToolkit/workshop)
-Email: | [workshop@einsteintoolkit.org](mailto:workshop@einsteintoolkit.org)
+Abstract deadline submission:  | June 23<sup>th</sup> 2021
+Chat:  | [gitter.im/<wbr>EinsteinToolkit/<wbr>workshop](https://gitter.im/EinsteinToolkit/workshop)
+Email: | [workshop@<wbr>einsteintoolkit.<wbr>org](mailto:workshop@einsteintoolkit.org)
 Venue:&nbsp;  | Online event.
+
 
 <a class="btn btn-info" href="{{base}}/register.html" role="button">Register</a>
 </div>
 
-<div class="col-xs-12 col-sm-8">
+<div class="col-xs-12 col-sm-7 col-md-8">
 <img src="images/cornArtboard1.png" alt="Einstein guy in a corn field and Illinois and NCSA logos" class="textwrapleft" style="max-height:20em;max-width:33%">
 <div markdown="1">
 We are pleased to announce the 2021 edition of the North American
