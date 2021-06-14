@@ -39,9 +39,9 @@
         fields = lines[i]; //.split('\t');
         if(fields[2].trim() == "TRUE" && fields[0] != "") {
             text += "<li>";
-            text += stripHTML(fields[0]);
+            text += stripHTML(fields[0]).trim();
             if (fields[1] != "") {
-                text += " (" + stripHTML(fields[1]) + ")";
+                text += " (" + stripHTML(fields[1]).trim() + ")";
             }
             text += "</li>\n";
         }
