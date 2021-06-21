@@ -11,7 +11,7 @@ title: North American Einstein Toolkit School 2021
 -------|--------------
 Date:  | July 26<sup>th</sup> 2021 to July 30<sup>th</sup> 2021
 Time:  | 9:00 AM CDT to 1:30 PM CDT
-Abstract deadline submission:  | June 23<sup>th</sup> 2021
+Abstract deadline submission:  | June 23<sup>rd</sup> 2021
 Chat:  | [gitter.im/<wbr>EinsteinToolkit/<wbr>workshop](https://gitter.im/EinsteinToolkit/workshop)
 Email: | [workshop@<wbr>einsteintoolkit.<wbr>org](mailto:workshop@einsteintoolkit.org)
 Venue:&nbsp;  | Online event.
