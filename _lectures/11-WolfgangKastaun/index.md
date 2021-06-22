@@ -2,7 +2,7 @@
 layout: default
 usemathjax: true
 title: Con2Prim
-author: Wolfgang Kastuan
+author: Wolfgang Kastaun
 institution: 
 slides: slides.pdf
 <!--files:
