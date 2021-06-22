@@ -112,11 +112,11 @@ All times US Central time.
 
 <table class="schedule">
 <tr><th> start </th><th> end </th>
-<th> Day 1 </th>
-<th> Day 2 </th>
-<th> Day 3 </th>
-<th> Day 4 </th>
-<th> Day 5 </th>
+<th> July 26<sup>th</sup> </th>
+<th> July 27<sup>th</sup> </th>
+<th> July 28<sup>th</sup> </th>
+<th> July 29<sup>th</sup> </th>
+<th> July 30<sup>th</sup> </th>
 </tr>
 <tr><td>9:00 AM</td><td>9:45 AM</td>
   <td markdown="span" rowspan=1><b>{{page.day1_1.title}}</b></td>
@@ -169,7 +169,7 @@ All times US Central time.
 <div class="row">
 
 <div class="col-sm-6">
-<h3>Day 1: Numerical Relativity</h3>
+<h3>July 26<sup>th</sup>: Numerical Relativity</h3>
 
 <table class="day-schedule">
 <tr><th> start </th><th> end </th> <th> </th>
@@ -199,7 +199,7 @@ All times US Central time.
 </div>
 
 <div class="col-sm-6">
-<h3>Day 2: Initial data</h3>
+<h3>July 27<sup>th</sup>: Initial data</h3>
 
 <table class="day-schedule">
 <tr><th> start </th><th> end </th> <th>  </th>
@@ -231,7 +231,7 @@ All times US Central time.
 </div>
 
 <div class="col-sm-6">
-<h3>Day 3: Relativistic (magneto)-hydrodynamics</h3>
+<h3>July 28<sup>th</sup>: Relativistic (magneto)-hydrodynamics</h3>
 
 <table class="day-schedule">
 <tr><th> start </th><th> end </th> <th>  </th>
@@ -263,7 +263,7 @@ All times US Central time.
 </div>
 
 <div class="col-sm-6">
-<h3>Day 4: Thorn writting</h3>
+<h3>July 29<sup>th</sup>: Thorn writting</h3>
 
 <table class="day-schedule">
 <tr><th> start </th><th> end </th> <th>  </th>
@@ -295,7 +295,7 @@ All times US Central time.
 </div>
 
 <div class="col-sm-6">
-<h3>Day 5: Data analysis</h3>
+<h3>July 30<sup>th</sup>: Data analysis</h3>
 
 <table class="day-schedule">
 <tr><th> start </th><th> end </th> <th>  </th>
