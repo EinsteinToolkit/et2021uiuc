@@ -42,12 +42,10 @@ day3_2:
   tag: TBD
 day3_3:
   title: TBD
-  tag: TBD
+  tag: FedericoCipolletta
 day3_4:
   title: Spritz,<br>GRAtenna++
-  tag:
-    - FedericoCipolletta
-    - BorisDaszuta
+  tag: BorisDaszuta
 day3_5:
   title: Lighting I (TBD)
   tag: Lighthing1
