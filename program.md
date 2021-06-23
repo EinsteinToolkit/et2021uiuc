@@ -1,86 +1,88 @@
 ---
 layout: default
 title: Scientific Program
+
+# schedule of hours below
+# dayX_Y is slot Y on day X
+
 day1_1:
   title: Welcome/ET status
 day1_2:
-  title: Binary neutron star ID theory
-  tag: AntoniosTsokaros
+  tag: HelviWitek
 day1_3:
-  title: TBD
-  tag: TBD
+  title: School I
 day1_4:
-  title: Maxwell vaccum thorn
-  tag: YosefZlochower2
+  tag: SteveBrandt
 day1_5:
-  title: 1D self-force
-  tag: PeterDiener
-day4_1:
-  title: some tutorial
+  tag: DonWillcox
 
 day2_1:
-  tag: HelviWitek
+  title: Binary neutron star ID theory
+  tag: AntoniosTsokaros
 day2_2:
   title: LORENE ID I
   tag: MariaBabiuc
 day2_3:
-  title: TBD
-  tag: TBD
-day2_4:
-  title: Maxwell vaccum thorn, <br>NRPy+ tutorial
-  tag:
-    - YosefZlochower2
-    - LeoWerneck
-day2_5:
-  title: School V
-
-day3_1:
-  title: School I
-day3_2:
   title: LORENE ID II
   tag: AtulKedia2
-day3_3:
-  title: TBD
-  tag: TBD
-day3_4:
-  title: NRPy+ tutorial
-  tag: LeoWerneck
-day3_5:
-  title: Gravitational wave analysis
-  tag: DeborahFerguson
-
-day4_1:
-  tag: SteveBrandt
-day4_2:
+day2_4:
   title: Using LORENE data
   tag:
     - BrunoGiocomazzo
     - AtulKedia
-day4_3:
+day2_5:
+  title: TBD
+  tag: TBD
+
+day3_1:
+  title: TBD
+  tag: TBD
+day3_2:
+  title: TBD
+  tag: TBD
+day3_3:
+  title: TBD
+  tag: TBD
+day3_4:
   title: Spritz,<br>GRAtenna++
   tag:
     - FedericoCipolletta
     - BorisDaszuta
+day3_5:
+  title: Lighting I (TBD)
+  tag: Lighthing1
+
+day4_1:
+  title: Maxwell vaccum thorn
+  tag: YosefZlochower2
+day4_2:
+  title: Maxwell vaccum thorn, <br>NRPy+ tutorial
+  tag:
+    - YosefZlochower2
+    - LeoWerneck
+day4_3:
+  title: NRPy+ tutorial
+  tag: LeoWerneck
 day4_4:
   title: Con2Prim,<br>SphericalNR
   tag:
     - WolfgangKastaun
     - YosefZlochower2
 day4_5:
-  title: TBD
-  tag: TBD
-
-day5_1:
-  tag: DonWillcox
-day5_2:
-  title: TBD
-  tag: TBD
-day5_3:
-  title: Lighting I (TBD)
-  tag: Lighthing1
-day5_4:
   title: Lighting II (TBD)
   tag: Lighthing2
+
+day5_1:
+  title: 1D self-force
+  tag: PeterDiener
+day5_2:
+  title: School V
+day5_3:
+  title: Gravitational wave analysis
+  tag: DeborahFerguson
+day5_4:
+  title: TBD
+  tag: TBD
 day5_5:
   title: Future of the ET
 
