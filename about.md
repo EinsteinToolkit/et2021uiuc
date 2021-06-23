@@ -32,7 +32,7 @@ manualrows: true
 ## Lecturers
 * Maria Babiuc
 * Steve Brandt
-* Bruno Giocomazzo
+* Bruno Giacomazzo
 * Atul Kedia
 * Antonios Tsokaros
 * Helvi Witek
