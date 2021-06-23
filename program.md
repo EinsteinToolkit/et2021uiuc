@@ -3,32 +3,34 @@ layout: default
 title: Scientific Program
 day1_1:
   title: Welcome/ET status
-<!--desc: >-
-    some long text with a link
-    [google](https://google.com)-->
 day1_2:
   title: Binary neutron star ID theory
+  tag: AntoniosTsokaros
 day1_3:
   title: TBD
+  tag: TBD
 day1_4:
   title: Maxwell vaccum thorn
+  tag: YosefZlochower2
 day1_5:
   title: 1D self-force
+  tag: PeterDiener
 day4_1:
   title: some tutorial
-  desc: >-
-    Some list:
-      * first
-      * second
-      * third
+
 day2_1:
-  title: Numerical relativity
+  tag: HelviWitek
 day2_2:
   title: LORENE ID I
+  tag: MariaBabiuc
 day2_3:
   title: TBD
+  tag: TBD
 day2_4:
   title: Maxwell vaccum thorn, <br>NRPy+ tutorial
+  tag:
+    - YosefZlochower2
+    - LeoWerneck
 day2_5:
   title: School V
 
@@ -36,32 +38,49 @@ day3_1:
   title: School I
 day3_2:
   title: LORENE ID II
+  tag: AtulKedia2
 day3_3:
   title: TBD
+  tag: TBD
 day3_4:
   title: NRPy+ tutorial
+  tag: LeoWerneck
 day3_5:
   title: Gravitational wave analysis
+  tag: DeborahFerguson
 
 day4_1:
-  title: New user tutorial
+  tag: SteveBrandt
 day4_2:
   title: Using LORENE data
+  tag:
+    - BrunoGiocomazzo
+    - AtulKedia
 day4_3:
   title: Spritz,<br>GRAtenna++
+  tag:
+    - FedericoCipolletta
+    - BorisDaszuta
 day4_4:
   title: Con2Prim,<br>SphericalNR
+  tag:
+    - WolfgangKastaun
+    - YosefZlochower2
 day4_5:
   title: TBD
+  tag: TBD
 
 day5_1:
-  title: AMReX
+  tag: DonWillcox
 day5_2:
   title: TBD
+  tag: TBD
 day5_3:
   title: Lighting I (TBD)
+  tag: Lighthing1
 day5_4:
   title: Lighting II (TBD)
+  tag: Lighthing2
 day5_5:
   title: Future of the ET
 
@@ -119,23 +138,23 @@ All times US Central time.
 <th> July 30<sup>th</sup> </th>
 </tr>
 <tr><td>9:00 AM</td><td>9:45 AM</td>
-  <td markdown="span" rowspan=1><b>{{page.day1_1.title}}</b></td>
-  <td markdown="span"><b>{{page.day1_2.title}}</b></td>
-  <td markdown="span"><b>{{page.day1_3.title}}</b></td>
-  <td markdown="span"><b>{{page.day1_4.title}}</b></td>
-  <td markdown="span" rowspan=2><b>{{page.day1_5.title}}</b></td>
+  <td markdown="span" rowspan=1><b>{{page.day1_1.title}}{%include title tag=day1_1.tag%}</b></td>
+  <td markdown="span"><b>{{page.day1_2.title}}{%include title tag=day1_2.tag%}</b></td>
+  <td markdown="span"><b>{{page.day1_3.title}}{%include title tag=day1_3.tag%}</b></td>
+  <td markdown="span"><b>{{page.day1_4.title}}{%include title tag=day1_4.tag%}</b></td>
+  <td markdown="span" rowspan=2><b>{{page.day1_5.title}}{%include title tag=day1_5.tag%}</b></td>
 </tr>
 <tr><td>9:50 AM</td><td>10:35 AM</td>
-  <td markdown="span" rowspan=2><b>{{page.day2_1.title}}</b></td>
-  <td markdown="span" rowspan=1><b>{{page.day2_2.title}}</b></td>
-  <td markdown="span"><b>{{page.day2_3.title}}</b></td>
-  <td markdown="span"><b>{{page.day2_4.title}}</b></td>  
+  <td markdown="span" rowspan=2><b>{{page.day2_1.title}}{%include title tag=day2_1.tag%}</b></td>
+  <td markdown="span" rowspan=1><b>{{page.day2_2.title}}{%include title tag=day2_2.tag%}</b></td>
+  <td markdown="span"><b>{{page.day2_3.title}}{%include title tag=day2_3.tag%}</b></td>
+  <td markdown="span"><b>{{page.day2_4.title}}{%include title tag=day2_4.tag%}</b></td>
 </tr>
 <tr><td>10:40 AM</td><td>11:25 AM</td>
-  <td markdown="span"><b>{{page.day3_2.title}}</b></td>
-  <td markdown="span"><b>{{page.day3_3.title}}</b></td>
-  <td markdown="span"><b>{{page.day3_4.title}}</b></td>
-  <td markdown="span"><b>{{page.day3_5.title}}</b></td>
+  <td markdown="span"><b>{{page.day3_2.title}}{%include title tag=day3_2.tag%}</b></td>
+  <td markdown="span"><b>{{page.day3_3.title}}{%include title tag=day3_3.tag%}</b></td>
+  <td markdown="span"><b>{{page.day3_4.title}}{%include title tag=day3_4.tag%}</b></td>
+  <td markdown="span"><b>{{page.day3_5.title}}{%include title tag=day3_5.tag%}</b></td>
 </tr>
 <tr><td>11:25 AM</td><td>11:45 AM</td>
   <td>break</td>
@@ -145,18 +164,18 @@ All times US Central time.
   <td>break</td>
 </tr>
 <tr><td>11:45 AM</td><td>12:30 PM</td>
-  <td markdown="span"><b>{{page.day4_1.title}}</b></td>
-  <td markdown="span"><b>{{page.day4_2.title}}</b></td>
-  <td markdown="span"><b>{{page.day4_3.title}}</b></td>
-  <td markdown="span"><b>{{page.day4_4.title}}</b></td>
-  <td markdown="span"><b>{{page.day4_5.title}}</b></td>
+  <td markdown="span"><b>{{page.day4_1.title}}{%include title tag=day4_1.tag%}</b></td>
+  <td markdown="span"><b>{{page.day4_2.title}}{%include title tag=day4_2.tag%}</b></td>
+  <td markdown="span"><b>{{page.day4_3.title}}{%include title tag=day4_3.tag%}</b></td>
+  <td markdown="span"><b>{{page.day4_4.title}}{%include title tag=day4_4.tag%}</b></td>
+  <td markdown="span"><b>{{page.day4_5.title}}{%include title tag=day4_5.tag%}</b></td>
 </tr>
 <tr><td>12:35 AM</td><td>1:20 PM</td>
-  <td markdown="span"><b>{{page.day5_1.title}}</b></td>
-  <td markdown="span"><b>{{page.day5_2.title}}</b></td>
-  <td markdown="span"><b>{{page.day5_3.title}}</b></td>
-  <td markdown="span"><b>{{page.day5_4.title}}</b></td>
-  <td markdown="span"><b>{{page.day5_5.title}}</b></td>
+  <td markdown="span"><b>{{page.day5_1.title}}{%include title tag=day5_1.tag%}</b></td>
+  <td markdown="span"><b>{{page.day5_2.title}}{%include title tag=day5_2.tag%}</b></td>
+  <td markdown="span"><b>{{page.day5_3.title}}{%include title tag=day5_3.tag%}</b></td>
+  <td markdown="span"><b>{{page.day5_4.title}}{%include title tag=day5_4.tag%}</b></td>
+  <td markdown="span"><b>{{page.day5_5.title}}{%include title tag=day5_5.tag%}</b></td>
 </tr>
 </table>
 </div>
@@ -175,11 +194,11 @@ All times US Central time.
 <tr><th> start </th><th> end </th> <th> </th>
 </tr>
 <tr><td>9:00 AM</td><td>9:45 AM</td>
-  <td rowspan=1><div markdown="1"><b>{{page.day1_1.title}}</b><br>{{page.day1_1.desc}}
+  <td rowspan=1><div markdown="1"><b>{{page.day1_1.title}}{%include title tag=day1_1.tag%}</b><br>{{page.day1_1.desc}}{%include author tag=day1_1.tag%}
   </div></td>
 </tr>
 <tr><td>9:50 AM</td><td>10:35 AM</td>
-  <td rowspan=2><div markdown="1"><b><a href="{{base}}{{site.lectures[7].url}}">{{site.lectures[7].title}}</a></b><br>{{site.lectures[7].author}}
+  <td rowspan=2><div markdown="1">{%include schedule tag=page.day2_1.tag%}
   </div></td>
 </tr>
 <tr><td>10:40 AM</td><td>11:25 AM</td>
@@ -188,11 +207,11 @@ All times US Central time.
   <td>break</td>
 </tr>
 <tr><td>11:45 AM</td><td>12:30 PM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[10].url}}">{{site.lectures[10].title}}</a></b><br>{{site.lectures[10].author}}
+  <td><div markdown="1">{%include schedule tag=page.day4_1.tag%}
   </div></td>
 </tr>
 <tr><td>12:35 AM</td><td>1:20 PM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[6].url}}">{{site.lectures[6].title}}</a></b><br>{{site.lectures[6].author}}
+  <td><div markdown="1">{%include schedule tag=page.day5_1.tag%}
   </div></td>
 </tr>
 </table>
@@ -205,26 +224,26 @@ All times US Central time.
 <tr><th> start </th><th> end </th> <th>  </th>
 </tr>
 <tr><td>9:00 AM</td><td>9:45 AM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[2].url}}">{{site.lectures[2].title}}</a></b><br>{{site.lectures[2].author}}
+  <td><div markdown="1">{%include schedule tag=page.day1_2.tag%}
   </div></td>
 </tr>
 <tr><td>9:50 AM</td><td>10:35 AM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[8].url}}">{{site.lectures[8].title}}</a></b><br>{{site.lectures[8].author}}
+  <td><div markdown="1">{%include schedule tag=page.day2_2.tag%}
   </div></td>
 </tr>
 <tr><td>10:40 AM</td><td>11:25 AM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[13].url}}">{{site.lectures[13].title}}</a></b><br>{{site.lectures[13].author}}
+  <td><div markdown="1">{%include schedule tag=page.day3_2.tag%}
   </div></td>
 </tr>
 <tr><td>11:25 AM</td><td>11:45 AM</td>
   <td>break</td>
 </tr>
 <tr><td>11:45 AM</td><td>12:30 PM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[5].url}}">{{site.lectures[5].title}}</a></b><br>{{site.lectures[5].author}}<br><b><a href="{{base}}{{site.lectures[3].url}}">{{site.lectures[3].title}}</a></b><br>{{site.lectures[3].author}}
+  <td><div markdown="1">{%include schedule tag=page.day4_2.tag%}
 </div></td>
 </tr>
 <tr><td>12:35 AM</td><td>1:20 PM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[19].url}}">{{site.lectures[19].title}}</a></b><br>{{site.lectures[19].author}}
+  <td><div markdown="1">{%include schedule tag=page.day5_2.tag%}
   </div></td>
 </tr>
 </table>
@@ -237,26 +256,26 @@ All times US Central time.
 <tr><th> start </th><th> end </th> <th>  </th>
 </tr>
 <tr><td>9:00 AM</td><td>9:45 AM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[19].url}}">{{site.lectures[19].title}}</a></b><br>{{site.lectures[19].author}}
+  <td><div markdown="1">{%include schedule tag=page.day1_3.tag%}
   </div></td>
 </tr>
 <tr><td>9:50 AM</td><td>10:35 AM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[19].url}}">{{site.lectures[19].title}}</a></b><br>{{site.lectures[19].author}}
+  <td><div markdown="1">{%include schedule tag=page.day2_3.tag%}
   </div></td>
 </tr>
 <tr><td>10:40 AM</td><td>11:25 AM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[19].url}}">{{site.lectures[19].title}}</a></b><br>{{site.lectures[19].author}}
+  <td><div markdown="1">{%include schedule tag=page.day3_3.tag%}
   </div></td>
 </tr>
 <tr><td>11:25 AM</td><td>11:45 AM</td>
   <td>break</td>
 </tr>
 <tr><td>11:45 AM</td><td>12:30 PM</td>
- <td><div markdown="1"><b><a href="{{base}}{{site.lectures[18].url}}">{{site.lectures[18].title}}</a></b><br>{{site.lectures[18].author}}<br><b><a href="{{base}}{{site.lectures[4].url}}">{{site.lectures[4].title}}</a></b><br>{{site.lectures[4].author}} 
+ <td><div markdown="1">{%include schedule tag=page.day4_3.tag%}
   </div></td>
 </tr>
 <tr><td>12:35 AM</td><td>1:20 PM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[16].url}}">{{site.lectures[16].title}}</a></b><br>{{site.lectures[16].author}}
+  <td><div markdown="1">{%include schedule tag=page.day5_3.tag%}
   </div></td>
 </tr>
 </table>
@@ -269,26 +288,26 @@ All times US Central time.
 <tr><th> start </th><th> end </th> <th>  </th>
 </tr>
 <tr><td>9:00 AM</td><td>9:45 AM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[12].url}}">{{site.lectures[12].title}}</a></b><br>{{site.lectures[12].author}}
+  <td><div markdown="1">{%include schedule tag=page.day1_4.tag%}
   </div></td>
 </tr>
 <tr><td>9:50 AM</td><td>10:35 AM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[12].url}}">{{site.lectures[12].title}}</a></b><br>{{site.lectures[12].author}}<br><b><a href="{{base}}{{site.lectures[15].url}}">{{site.lectures[15].title}}</a></b><br>{{site.lectures[15].author}}
+  <td><div markdown="1">{%include schedule tag=page.day2_4.tag%}
   </div></td>
 </tr>
 <tr><td>10:40 AM</td><td>11:25 AM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[15].url}}">{{site.lectures[15].title}}</a></b><br>{{site.lectures[15].author}}
+  <td><div markdown="1">{%include schedule tag=page.day3_4.tag%}
   </div></td>
 </tr>
 <tr><td>11:25 AM</td><td>11:45 AM</td>
   <td>break</td>
 </tr>
 <tr><td>11:45 AM</td><td>12:30 PM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[11].url}}">{{site.lectures[11].title}}</a></b><br>{{site.lectures[11].author}}<br><b><a href="{{base}}{{site.lectures[14].url}}">{{site.lectures[14].title}}</a></b><br>{{site.lectures[14].author}}
+  <td><div markdown="1">{%include schedule tag=page.day4_4.tag%}
   </div></td>
 </tr>
 <tr><td>12:35 AM</td><td>1:20 PM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[17].url}}">{{site.lectures[17].title}}</a></b><br>{{site.lectures[17].author}}
+  <td><div markdown="1">{%include schedule tag=page.day5_4.tag%}
   </div></td>
 </tr>
 </table>
@@ -301,20 +320,20 @@ All times US Central time.
 <tr><th> start </th><th> end </th> <th>  </th>
 </tr>
 <tr><td>9:00 AM</td><td>9:45 AM</td>
-  <td rowspan=2><div markdown="1"><b><a href="{{base}}{{site.lectures[20].url}}">{{site.lectures[20].title}}</a></b><br>{{site.lectures[20].author}}
+  <td rowspan=2><div markdown="1">{%include schedule tag=page.day1_5.tag%}
   </div></td>
 </tr>
 <tr><td>9:50 AM</td><td>10:35 AM</td>
 </tr>
 <tr><td>10:40 AM</td><td>11:25 AM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[1].url}}">{{site.lectures[1].title}}</a></b><br>{{site.lectures[1].author}}
+  <td><div markdown="1">{%include schedule tag=page.day3_5.tag%}
   </div></td>
 </tr>
 <tr><td>11:25 AM</td><td>11:45 AM</td>
   <td>break</td>
 </tr>
 <tr><td>11:45 AM</td><td>12:30 PM</td>
-  <td><div markdown="1"><b><a href="{{base}}{{site.lectures[19].url}}">{{site.lectures[19].title}}</a></b><br>{{site.lectures[19].author}}
+  <td><div markdown="1">{%include schedule tag=page.day4_5.tag%}
   </div></td>
 </tr>
 <tr><td>12:35 AM</td><td>1:20 PM</td>
