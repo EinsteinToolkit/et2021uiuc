@@ -1,1 +1,8 @@
-item.md
+{%-comment-%}extracts field "field" from the lecture in XX-"tag"{%-endcomment-%}
+{%-for lecture in site.lectures-%}
+  {%-assign pathparts = lecture.relative_path | split: "/"-%}
+  {%-assign tag = pathparts[1] | split: "-" | last-%}
+  {%-if tag == include.tag-%}
+    {{ lecture[include.field] }}
+  {%-endif-%}
+{%-endfor-%}
