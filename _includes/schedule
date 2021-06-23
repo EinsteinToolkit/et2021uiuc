@@ -1,0 +1,5 @@
+{%-comment-%}creates a schedule item for a lecture{%-endcomment-%}
+{%-include base.html-%}
+{%-for t in include.tag-%}
+<b><a href="{{base}}{%include url tag=t%}">{%include title tag=t%}</a></b><br>{%include author tag=t%}<br>
+{%-endfor-%}
