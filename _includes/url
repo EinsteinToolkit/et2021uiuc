@@ -1,2 +1,2 @@
 {%-comment-%}extracts the url from the lecture in XX-"tag"{%-endcomment-%}
-{%-include item tag=include.tag field="url"-%}
+{%-include get tag=include.tag field="url"-%}
