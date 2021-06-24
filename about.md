@@ -37,6 +37,7 @@ manualrows: true
 * Atul Kedia
 * Vassilios Mewes
 * Antonios Tsokaros
+* Leonardo Werneck
 * Helvi Witek
 * Yosef Zlochower
 </div>
