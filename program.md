@@ -137,6 +137,13 @@ All times US Central time.
 <th> July 29<sup>th</sup> </th>
 <th> July 30<sup>th</sup> </th>
 </tr>
+<tr><td>8:20 AM</td><td>8:55 AM</td>
+  <td>setup help</td>
+  <td>tutorial help</td>
+  <td>tutorial help</td>
+  <td>tutorial help</td>
+  <td>tutorial help</td>
+</tr>
 <tr><td>9:00 AM</td><td>9:45 AM</td>
   <td markdown="span" rowspan=1><b>{{page.day1_1.title}}{%include title tag=page.day1_1.tag%}</b></td>
   <td markdown="span"><b>{%include title tag=page.day2_1.tag%}</b></td>
@@ -169,12 +176,19 @@ All times US Central time.
   <td markdown="span" rowspan=1><b>{{page.day4_4.title}}{%include title tag=page.day4_4.tag%}</b></td>
   <td markdown="span"><b>{%include title tag=page.day5_4.tag%}</b></td>
 </tr>
-<tr><td>12:35 AM</td><td>1:20 PM</td>
+<tr><td>12:35 PM</td><td>1:20 PM</td>
   <td markdown="span"><b>{%include title tag=page.day1_5.tag%}</b></td>
   <td markdown="span"><b>{%include title tag=page.day2_5.tag%}</b></td>
   <td markdown="span"><b>{%include title tag=page.day3_5.tag%}</b></td>
   <td markdown="span"><b>{%include title tag=page.day4_5.tag%}</b></td>
   <td markdown="span"><b>{{page.day5_5.title}}{%include title tag=page.day5_5.tag%}</b></td>
+  <tr><td>1:25 PM</td><td>2:00 PM</td>
+    <td>setup help</td>
+    <td>tutorial help</td>
+    <td>tutorial help</td>
+    <td>tutorial help</td>
+    <td>tutorial help</td>
+  </tr>
 </tr>
 </table>
 </div>
@@ -209,7 +223,7 @@ All times US Central time.
   <td><div markdown="1">{%include schedule tag=page.day1_4.tag%}
   </div></td>
 </tr>
-<tr><td>12:35 AM</td><td>1:20 PM</td>
+<tr><td>12:35 PM</td><td>1:20 PM</td>
   <td><div markdown="1">{%include schedule tag=page.day1_5.tag%}
   </div></td>
 </tr>
@@ -241,7 +255,7 @@ All times US Central time.
   <td><div markdown="1">{%include schedule tag=page.day2_4.tag%}
 </div></td>
 </tr>
-<tr><td>12:35 AM</td><td>1:20 PM</td>
+<tr><td>12:35 PM</td><td>1:20 PM</td>
   <td><div markdown="1">{%include schedule tag=page.day2_5.tag%}
   </div></td>
 </tr>
@@ -271,7 +285,7 @@ All times US Central time.
  <td><div markdown="1">{%include schedule tag=page.day3_4.tag%}
   </div></td>
 </tr>
-<tr><td>12:35 AM</td><td>1:20 PM</td>
+<tr><td>12:35 PM</td><td>1:20 PM</td>
   <td><div markdown="1">{%include schedule tag=page.day3_5.tag%}
   </div></td>
 </tr>
@@ -303,7 +317,7 @@ All times US Central time.
   <td><div markdown="1">{%include schedule tag=page.day4_4.tag%}
   </div></td>
 </tr>
-<tr><td>12:35 AM</td><td>1:20 PM</td>
+<tr><td>12:35 PM</td><td>1:20 PM</td>
   <td><div markdown="1">{%include schedule tag=page.day4_5.tag%}
   </div></td>
 </tr>
@@ -333,7 +347,7 @@ All times US Central time.
   <td><div markdown="1">{%include schedule tag=page.day5_4.tag%}
   </div></td>
 </tr>
-<tr><td>12:35 AM</td><td>1:20 PM</td>
+<tr><td>12:35 PM</td><td>1:20 PM</td>
   <td><div markdown="1"><b>{{page.day5_5.title}}</b><br>{{page.day5_5.desc}}
   </div></td>
 </tr>
