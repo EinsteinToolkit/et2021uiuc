@@ -28,7 +28,7 @@ day2_3:
 day2_4:
   title: Using LORENE data
   tag:
-    - BrunoGiocomazzo
+    - BrunoGiacomazzo
     - AtulKedia
 day2_5:
   title: TBD
