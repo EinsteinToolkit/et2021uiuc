@@ -36,10 +36,10 @@ day2_5:
 
 day3_1:
   title: TBD
-  tag: TBD
+  tag: VassiliosMewes
 day3_2:
   title: TBD
-  tag: TBD
+  tag: VassiliosMewes
 day3_3:
   title: TBD
   tag: FedericoCipolletta
@@ -52,11 +52,11 @@ day3_5:
 
 day4_1:
   title: Maxwell vaccum thorn
-  tag: YosefZlochower2
+  tag: YosefZlochower
 day4_2:
   title: Maxwell vaccum thorn, <br>NRPy+ tutorial
   tag:
-    - YosefZlochower2
+    - YosefZlochower
     - LeoWerneck
 day4_3:
   title: NRPy+ tutorial
@@ -80,7 +80,7 @@ day5_3:
   tag: DeborahFerguson
 day5_4:
   title: TBD
-  tag: TBD
+  tag: BarryWardell
 day5_5:
   title: Future of the ET
 
@@ -140,15 +140,14 @@ All times US Central time.
 <tr><td>9:00 AM</td><td>9:45 AM</td>
   <td markdown="span" rowspan=1><b>{{page.day1_1.title}}{%include title tag=page.day1_1.tag%}</b></td>
   <td markdown="span"><b>{%include title tag=page.day2_1.tag%}</b></td>
-  <td markdown="span"><b>{%include title tag=page.day3_1.tag%}</b></td>
+  <td markdown="span" rowspan=2><b>{%include title tag=page.day3_1.tag%}</b></td>
   <td markdown="span"><b>{%include title tag=page.day4_1.tag%}</b></td>
   <td markdown="span" rowspan=2><b>{%include title tag=page.day5_1.tag%}</b></td>
 </tr>
 <tr><td>9:50 AM</td><td>10:35 AM</td>
   <td markdown="span" rowspan=2><b>{%include title tag=page.day1_2.tag%}</b></td>
   <td markdown="span" rowspan=1><b>{%include title tag=page.day2_2.tag%}</b></td>
-  <td markdown="span"><b>{%include title tag=page.day3_2.tag%}</b></td>
-  <td markdown="span"><b>{%include title tag=page.day4_2.tag%}</b></td>
+  <td markdown="span" rowspan=1><b>{{page.day4_2.title}}{%include title tag=page.day4_2.tag%}</b></td>
 </tr>
 <tr><td>10:40 AM</td><td>11:25 AM</td>
   <td markdown="span"><b>{%include title tag=page.day2_3.tag%}</b></td>
@@ -165,9 +164,9 @@ All times US Central time.
 </tr>
 <tr><td>11:45 AM</td><td>12:30 PM</td>
   <td markdown="span"><b>{%include title tag=page.day1_4.tag%}</b></td>
-  <td markdown="span"><b>{%include title tag=page.day2_4.tag%}</b></td>
+  <td markdown="span" rowspan=1><b>{{page.day2_4.title}}{%include title tag=page.day2_4.tag%}</b></td>
   <td markdown="span"><b>{%include title tag=page.day3_4.tag%}</b></td>
-  <td markdown="span"><b>{%include title tag=page.day4_4.tag%}</b></td>
+  <td markdown="span" rowspan=1><b>{{page.day4_4.title}}{%include title tag=page.day4_4.tag%}</b></td>
   <td markdown="span"><b>{%include title tag=page.day5_4.tag%}</b></td>
 </tr>
 <tr><td>12:35 AM</td><td>1:20 PM</td>
@@ -256,12 +255,10 @@ All times US Central time.
 <tr><th> start </th><th> end </th> <th>  </th>
 </tr>
 <tr><td>9:00 AM</td><td>9:45 AM</td>
-  <td><div markdown="1">{%include schedule tag=page.day3_1.tag%}
+  <td rowspan=2><div markdown="1">{%include schedule tag=page.day3_1.tag%}
   </div></td>
 </tr>
 <tr><td>9:50 AM</td><td>10:35 AM</td>
-  <td><div markdown="1">{%include schedule tag=page.day3_2.tag%}
-  </div></td>
 </tr>
 <tr><td>10:40 AM</td><td>11:25 AM</td>
   <td><div markdown="1">{%include schedule tag=page.day3_3.tag%}

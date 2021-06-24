@@ -18,6 +18,7 @@ manualrows: true
 * Roland Haas
 * Philipp Moesta
 * Helvi Witek
+* Don Willcox
 * Yosef Zlochower
 </div>
 
@@ -34,6 +35,7 @@ manualrows: true
 * Steve Brandt
 * Bruno Giacomazzo
 * Atul Kedia
+* Vassilios Mewes
 * Antonios Tsokaros
 * Helvi Witek
 * Yosef Zlochower
@@ -45,8 +47,8 @@ manualrows: true
 * Deborah Ferguson
 * Wolfgang Kastaun
 * Philipp Moesta
+* Barry Wardell
 * Don Willcox
-
 </div>
 
 <div class="col-xs-6 col-sm-3" markdown="1">
