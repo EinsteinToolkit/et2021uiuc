@@ -18,7 +18,6 @@ manualrows: true
 * Roland Haas
 * Philipp Moesta
 * Helvi Witek
-* Don Willcox
 * Yosef Zlochower
 </div>
 
