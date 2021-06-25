@@ -145,22 +145,22 @@ All times US Central time.
   <td>tutorial help</td>
 </tr>
 <tr><td>9:00 AM</td><td>9:45 AM</td>
-  <td markdown="span" rowspan=1><b>{{page.day1_1.title}}{%include title tag=page.day1_1.tag%}</b></td>
-  <td markdown="span"><b>{%include title tag=page.day2_1.tag%}</b></td>
-  <td markdown="span" rowspan=2><b>{%include title tag=page.day3_1.tag%}</b></td>
-  <td markdown="span"><b>{%include title tag=page.day4_1.tag%}</b></td>
-  <td markdown="span" rowspan=2><b>{%include title tag=page.day5_1.tag%}</b></td>
+  <td markdown="span" rowspan=1><b>{{page.day1_1.title}}{%include schedule_overview tag=page.day1_1.tag%}</b></td>
+  <td markdown="span"><b>{%include schedule_overview tag=page.day2_1.tag%}</b></td>
+  <td markdown="span" rowspan=2><b>{%include schedule_overview tag=page.day3_1.tag%}</b></td>
+  <td markdown="span"><b>{%include schedule_overview tag=page.day4_1.tag%}</b></td>
+  <td markdown="span" rowspan=2><b>{%include schedule_overview tag=page.day5_1.tag%}</b></td>
 </tr>
 <tr><td>9:50 AM</td><td>10:35 AM</td>
-  <td markdown="span" rowspan=2><b>{%include title tag=page.day1_2.tag%}</b></td>
-  <td markdown="span" rowspan=1><b>{%include title tag=page.day2_2.tag%}</b></td>
-  <td markdown="span" rowspan=1><b>{{page.day4_2.title}}{%include title tag=page.day4_2.tag%}</b></td>
+  <td markdown="span" rowspan=2><b>{%include schedule_overview tag=page.day1_2.tag%}</b></td>
+  <td markdown="span" rowspan=1><b>{%include schedule_overview tag=page.day2_2.tag%}</b></td>
+  <td markdown="span" rowspan=1><b>{{page.day4_2.title}}{%include schedule_overview tag=page.day4_2.tag%}</b></td>
 </tr>
 <tr><td>10:40 AM</td><td>11:25 AM</td>
-  <td markdown="span"><b>{%include title tag=page.day2_3.tag%}</b></td>
-  <td markdown="span"><b>{%include title tag=page.day3_3.tag%}</b></td>
-  <td markdown="span"><b>{%include title tag=page.day4_3.tag%}</b></td>
-  <td markdown="span"><b>{%include title tag=page.day5_3.tag%}</b></td>
+  <td markdown="span"><b>{%include schedule_overview tag=page.day2_3.tag%}</b></td>
+  <td markdown="span"><b>{%include schedule_overview tag=page.day3_3.tag%}</b></td>
+  <td markdown="span"><b>{%include schedule_overview tag=page.day4_3.tag%}</b></td>
+  <td markdown="span"><b>{%include schedule_overview tag=page.day5_3.tag%}</b></td>
 </tr>
 <tr><td>11:25 AM</td><td>11:45 AM</td>
   <td>break</td>
@@ -170,18 +170,18 @@ All times US Central time.
   <td>break</td>
 </tr>
 <tr><td>11:45 AM</td><td>12:30 PM</td>
-  <td markdown="span"><b>{%include title tag=page.day1_4.tag%}</b></td>
-  <td markdown="span" rowspan=1><b>{{page.day2_4.title}}{%include title tag=page.day2_4.tag%}</b></td>
-  <td markdown="span"><b>{%include title tag=page.day3_4.tag%}</b></td>
-  <td markdown="span" rowspan=1><b>{{page.day4_4.title}}{%include title tag=page.day4_4.tag%}</b></td>
-  <td markdown="span"><b>{%include title tag=page.day5_4.tag%}</b></td>
+  <td markdown="span"><b>{%include schedule_overview tag=page.day1_4.tag%}</b></td>
+  <td markdown="span" rowspan=1><b>{{page.day2_4.title}}{%include schedule_overview tag=page.day2_4.tag%}</b></td>
+  <td markdown="span"><b>{%include schedule_overview tag=page.day3_4.tag%}</b></td>
+  <td markdown="span" rowspan=1><b>{{page.day4_4.title}}{%include schedule_overview tag=page.day4_4.tag%}</b></td>
+  <td markdown="span"><b>{%include schedule_overview tag=page.day5_4.tag%}</b></td>
 </tr>
 <tr><td>12:35 PM</td><td>1:20 PM</td>
-  <td markdown="span"><b>{%include title tag=page.day1_5.tag%}</b></td>
-  <td markdown="span"><b>{%include title tag=page.day2_5.tag%}</b></td>
-  <td markdown="span"><b>{%include title tag=page.day3_5.tag%}</b></td>
-  <td markdown="span"><b>{%include title tag=page.day4_5.tag%}</b></td>
-  <td markdown="span"><b>{{page.day5_5.title}}{%include title tag=page.day5_5.tag%}</b></td>
+  <td markdown="span"><b>{%include schedule_overview tag=page.day1_5.tag%}</b></td>
+  <td markdown="span"><b>{%include schedule_overview tag=page.day2_5.tag%}</b></td>
+  <td markdown="span"><b>{%include schedule_overview tag=page.day3_5.tag%}</b></td>
+  <td markdown="span"><b>{%include schedule_overview tag=page.day4_5.tag%}</b></td>
+  <td markdown="span"><b>{{page.day5_5.title}}{%include schedule_overview tag=page.day5_5.tag%}</b></td>
   <tr><td>1:25 PM</td><td>2:00 PM</td>
     <td>setup help</td>
     <td>tutorial help</td>
