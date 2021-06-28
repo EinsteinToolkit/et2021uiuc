@@ -5,6 +5,7 @@ title: Scientific Program
 # schedule of hours below
 # dayX_Y is slot Y on day X
 
+
 day1_1:
   title: Welcome/ET status
 day1_2:
@@ -23,15 +24,13 @@ day2_2:
   title:
   tag:
 day2_3:
-  title: LORENE ID II
+  title: LORENE ID
   tag:
-    - MariaBabiuc
     - AtulKedia2
 day2_4:
   title: Using LORENE data
   tag:
     - BrunoGiacomazzo
-    - AtulKedia
 day2_5:
   title: TBD
   tag: TBD
@@ -64,10 +63,10 @@ day4_3:
   title: NRPy+ tutorial
   tag: LeoWerneck
 day4_4:
-  title: Con2Prim,<br>SphericalNR
+  title: Con2Prim,<br>TBD
   tag:
     - WolfgangKastaun
-    - YosefZlochower2
+    - TBD
 day4_5:
   title: Lighting II (TBD)
   tag: Lighthing2

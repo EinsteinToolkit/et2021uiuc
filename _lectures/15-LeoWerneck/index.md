@@ -3,7 +3,7 @@ layout: default
 usemathjax: true
 title: NRPy+ tutorial
 author: Leonardo Werneck
-institution: 
+institution: West Virginia University
 slides: slides.pdf
 <!--files:
   - file1.pdf

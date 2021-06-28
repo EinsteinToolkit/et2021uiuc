@@ -30,7 +30,6 @@ manualrows: true
 
 <div class="col-xs-6 col-sm-3" markdown="1">
 ## Lecturers
-* Maria Babiuc
 * Steve Brandt
 * Bruno Giacomazzo
 * Atul Kedia

@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: LORENE ID II
+title: LORENE ID
 author: Atul Kedia
 institution: University of Notre Dame
 slides: slides.pdf
