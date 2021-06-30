@@ -28,12 +28,14 @@ day2_3:
   tag:
     - AtulKedia2
 day2_4:
-  title: Using LORENE data
+  title: Using LORENE data<br>Short Topic I
   tag:
     - BrunoGiacomazzo
+    - GabrieleBozola
 day2_5:
-  title: TBD
-  tag: TBD
+  title: CarpetX
+  tag:
+    - ErikSchnetter
 
 day3_1:
   title: TBD
@@ -48,9 +50,12 @@ day3_4:
   title: Spritz,<br>GRAtenna++
   tag: BorisDaszuta
 day3_5:
-  title: Lighting I (TBD)
-  tag: Lighthing1
+  title: Lightning I (TBD)
+  tag: Lightning1
 
+day4_0:
+  title: Kadath
+  tag: SamTootle
 day4_1:
   title: Maxwell vaccum thorn
   tag: YosefZlochower
@@ -63,14 +68,17 @@ day4_3:
   title: NRPy+ tutorial
   tag: LeoWerneck
 day4_4:
-  title: Con2Prim,<br>TBD
+  title: Con2Prim,<br>Short Lighning I
   tag:
     - WolfgangKastaun
-    - TBD
+    - ShortLightning1
 day4_5:
-  title: Lighting II (TBD)
-  tag: Lighthing2
+  title: Lightning II (TBD)
+  tag: Lightning2
 
+day5_0:
+  title: ShortLighningII
+  tag: ShortLightning2
 day5_1:
   title: 1D self-force
   tag: PeterDiener
@@ -138,40 +146,47 @@ All times US Central time.
 <th> July 29<sup>th</sup> </th>
 <th> July 30<sup>th</sup> </th>
 </tr>
-<tr><td>8:20 AM</td><td>8:55 AM</td>
-  <td>setup help</td>
+<tr><td>7:55 AM</td><td>8:25 AM</td>
+  <td></td>
   <td>tutorial help</td>
   <td>tutorial help</td>
   <td>tutorial help</td>
   <td>tutorial help</td>
 </tr>
+<tr><td>8:25 AM</td><td>8:55 AM</td>
+  <td>setup help</td>
+  <td markdown="span" rowspan=3><b>{%include schedule_overview tag=page.day2_1.tag%}</b></td>
+  <td markdown="span" rowspan=3><b>{%include schedule_overview tag=page.day3_1.tag%}</b></td>
+  <td markdown="span"><b>{%include schedule_overview tag=page.day4_0.tag%}</b></td>
+  <td markdown="span"><b>{%include schedule_overview tag=page.day5_0.tag%}</b></td>
+</tr>
 <tr><td>9:00 AM</td><td>9:45 AM</td>
   <td markdown="span" rowspan=1><b>{{page.day1_1.title}}{%include schedule_overview tag=page.day1_1.tag%}</b></td>
-  <td markdown="span" rowspan=2><b>{%include schedule_overview tag=page.day2_1.tag%}</b></td>
-  <td markdown="span" rowspan=2><b>{%include schedule_overview tag=page.day3_1.tag%}</b></td>
+
+
   <td markdown="span"><b>{%include schedule_overview tag=page.day4_1.tag%}</b></td>
   <td markdown="span" rowspan=2><b>{%include schedule_overview tag=page.day5_1.tag%}</b></td>
 </tr>
 <tr><td>9:50 AM</td><td>10:35 AM</td>
-  <td markdown="span" rowspan=2><b>{%include schedule_overview tag=page.day1_2.tag%}</b></td>
+  <td markdown="span" rowspan=1><b>{%include schedule_overview tag=page.day1_2.tag%}</b></td>
 
 
   <td markdown="span"><b>{%include schedule_overview tag=page.day4_2.tag%}</b></td>
 
 </tr>
-<tr><td>10:40 AM</td><td>11:25 AM</td>
-
+<tr><td>10:40 AM</td><td>11:00 AM</td>
+  <td>break</td>
+  <td>break</td>
+  <td>break</td>
+  <td>break</td>
+  <td>break</td>
+</tr>
+<tr><td>11:00 AM</td><td>11:45 AM</td>
+  <td markdown="span" rowspan=1><b>{%include schedule_overview tag=page.day1_2.tag%}</b></td>
   <td markdown="span"><b>{%include schedule_overview tag=page.day2_3.tag%}</b></td>
   <td markdown="span"><b>{%include schedule_overview tag=page.day3_3.tag%}</b></td>
   <td markdown="span"><b>{%include schedule_overview tag=page.day4_3.tag%}</b></td>
   <td markdown="span"><b>{%include schedule_overview tag=page.day5_3.tag%}</b></td>
-</tr>
-<tr><td>11:25 AM</td><td>11:45 AM</td>
-  <td>break</td>
-  <td>break</td>
-  <td>break</td>
-  <td>break</td>
-  <td>break</td>
 </tr>
 <tr><td>11:45 AM</td><td>12:30 PM</td>
   <td markdown="span"><b>{%include schedule_overview tag=page.day1_4.tag%}</b></td>
