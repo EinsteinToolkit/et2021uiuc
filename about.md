@@ -34,7 +34,6 @@ manualrows: true
 * Bruno Giacomazzo
 * Atul Kedia
 * Vassilios Mewes
-* Antonios Tsokaros
 * Leonardo Werneck
 * Helvi Witek
 * Yosef Zlochower
