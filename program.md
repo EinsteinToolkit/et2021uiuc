@@ -18,8 +18,8 @@ day1_5:
   tag: DonWillcox
 
 day2_1:
-  title: Binary neutron star ID theory
-  tag: AntoniosTsokaros
+  title: TBD
+  tag: TBD
 day2_2:
   title:
   tag:
