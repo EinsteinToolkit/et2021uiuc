@@ -180,7 +180,7 @@ All times US Central time.
   <td markdown="span"><b>{%include schedule_overview tag=page.day4_4.tag%}</b></td>
   <td markdown="span"><b>{%include schedule_overview tag=page.day5_4.tag%}</b></td>
 </tr>
-<tr><td>12:35 AM</td><td>1:20 PM</td>
+<tr><td>12:35 PM</td><td>1:20 PM</td>
   <td markdown="span"><b>{%include schedule_overview tag=page.day1_5.tag%}</b></td>
   <td markdown="span"><b>{%include schedule_overview tag=page.day2_5.tag%}</b></td>
   <td markdown="span"><b>{%include schedule_overview tag=page.day3_5.tag%}</b></td>
