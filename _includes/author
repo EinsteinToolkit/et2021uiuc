@@ -1,2 +1,2 @@
 {%-comment-%}extracts the author from the lecture in XX-"tag"{%-endcomment-%}
-{%-include get tag=include.tag field="author"-%}
+{%-include get tag=include.tag sep=include.sep field="author"-%}
