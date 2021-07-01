@@ -28,7 +28,7 @@ for participant in participants:
     institution = participant[5]
     title = participant[6]
     abstract = participant[7]
-    slideurl = participant[8]
+    slideurl = participant[8].split(',')[-1]
 
     tag = name.replace(' ', '').replace('-', '')
 
