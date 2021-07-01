@@ -2,28 +2,30 @@
 layout: default
 usemathjax: true
 title: Short Lighting II
-author: TBD
-institution: 
-slides: slides.pdf
-files:
-  - file1.pdf
-  - file2.ipynb
-  - file3.mp4
-recording: ""
+# list all authors with the names as they appear in the SOC notes (CSV file
+# technically)
+author:
+  - Jay Vijay Kalinani
+  - Dhruv Desai
+  - Xinyu Li
+  - Atul Kedia
+  - Alexandru Dima
 ---
 {% include base.html %}
 
-{%-capture abstract-%}
-TBD
+{% for authorname in page.author %}
 
-* GW wave analysis
-* eggs
+{% assign tag = authorname | replace: ' ', '' | replace: '-','' %}
+{% assign talk = site.data.lightning | where: 'tag',tag | first %}
 
-and use $$\LaTeX$$ to display
+<h2 id="{{talk.tag}}">{{forloop.index}}. {{ talk.title }}</h2>
+<em>{{ talk.name }} ({{ talk.institution }})</em>
+{%assign fn = '/lightning/' | append: talk.tag | append: '.pdf'-%}
+{%-assign found = site.static_files | where: "path",fn | first-%}
+{%-if found-%}
+<a href="{{base}}/lightning/{{talk.tag}}.pdf">(slides)</a>
+{%-endif%}
 
-$$\begin{equation}E = m c^2\end{equation}$$
-{%-endcapture-%}
+{{ talk.abstract }}
 
-{% include lecture.md author=page.author institution=page.institution title=page.title abstract=abstract slides=page.slides files=page.files recording=page.recording%}
-
-Anything else that should appear after the "front matter" stuff above.
+{% endfor %}

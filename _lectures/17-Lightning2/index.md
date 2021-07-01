@@ -2,23 +2,28 @@
 layout: default
 usemathjax: true
 title: Lighting II
-author: TBD
-institution: 
-slides: slides.pdf
-<!--files:
-  - file1.pdf
-  - file2.ipynb
-  - file3.mp4-->
-recording: ""
+# list all authors with the names as they appear in the SOC notes (CSV file
+# technically)
+author:
+  - Alex Vano-Vinuales
+  - Syed Naqvi
+  - Shailes hKumar
 ---
 {% include base.html %}
 
-{%-capture abstract-%}
-TBD
+{% for authorname in page.author %}
 
-* Lighting II
+{% assign tag = authorname | replace: ' ', '' | replace: '-','' %}
+{% assign talk = site.data.lightning | where: 'tag',tag | first %}
 
-{%-endcapture-%}
+<h2 id="{{talk.tag}}">{{forloop.index}}. {{ talk.title }}</h2>
+<em>{{ talk.name }} ({{ talk.institution }})</em>
+{%assign fn = '/lightning/' | append: talk.tag | append: '.pdf'-%}
+{%-assign found = site.static_files | where: "path",fn | first-%}
+{%-if found-%}
+<a href="{{base}}/lightning/{{talk.tag}}.pdf">(slides)</a>
+{%-endif%}
 
-{% include lecture.md author=page.author institution=page.institution title=page.title abstract=abstract slides=page.slides files=page.files recording=page.recording%}
+{{ talk.abstract }}
 
+{% endfor %}
