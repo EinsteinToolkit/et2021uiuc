@@ -93,41 +93,91 @@ day5_4:
 day5_5:
   title: Future of the ET
 
+# day schedules:
+# a list of tags for each lecture
+# the mid-term brak can be given as "breakX"
+# a lecture can have its own break by adding "break" and "breakduration" to it
+# 5 minutes breaks are added at the end of lectures hwere needed
+
 start: "8:25"
-midbreakstart: "10:25"
-midbreakduration: 20
 
 day1:
-  - Welcome
-  - HelviWitek
-  - SteveBrandt
-  - DonWillcox
+  - Welcome:
+      duration: 15
+  - HelviWitek:
+      duration: 60
+  - HelviWitek:
+      duration: 55
+  - break:
+      duration: 20
+  - SteveBrandt:
+      duration: 45
+  - DonWillcox:
+      duration: 45
+  - ShortLightning2:
+      duration: 30
 
 day2:
-  - TBD
-  - AtulKedia2
-  - BrunoGiacomazzo
-  - GabrieleBozzola
-  - ErikSchnetter
+  - TBD:
+      duration: 90
+  - AtulKedia2:
+      duration: 45
+  - break:
+      duration: 20
+  - BrunoGiacomazzo:
+      duration: 45
+  - GabrieleBozzola:
+      duration: 30
+  - ErikSchnetter:
+      duration: 45
 
 day3:
-  - VassiliosMewes
-  - FedericoCipolletta
-  - BorisDaszuta
-  - Lightning1
+  - VassiliosMewes:
+      duration: 60
+  - VassiliosMewes:
+      duration: 60
+  - break:
+      duration: 20
+  - FedericoCipolletta:
+      duration: 45
+  - BorisDaszuta:
+      duration: 45
+  - Lightning1:
+      duration: 45
 
 day4:
-  - YosefZlochower
-  - LeoWerneck
-  - WolfgangKastaun
-  - ShortLightning1
-  - Lightning2
+  - SamTootle:
+      duration: 30
+  - YosefZlochower:
+      duration: 45
+  - LeoWerneck:
+      duration: 45
+  - WolfgangKastaun:
+      duration: 20
+  - break:
+      duration: 20
+  - YosefZlochower2:
+      duration: 20
+  - ShortLightning1:
+      duration: 35
+  - Lightning2:
+      duration: 45
 
 day5:
-  - PeterDiener
-  - DeborahFerguson
-  - BarryWardell
-  - FutureOfTheET
+  - ShortLightning2:
+      duration: 30
+  - PeterDiener:
+      duration: 45
+  - TBD:
+      duration: 45
+  - break:
+      duration: 20
+  - DeborahFerguson:
+      duration: 45
+  - BarryWardell:
+      duration: 45
+  - FutureOfTheET:
+      duration: 45
 
 ---
 
