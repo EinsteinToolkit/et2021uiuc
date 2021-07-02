@@ -5,9 +5,11 @@ title: Lighting II
 # list all authors with the names as they appear in the SOC notes (CSV file
 # technically)
 author:
-  - Alex Vano-Vinuales
-  - Syed Naqvi
-  - Shailes hKumar
+  - Pedro Ildefonso
+  - Mostafizur Rahman
+  - Aaron Held
+  - Alexandra Wernersson
+  - Thomas Helfer
 ---
 {% include base.html %}
 
