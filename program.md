@@ -93,6 +93,42 @@ day5_4:
 day5_5:
   title: Future of the ET
 
+start: "8:25"
+midbreakstart: "10:25"
+midbreakduration: 20
+
+day1:
+  - Welcome
+  - HelviWitek
+  - SteveBrandt
+  - DonWillcox
+
+day2:
+  - TBD
+  - AtulKedia2
+  - BrunoGiacomazzo
+  - GabrieleBozzola
+  - ErikSchnetter
+
+day3:
+  - VassiliosMewes
+  - FedericoCipolletta
+  - BorisDaszuta
+  - Lightning1
+
+day4:
+  - YosefZlochower
+  - LeoWerneck
+  - WolfgangKastaun
+  - ShortLightning1
+  - Lightning2
+
+day5:
+  - PeterDiener
+  - DeborahFerguson
+  - BarryWardell
+  - FutureOfTheET
+
 ---
 
 {% include base.html %}
@@ -222,153 +258,36 @@ All times US Central time.
 <div class="col-sm-6">
 <h3>July 26<sup>th</sup>: Numerical Relativity</h3>
 
-<table class="day-schedule">
-<tr><th> start </th><th> end </th> <th> </th>
-</tr>
-<tr><td>9:00 AM</td><td>9:45 AM</td>
-  <td rowspan=1><div markdown="1"><b>{{page.day1_1.title}}{%include title tag=page.day1_1.tag%}</b><br>{{page.day1_1.desc}}{%include author tag=page.day1_1.tag%}
-  </div></td>
-</tr>
-<tr><td>9:50 AM</td><td>10:35 AM</td>
-  <td rowspan=2><div markdown="1">{%include schedule tag=page.day1_2.tag%}
-  </div></td>
-</tr>
-<tr><td>10:40 AM</td><td>11:25 AM</td>
-</tr>
-<tr><td>11:25 AM</td><td>11:45 AM</td>
-  <td>break</td>
-</tr>
-<tr><td>11:45 AM</td><td>12:30 PM</td>
-  <td><div markdown="1">{%include schedule tag=page.day1_4.tag%}
-  </div></td>
-</tr>
-<tr><td>12:35 PM</td><td>1:20 PM</td>
-  <td><div markdown="1">{%include schedule tag=page.day1_5.tag%}
-  </div></td>
-</tr>
-</table>
+{% include day_schedule_table.html day=page.day1 %}
+
 </div>
 
 <div class="col-sm-6">
 <h3>July 27<sup>th</sup>: Initial data</h3>
 
-<table class="day-schedule">
-<tr><th> start </th><th> end </th> <th>  </th>
-</tr>
-<tr><td>9:00 AM</td><td>9:45 AM</td>
-  <td rowspan="2"><div markdown="1">{%include schedule tag=page.day2_1.tag%}
-  </div></td>
-</tr>
-<tr><td>9:50 AM</td><td>10:35 AM</td>
-</tr>
-<tr><td>10:40 AM</td><td>11:25 AM</td>
-  <td><div markdown="1">{%include schedule tag=page.day2_3.tag%}
-  </div></td>
-</tr>
-<tr><td>11:25 AM</td><td>11:45 AM</td>
-  <td>break</td>
-</tr>
-<tr><td>11:45 AM</td><td>12:30 PM</td>
-  <td><div markdown="1">{%include schedule tag=page.day2_4.tag%}
-</div></td>
-</tr>
-<tr><td>12:35 PM</td><td>1:20 PM</td>
-  <td><div markdown="1">{%include schedule tag=page.day2_5.tag%}
-  </div></td>
-</tr>
-</table>
+{% include day_schedule_table.html day=page.day2 %}
+
 </div>
 
 <div class="col-sm-6">
 <h3>July 28<sup>th</sup>: Relativistic (magneto)-hydrodynamics</h3>
 
-<table class="day-schedule">
-<tr><th> start </th><th> end </th> <th>  </th>
-</tr>
-<tr><td>9:00 AM</td><td>9:45 AM</td>
-  <td rowspan=2><div markdown="1">{%include schedule tag=page.day3_1.tag%}
-  </div></td>
-</tr>
-<tr><td>9:50 AM</td><td>10:35 AM</td>
-</tr>
-<tr><td>10:40 AM</td><td>11:25 AM</td>
-  <td><div markdown="1">{%include schedule tag=page.day3_3.tag%}
-  </div></td>
-</tr>
-<tr><td>11:25 AM</td><td>11:45 AM</td>
-  <td>break</td>
-</tr>
-<tr><td>11:45 AM</td><td>12:30 PM</td>
- <td><div markdown="1">{%include schedule tag=page.day3_4.tag%}
-  </div></td>
-</tr>
-<tr><td>12:35 PM</td><td>1:20 PM</td>
-  <td><div markdown="1">{%include schedule tag=page.day3_5.tag%}
-  </div></td>
-</tr>
-</table>
+{% include day_schedule_table.html day=page.day3 %}
+
 </div>
 
 <div class="col-sm-6">
 <h3>July 29<sup>th</sup>: Thorn writting</h3>
 
-<table class="day-schedule">
-<tr><th> start </th><th> end </th> <th>  </th>
-</tr>
-<tr><td>9:00 AM</td><td>9:45 AM</td>
-  <td><div markdown="1">{%include schedule tag=page.day4_1.tag%}
-  </div></td>
-</tr>
-<tr><td>9:50 AM</td><td>10:35 AM</td>
-  <td><div markdown="1">{%include schedule tag=page.day4_2.tag%}
-  </div></td>
-</tr>
-<tr><td>10:40 AM</td><td>11:25 AM</td>
-  <td><div markdown="1">{%include schedule tag=page.day4_3.tag%}
-  </div></td>
-</tr>
-<tr><td>11:25 AM</td><td>11:45 AM</td>
-  <td>break</td>
-</tr>
-<tr><td>11:45 AM</td><td>12:30 PM</td>
-  <td><div markdown="1">{%include schedule tag=page.day4_4.tag%}
-  </div></td>
-</tr>
-<tr><td>12:35 PM</td><td>1:20 PM</td>
-  <td><div markdown="1">{%include schedule tag=page.day4_5.tag%}
-  </div></td>
-</tr>
-</table>
+{% include day_schedule_table.html day=page.day4 %}
+
 </div>
 
 <div class="col-sm-6">
 <h3>July 30<sup>th</sup>: Data analysis</h3>
 
-<table class="day-schedule">
-<tr><th> start </th><th> end </th> <th>  </th>
-</tr>
-<tr><td>9:00 AM</td><td>9:45 AM</td>
-  <td rowspan=2><div markdown="1">{%include schedule tag=page.day5_1.tag%}
-  </div></td>
-</tr>
-<tr><td>9:50 AM</td><td>10:35 AM</td>
-</tr>
-<tr><td>10:40 AM</td><td>11:25 AM</td>
-  <td><div markdown="1">{%include schedule tag=page.day5_3.tag%}
-  </div></td>
-</tr>
-<tr><td>11:25 AM</td><td>11:45 AM</td>
-  <td>break</td>
-</tr>
-<tr><td>11:45 AM</td><td>12:30 PM</td>
-  <td><div markdown="1">{%include schedule tag=page.day5_4.tag%}
-  </div></td>
-</tr>
-<tr><td>12:35 PM</td><td>1:20 PM</td>
-  <td><div markdown="1"><b>{{page.day5_5.title}}</b><br>{{page.day5_5.desc}}
-  </div></td>
-</tr>
-</table>
+{% include day_schedule_table.html day=page.day5 %}
+
 </div>
 
 </div> <!-- row -->
