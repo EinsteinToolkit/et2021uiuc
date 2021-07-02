@@ -31,7 +31,7 @@ day2_4:
   title: Using LORENE data<br>Short Topic I
   tag:
     - BrunoGiacomazzo
-    - GabrieleBozola
+    - GabrieleBozzola
 day2_5:
   title: CarpetX
   tag:
