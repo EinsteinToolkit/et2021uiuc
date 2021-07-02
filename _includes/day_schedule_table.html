@@ -1,55 +1,45 @@
-{%-assign _dst_midbreakstart = page.midbreakstart | date: "%s" | plus: 0-%}
-{%-assign _dst_midbreakduration = page.midbreakduration | times: 60-%}
-{%-assign _dst_midbreakend = _dst_midbreakstart | plus: _dst_midbreakduration-%}
 {%-assign _dst_start = page.start | date: "%s" | plus: 0-%}
+{%-assign _dst_prevtag = ""-%}
 
 <table class="day-schedule">
 <tr><th> start </th><th> end </th> <th> </th>
 </tr>
-{%-for _dst_tag in include.day-%}
+{%-for _dst_item in include.day-%}
 
-{%-capture _dst_duration-%}
-{%-include get tag=_dst_tag field="duration"-%}
-{%-endcapture-%}
-;{{_dst_tag}};
-{%-assign _dst_duration = _dst_duration | times: 60-%}
+{%-assign _dst_opts = _dst_item | first | last -%}
+{%-assign _dst_tag = _dst_item | first | first -%}
+{%-unless _dst_tag-%}
+  {%-assign _dst_tag = _dst_item-%}
+{%-endunless-%}
+
+{%-if _dst_opts.duration-%}
+  {%-assign _dst_duration = _dst_opts.duration | times: 60-%}
+{%else%}
+  {%-capture _dst_duration-%}
+  {%-include get tag=_dst_tag field="duration"-%}
+  {%-endcapture-%}
+  {%-assign _dst_duration = _dst_duration | times: 60-%}
+{%-endif-%}
 {%-assign _dst_end = _dst_start | plus: _dst_duration-%}
 
-{%-if (_dst_start < _dst_midbreakstart) and (_dst_end > _dst_midbreakstart)-%}
-
-<tr><td>{{ _dst_start | date: "%I:%M %p" }}</td><td>{{ _dst_midbreakstart | date: "%I:%M %p" }}</td>
-  <td><div markdown="1">{%-include schedule tag=_dst_tag %}
-  </div></td>
-</tr>
-<tr><td>{{ _dst_midbreakstart | date: "%I:%M %p" }}</td><td>{{ _dst_midbreakend | date: "%I:%M %p" }}</td>
+{%-if _dst_tag == "break"-%}
+  {%comment%}remove implicit 5min break from previous item{%endcomment%}
+  {%-assign _dst_start = _dst_start | minus: 300-%}
+  {%-assign _dst_end = _dst_end | minus: 300-%}
+  {%-assign _dst_tag = _dst_prevtag-%}
+  <tr><td> {{ _dst_start | date: "%I:%M %p" }}</td><td>{{ _dst_end | date: "%I:%M %p" }}</td>
   <td>break</td>
-</tr>
-<tr><td>{{ _dst_midbreakend | date: "%I:%M %p" }}</td><td>{{ _dst_end | plus: _dst_midbreakduration | date: "%I:%M %p" }}</td>
-  <td><div markdown="1">{%-include schedule tag=_dst_tag %} (cont'd)
-  </div></td>
-</tr>
-
-{%-assign _dst_start = _dst_end | plus: _dst_midbreakduration-%}
-
+  </tr>
+  {%-assign _dst_start = _dst_end-%}
 {%-else-%}
-
-<tr><td>{{ _dst_start | date: "%I:%M %p" }}</td><td>{{ _dst_end | date: "%I:%M %p" }}</td>
-  <td><div markdown="1">{%-include schedule tag=_dst_tag %}
+  <tr><td>{{ _dst_start | date: "%I:%M %p" }}</td><td>{{ _dst_end | date: "%I:%M %p" }}</td>
+  <td><div markdown="1">{%-include schedule tag=_dst_tag %}{%if _dst_prevtag == _dst_tag%} (cont'd){%endif%}
   </div></td>
-</tr>
-
-{%-assign _dst_start = _dst_end | plus: 300-%}
-
-{%-if _dst_end == _dst_midbreakstart-%}
-
-<tr><td> {{ _dst_midbreakstart | date: "%I:%M %p" }}</td><td>{{ _dst_midbreakend | date: "%I:%M %p" }}</td>
-  <td>break</td>
-</tr>
-
-{%-assign _dst_start = _dst_midbreakend-%}
+  </tr>
+  {%-assign _dst_start = _dst_end | plus: 300-%}
 {%-endif-%}
+{%-assign _dst_prevtag = _dst_tag-%}
 
-{%-endif-%}
 
 {%-endfor-%}
 </table>
