@@ -4,6 +4,7 @@ usemathjax: true
 title: Spritz
 author: Federico Cipolletta
 institution: Rochester Institute of Technology
+duration: 45
 slides: slides.pdf
 <!--files:
   - file1.pdf

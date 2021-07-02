@@ -4,6 +4,7 @@ usemathjax: true
 title: Using LORENE data II
 author: Atul Kedia
 institution: University of Notre Dame
+duration: 45
 slides: slides.pdf
 <!--files:
   - file1.pdf

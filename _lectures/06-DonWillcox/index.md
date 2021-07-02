@@ -4,6 +4,7 @@ usemathjax: true
 title: AMReX
 author: Don Willcox
 institution: 
+duration: 45
 slides: slides.pdf
 <!--files:
   - file1.pdf

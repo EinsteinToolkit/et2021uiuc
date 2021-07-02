@@ -4,6 +4,7 @@ usemathjax: true
 title: New user tutorial
 author: Steven Brandt
 institution: Louisiana State University
+duration: 45
 slides: slides.pdf
 files:
   - file1.pdf

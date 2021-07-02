@@ -4,6 +4,7 @@ usemathjax: true
 title: NRPy+ tutorial
 author: Leonardo Werneck
 institution: West Virginia University
+duration: 45
 slides: slides.pdf
 <!--files:
   - file1.pdf

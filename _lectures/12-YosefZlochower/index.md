@@ -4,6 +4,7 @@ usemathjax: true
 title: Maxwell vaccum thorn
 author: Yosef Zlochower
 institution: Rochester Institute of Technlogy
+duration: 20
 slides: slides.pdf
 <!--files:
   - file1.pdf

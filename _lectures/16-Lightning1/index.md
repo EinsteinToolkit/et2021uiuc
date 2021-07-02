@@ -10,6 +10,7 @@ author:
   - Xinyu Li
   - Atul Kedia
   - Alexandru Dima
+duration: 45
 ---
 {% include base.html %}
 

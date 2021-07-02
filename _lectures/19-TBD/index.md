@@ -4,6 +4,7 @@ usemathjax: true
 title: TBD
 author: TBD
 institution: TBD
+duration: 90
 slides: slides.pdf
 <!--files:
   - file1.pdf

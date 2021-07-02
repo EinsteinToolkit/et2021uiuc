@@ -10,6 +10,7 @@ author:
   - Aaron Held
   - Alexandra Wernersson
   - Thomas Helfer
+duration: 45
 ---
 {% include base.html %}
 

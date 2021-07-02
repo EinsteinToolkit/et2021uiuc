@@ -8,6 +8,7 @@ author:
   - Santiago Jaraba
   - Thiago Assumpção
   - Hayley Macpherson
+duration: 30
 ---
 {% include base.html %}
 
