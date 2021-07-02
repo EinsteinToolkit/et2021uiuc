@@ -4,7 +4,6 @@ usemathjax: true
 title: Kuibit
 author: Gabriele Bozzola
 institution: 
-duration: 30
 slides: slides.pdf
 <!--files:
   - file1.pdf

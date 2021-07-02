@@ -4,7 +4,6 @@ usemathjax: true
 title: CarpetX
 author: Erik Schnetter
 institution: 
-duration: 45
 slides: slides.pdf
 <!--files:
   - file1.pdf

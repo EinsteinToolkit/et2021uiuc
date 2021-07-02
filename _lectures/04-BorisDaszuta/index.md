@@ -4,7 +4,6 @@ usemathjax: true
 title: GRAthena++
 author: Boris Daszuta
 institution: 
-duration: 45
 slides: slides.pdf
 <!--files:
   - file1.pdf

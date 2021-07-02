@@ -4,7 +4,6 @@ usemathjax: true
 title: Using LORENE data 
 author: Bruno Giacomazzo
 institution: University of Milano-Bicocca
-duration: 45
 slides: slides.pdf
 <!--files:
   - file1.pdf

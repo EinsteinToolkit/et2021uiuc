@@ -4,7 +4,6 @@ usemathjax: true
 title: Black hole perturbation toolkit
 author: Barry Wardell 
 institution: 
-duration: 45
 slides: slides.pdf
 <!--files:
   - file1.pdf

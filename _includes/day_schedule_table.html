@@ -15,10 +15,11 @@
 {%-if _dst_opts.duration-%}
   {%-assign _dst_duration = _dst_opts.duration | times: 60-%}
 {%else%}
-  {%-capture _dst_duration-%}
-  {%-include get tag=_dst_tag field="duration"-%}
-  {%-endcapture-%}
-  {%-assign _dst_duration = _dst_duration | times: 60-%}
+  {%-if _dst_tag == "break"-%}
+    {%-assign _dst_duration = 20 | times: 60-%}
+  {%-else-%}
+    {%-assign _dst_duration = 45 | times: 60-%}
+  {%-endif-%}
 {%-endif-%}
 {%-assign _dst_end = _dst_start | plus: _dst_duration-%}
 

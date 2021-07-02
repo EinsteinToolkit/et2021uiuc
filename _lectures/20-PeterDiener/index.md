@@ -4,7 +4,6 @@ usemathjax: true
 title: 1D self-force
 author: Peter Diener
 institution: Louisiana State University 
-duration: 45
 slides: slides.pdf
 <!--files:
   - file1.pdf

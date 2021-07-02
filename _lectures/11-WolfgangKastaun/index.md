@@ -4,7 +4,6 @@ usemathjax: true
 title: Con2Prim
 author: Wolfgang Kastaun
 institution: 
-duration: 20
 slides: slides.pdf
 <!--files:
   - file1.pdf

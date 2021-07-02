@@ -4,7 +4,6 @@ usemathjax: true
 title: Welcome
 author: Roland Haas
 institution: The University of Illinois Urbana Champaign
-duration: 15
 slides: slides.pdf
 <!--files:
   - file1.pdf

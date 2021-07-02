@@ -4,7 +4,6 @@ usemathjax: true
 title: Introduction to GRMHD
 author: Vassilios Mewes
 institution:  
-duration: 80
 slides: slides.pdf
 <!--files:
   - file1.pdf
