@@ -98,6 +98,7 @@ day5_5:
 # the mid-term brak can be given as "breakX"
 # a lecture can have its own break by adding "break" and "breakduration" to it
 # 5 minutes breaks are added at the end of lectures hwere needed
+# if no duration given it is assumed to be 45min for lectures and 20min for a break
 
 start: "8:25"
 
@@ -108,76 +109,55 @@ day1:
       duration: 60
   - HelviWitek:
       duration: 55
-  - break:
-      duration: 20
-  - SteveBrandt:
-      duration: 45
-  - DonWillcox:
-      duration: 45
+  - break
+  - SteveBrandt
+  - DonWillcox
   - ShortLightning2:
       duration: 30
 
 day2:
   - TBD:
       duration: 90
-  - AtulKedia2:
-      duration: 45
-  - break:
-      duration: 20
-  - BrunoGiacomazzo:
-      duration: 45
+  - AtulKedia2
+  - break
+  - BrunoGiacomazzo
   - GabrieleBozzola:
       duration: 30
-  - ErikSchnetter:
-      duration: 45
+  - ErikSchnetter
 
 day3:
   - VassiliosMewes:
       duration: 60
   - VassiliosMewes:
       duration: 60
-  - break:
-      duration: 20
-  - FedericoCipolletta:
-      duration: 45
-  - BorisDaszuta:
-      duration: 45
-  - Lightning1:
-      duration: 45
+  - break
+  - FedericoCipolletta
+  - BorisDaszuta
+  - Lightning1
 
 day4:
   - SamTootle:
       duration: 30
-  - YosefZlochower:
-      duration: 45
-  - LeoWerneck:
-      duration: 45
+  - YosefZlochower
+  - LeoWerneck
   - WolfgangKastaun:
       duration: 20
-  - break:
-      duration: 20
+  - break
   - YosefZlochower2:
       duration: 20
   - ShortLightning1:
       duration: 35
-  - Lightning2:
-      duration: 45
+  - Lightning2
 
 day5:
   - ShortLightning2:
       duration: 30
-  - PeterDiener:
-      duration: 45
-  - TBD:
-      duration: 45
-  - break:
-      duration: 20
-  - DeborahFerguson:
-      duration: 45
-  - BarryWardell:
-      duration: 45
-  - FutureOfTheET:
-      duration: 45
+  - PeterDiener
+  - TBD
+  - break
+  - DeborahFerguson
+  - BarryWardell
+  - FutureOfTheET
 
 ---
 
