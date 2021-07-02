@@ -1,0 +1,55 @@
+{%-assign midbreakstart = page.midbreakstart | date: "%s" | plus: 0-%}
+{%-assign midbreakduration = page.midbreakduration | times: 60-%}
+{%-assign midbreakend = midbreakstart | plus: midbreakduration-%}
+{%-assign start = page.start | date: "%s" | plus: 0-%}
+
+<table class="day-schedule">
+<tr><th> start </th><th> end </th> <th> </th>
+</tr>
+{%-for tag in include.day-%}
+
+{%-capture duration-%}
+{%-include get tag=tag field="duration"-%}
+{%-endcapture-%}
+{%-assign duration = duration | times: 60-%}
+{%-assign end = start | plus: duration-%}
+
+{%-if (start < midbreakstart) and (end > midbreakstart)-%}
+
+<tr><td>{{ start | date: "%I:%M %p" }}</td><td>{{ midbreakstart | date: "%I:%M %p" }}</td>
+  <td><div markdown="1">{%-include schedule tag=tag %}
+  </div></td>
+</tr>
+<tr><td>{{ midbreakstart | date: "%I:%M %p" }}</td><td>{{ midbreakend | date: "%I:%M %p" }}</td>
+  <td>break</td>
+</tr>
+<tr><td>{{ midbreakend | date: "%I:%M %p" }}</td><td>{{ end | plus: midbreakduration | date: "%I:%M %p" }}</td>
+  <td><div markdown="1">{%-include schedule tag=tag %} (cont'd)
+  </div></td>
+</tr>
+
+{%-assign start = end | plus: midbreakduration-%}
+
+{%-else-%}
+
+<tr><td>{{ start | date: "%I:%M %p" }}</td><td>{{ end | date: "%I:%M %p" }}</td>
+  <td><div markdown="1">{%-include schedule tag=tag %}
+  </div></td>
+</tr>
+
+{%-assign start = end | plus: 300-%}
+
+{%-if end == midbreakstart-%}
+
+<tr><td> {{ midbreakstart | date: "%I:%M %p" }}</td><td>{{ midbreakend | date: "%I:%M %p" }}</td>
+  <td>break</td>
+</tr>
+
+{%-assign start = midbreakend-%}
+{%-endif-%}
+
+{%-endif-%}
+
+{%-endfor-%}
+</table>
+
