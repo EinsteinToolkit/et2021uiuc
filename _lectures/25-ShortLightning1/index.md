@@ -11,6 +11,9 @@ author:
 ---
 {% include base.html %}
 
+{% include duration %}
+## Short Lighning talk session I
+
 {% for authorname in page.author %}
 
 {% assign tag = authorname | replace: ' ', '' | replace: '-','' %}
