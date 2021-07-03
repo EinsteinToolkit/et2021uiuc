@@ -18,9 +18,6 @@ TBD
 
 * Numerical Relativity
 
-{{page.duration}}
-
 {%-endcapture-%}
 
 {% include lecture.md author=page.author institution=page.institution title=page.title abstract=abstract slides=page.slides files=page.files recording=page.recording%}
-
