@@ -21,9 +21,13 @@ The abstract describing the lecture. In this lecture we will learn about
 
 and use $$\LaTeX$$ to display
 
-$$\begin{equation}E = m c^2\end{equation}$$
+$$
+\begin{equation}
+E = m c^2
+\end{equation}
+$$
 {%-endcapture-%}
 
-{% include lecture.md author=page.author institution=page.institution title=page.title abstract=abstract slides=page.slides files=page.files recording=page.recording%}
+{% include lecture.md abstract=abstract %}
 
 Anything else that should appear after the "front matter" stuff above.
