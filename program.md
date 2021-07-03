@@ -255,7 +255,7 @@ All times US Central time.
 
 All times US Central time.
 
-<div class="row">
+<div class="row fix">
 
 <div class="col-sm-6">
 <h3>July 26<sup>th</sup>: Numerical Relativity</h3>
