@@ -86,11 +86,11 @@ day5:
 
 <div class="tzinfo" markdown="1">
 
-|                 |  start  |  end     |
-|-----------------|---------|----------|
-| US Central time | 9:00 AM |  1:20 PM |
-| US Pacific time | 7:00 AM | 11:20 AM |
-| Central EU time | 4:00 PM |  8:20 PM |
+|                 |  start                            |  end                            |
+|-----------------|-----------------------------------|---------------------------------|
+| US Central time | {{page.start | date: "%I:%M %p"}} | {{page.end | date: "%I:%M %p"}} |
+| US Pacific time | {{page.start | date: "%s" | minus: 7200 | date: "%I:%M %p"}} | {{page.end | date: "%s" | minus: 7200 | date: "%I:%M %p"}} |
+| Central EU time | {{page.start | date: "%s" | plus: 25200 | date: "%I:%M %p"}} | {{page.end | date: "%s" | plus: 25200 | date: "%I:%M %p"}} |
 | [Other time zones](https://www.timeanddate.com/worldclock/converter.html?iso=20210726T140000&p1=64&p2=51&p3=78&p4=141&p5=176&p6=33&p7=538&p8=240) |  |
 
 </div> <!--tzinfo-->
