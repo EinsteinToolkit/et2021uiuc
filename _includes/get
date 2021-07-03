@@ -1,4 +1,8 @@
 {%-comment-%}extracts field "field" from the lecture in XX-"tag"{%-endcomment-%}
-{%-assign tag = include.tag | prepend: "-" | append: "/index"-%}
-{%-assign lecture = site.lectures | where_exp: "item", "item.relative_path contains tag" | first-%}
-{{-lecture[include.field]-}}
+{%-assign _get_tag = include.tag | prepend: "-" | append: "/index"-%}
+{%-assign _get_lecture = site.lectures | where_exp: "item", "item.relative_path contains _get_tag" | first-%}
+{%-for i in _get_lecture[include.field]-%}
+{%unless forloop.first%}{{include.sep}}{%endunless%}{{i}}
+{%-else-%}
+{{_get_lecture[include.field]}}
+{%-endfor-%}

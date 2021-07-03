@@ -1,0 +1,71 @@
+{%-comment-%}computes intersection a day with a time-window{%-endcomment-%}
+
+{%-assign _dst_start = 0-%}
+{%-assign _dst_prevtag = "break"-%}
+{%-assign _dst_matched_item = 0-%}
+
+{%-for _dst_item in include.day-%}
+
+  {%-assign _dst_opts = _dst_item | first | last -%}
+  {%-assign _dst_tag = _dst_item | first | first -%}
+  {%-unless _dst_tag-%}
+    {%-assign _dst_tag = _dst_item-%}
+  {%-endunless-%}
+  
+  {%-if _dst_opts.duration-%}
+    {%-assign _dst_duration = _dst_opts.duration | times: 60-%}
+  {%else%}
+    {%-if _dst_tag == "break"-%}
+      {%-assign _dst_duration = 20 | times: 60-%}
+    {%-else-%}
+      {%-assign _dst_duration = 45 | times: 60-%}
+    {%-endif-%}
+  {%-endif-%}
+  {%-assign _dst_end = _dst_start | plus: _dst_duration -%}
+  
+  {%-if _dst_tag == "break"-%}
+    {%-comment-%}remove implicit 5min break from previous item{%-endcomment-%}
+    {%-assign _dst_start = _dst_start | minus: 300-%}
+    {%-assign _dst_end = _dst_end | minus: 300-%}
+    {%-assign _dst_startrow = _dst_start | divided_by: page.granularity-%}
+    {%-assign _dst_endrow = _dst_end | divided_by: page.granularity-%}
+    {%-assign _dst_rows = _dst_endrow | minus: _dst_startrow-%}
+    {%if _dst_startrow == include.row %}
+      {%-capture shaded-%}
+        {%-cycle include.column: "", "background: #EEE"-%}
+      {%-endcapture-%}
+      <td rowspan={{_dst_rows}} style="{{shaded}}">break</td>
+      {%-assign _dst_matched_item = 1-%}
+    {%-endif-%}
+    {%-if _dst_startrow <= include.row and include.row < _dst_endrow -%}
+      {%-assign _dst_matched_item = 1-%}
+      {%-break-%}
+    {%-endif-%}
+    {%-assign _dst_start = _dst_end-%}
+    {%-assign _dst_tag = _dst_prevtag-%}
+  {%-else-%}
+    {%-assign _dst_startrow = _dst_start | divided_by: page.granularity-%}
+    {%-assign _dst_endrow = _dst_end | plus: page.granularity | minus: 1 | divided_by: page.granularity-%}
+    {%-assign _dst_rows = _dst_endrow | minus: _dst_startrow-%}
+    {%if _dst_startrow == include.row %}
+      {%-capture shaded-%}
+        {%-cycle {{include.column}}: "", "background: #EEE"-%}
+      {%-endcapture-%}
+      <td rowspan={{_dst_rows}} style="{{shaded}}">{%-include schedule_overview tag=_dst_tag-%}
+      {%-if _dst_tag == _dst_prevtag-%} (cont'd){%-endif-%}
+      </td>
+    {%-endif-%}
+    {%-if _dst_startrow <= include.row and include.row < _dst_endrow -%}
+      {%-assign _dst_matched_item = 1-%}
+      {%-break-%}
+    {%-endif-%}
+    {%-assign _dst_start = _dst_end | plus: 300-%}
+  {%-endif-%}
+  {%-assign _dst_prevtag = _dst_tag-%}
+
+{%-endfor-%}
+
+{%-comment-%}an implicit break in the schedule{%-endcomment-%}
+{%-if _dst_matched_item == 0-%}
+<td></td>
+{%-endif-%}

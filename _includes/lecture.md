@@ -1,4 +1,6 @@
 <div class="col-xs-12" markdown="1">
+{% include duration %}
+
 # {{include.title}}
 
 *{{include.author}} ({{include.institution}})*

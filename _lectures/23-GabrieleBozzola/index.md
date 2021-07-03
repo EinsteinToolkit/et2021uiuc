@@ -1,14 +1,13 @@
 ---
 layout: default
 usemathjax: true
-title: Maxwell vaccum thorn
-author: Yosef Zlochower
-institution: Rochester Institute of Technlogy
+title: Kuibit
+author: Gabriele Bozzola
+institution: 
 slides: slides.pdf
 <!--files:
   - file1.pdf
-  - file2.ipynb
-  - file3.mp4-->
+  - file2.ipynb-->
 recording: ""
 ---
 {% include base.html %}

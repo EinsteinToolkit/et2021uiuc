@@ -1,9 +1,9 @@
 ---
 layout: default
 usemathjax: true
-title: Maxwell vaccum thorn
-author: Yosef Zlochower
-institution: Rochester Institute of Technlogy
+title: Future of the Einstein Toolkit
+author: Roland Haas
+institution: The University of Illinois Urbana Champaign
 slides: slides.pdf
 <!--files:
   - file1.pdf

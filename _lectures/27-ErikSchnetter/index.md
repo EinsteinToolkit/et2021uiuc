@@ -1,22 +1,22 @@
 ---
 layout: default
 usemathjax: true
-title: Lighting I
-author: TBD
+title: CarpetX
+author: Erik Schnetter
 institution: 
 slides: slides.pdf
-files:
+<!--files:
   - file1.pdf
-  - file2.ipynb
-  - file3.mp4
+  - file2.ipynb-->
 recording: ""
 ---
 {% include base.html %}
 
 {%-capture abstract-%}
-TBD
+The abstract describing the lecture. In this lecture we will learn about
 
-* GW wave analysis
+* ham
+* spam
 * eggs
 
 and use $$\LaTeX$$ to display
