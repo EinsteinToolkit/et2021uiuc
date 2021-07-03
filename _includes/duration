@@ -40,6 +40,7 @@
           {%-if _dur_day_tag == _dur_tag-%}
             {{ _dur_start | date: "%I:%M %p" }} - {{ _dur_end | date: "%I:%M %p" }}
             {%-assign _dur_found = 1-%}
+            {%-break-%}
           {%-endif-%}
           {%-assign _dur_start = _dur_end | plus: 300-%}
         {%-endif-%}
