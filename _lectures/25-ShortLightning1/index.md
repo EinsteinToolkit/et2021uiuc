@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: Short Lighting I
+title: Short Lightning I
 # list all authors with the names as they appear in the SOC notes (CSV file
 # technically)
 author:
