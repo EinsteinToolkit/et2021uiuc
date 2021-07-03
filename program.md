@@ -26,7 +26,7 @@ day1:
       duration: 30
 
 day2:
-  - TBD:
+  - JoshuaFaber:
       duration: 95
   - AtulKedia2
   - break

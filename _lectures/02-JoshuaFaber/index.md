@@ -2,8 +2,8 @@
 layout: default
 usemathjax: true
 title: Binary neutron star ID theory	
-author: Antonios Tsokaros
-institution: University of Illinois at Urbana-Champaign
+author: Joshua Faber
+institution: Rochester Institute of Technology
 slides: slides.pdf
 <!--files:
   - file1.pdf
