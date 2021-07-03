@@ -5,11 +5,9 @@ title: Short Lighting II
 # list all authors with the names as they appear in the SOC notes (CSV file
 # technically)
 author:
-  - Jay Vijay Kalinani
-  - Dhruv Desai
-  - Xinyu Li
-  - Atul Kedia
-  - Alexandru Dima
+  - Alex Vano-Vinuales
+  - Syed Naqvi
+  - Shailesh Kumar
 ---
 {% include base.html %}
 
