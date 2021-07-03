@@ -22,7 +22,7 @@ day1:
   - break
   - SteveBrandt
   - DonWillcox
-  - ShortLightning2:
+  - ShortLightning1:
       duration: 30
 
 day2:
@@ -50,13 +50,13 @@ day4:
       duration: 30
   - YosefZlochower
   - LeoWerneck
+  - break
+  - TBD:
+      duration: 40
   - WolfgangKastaun:
       duration: 20
-  - break
   - YosefZlochower2:
       duration: 25
-  - ShortLightning1:
-      duration: 40
   - Lightning2
 
 day5:
