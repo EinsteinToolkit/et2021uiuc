@@ -157,17 +157,16 @@ a:hover {
 }
 
 /* no linebreaks in times */
-.schedule tr:nth-child(n+1) td:nth-child(-n+2) {
+.schedule tr:nth-child(n+1) td:nth-child(-n+1) {
   white-space: nowrap;
-  text-align: right;
 }
 /* some fixed width for class name */
-.schedule td:nth-child(n+3) {
-  width: 17%;
+.schedule td:nth-child(n+2) {
+  width: 18%;
   overflow: hidden;
 }
 /* alternating backgrounds */
-.schedule tr:nth-child(even) {background: #EEE}
+/*.schedule tr:nth-child(even) {background: #EEE}*/
 /* table.schedule tr:nth-child(odd) {background: #FFF} */
 .schedule table, .schedule tr, .schedule th, .schedule td {
   padding: 0.5ex;

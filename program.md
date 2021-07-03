@@ -101,6 +101,8 @@ day5_5:
 # if no duration given it is assumed to be 45min for lectures and 20min for a break
 
 start: "8:25"
+end: "13:15"
+granularity: 300
 
 day1:
   - Welcome:
@@ -108,7 +110,7 @@ day1:
   - HelviWitek:
       duration: 60
   - HelviWitek:
-      duration: 55
+      duration: 60
   - break
   - SteveBrandt
   - DonWillcox
@@ -117,7 +119,7 @@ day1:
 
 day2:
   - TBD:
-      duration: 90
+      duration: 95
   - AtulKedia2
   - break
   - BrunoGiacomazzo
@@ -129,7 +131,7 @@ day3:
   - VassiliosMewes:
       duration: 60
   - VassiliosMewes:
-      duration: 60
+      duration: 65
   - break
   - FedericoCipolletta
   - BorisDaszuta
@@ -144,9 +146,9 @@ day4:
       duration: 20
   - break
   - YosefZlochower2:
-      duration: 20
+      duration: 25
   - ShortLightning1:
-      duration: 35
+      duration: 40
   - Lightning2
 
 day5:
@@ -195,87 +197,57 @@ Tentative, subject to change without notice.
 
 All times US Central time.
 
+{% assign starttime = page.start | date: "%s" | plus: 0-%}
+{%-assign endtime = page.end | date: "%s" | plus: 0-%}
+{%-assign duration = endtime | minus: starttime | plus: page.granularity | minus: 1-%}
+{%-assign rows = duration | divided_by: page.granularity %}
 
-<!-- add schedule entries to the yaml data in the preamble.
-     right now you will have to manually add a rowspan attribute and comment
-     out some columns for multi-hour entries.
-     This templating *could* be all done in Liquid but seems to not be worth
-     the effort, though might become interesting if the entries become more
-     complex, eg aquire an author and Zoom link entry or so.
--->
+{{ page.end | date: "%I:%M %p"}}:
+{{ rows }}
 
 <table class="schedule">
-<tr><th> start </th><th> end </th>
+<tr><th> time </th>
 <th> July 26<sup>th</sup> </th>
 <th> July 27<sup>th</sup> </th>
 <th> July 28<sup>th</sup> </th>
 <th> July 29<sup>th</sup> </th>
 <th> July 30<sup>th</sup> </th>
 </tr>
-<tr><td>7:55 AM</td><td>8:25 AM</td>
-  <td></td>
-  <td>tutorial help</td>
-  <td>tutorial help</td>
-  <td>tutorial help</td>
-  <td>tutorial help</td>
-</tr>
-<tr><td>8:25 AM</td><td>8:55 AM</td>
+<tr><td>7:55 AM</td>
   <td>setup help</td>
-  <td markdown="span" rowspan=3><b>{%include schedule_overview tag=page.day2_1.tag%}</b></td>
-  <td markdown="span" rowspan=3><b>{%include schedule_overview tag=page.day3_1.tag%}</b></td>
-  <td markdown="span"><b>{%include schedule_overview tag=page.day4_0.tag%}</b></td>
-  <td markdown="span"><b>{%include schedule_overview tag=page.day5_0.tag%}</b></td>
+  <td>tutorial help</td>
+  <td>tutorial help</td>
+  <td>tutorial help</td>
+  <td>tutorial help</td>
 </tr>
-<tr><td>9:00 AM</td><td>9:45 AM</td>
-  <td markdown="span" rowspan=1><b>{{page.day1_1.title}}{%include schedule_overview tag=page.day1_1.tag%}</b></td>
-
-
-  <td markdown="span"><b>{%include schedule_overview tag=page.day4_1.tag%}</b></td>
-  <td markdown="span" rowspan=2><b>{%include schedule_overview tag=page.day5_1.tag%}</b></td>
-</tr>
-<tr><td>9:50 AM</td><td>10:35 AM</td>
-  <td markdown="span" rowspan=1><b>{%include schedule_overview tag=page.day1_2.tag%}</b></td>
-
-
-  <td markdown="span"><b>{%include schedule_overview tag=page.day4_2.tag%}</b></td>
-
-</tr>
-<tr><td>10:40 AM</td><td>11:00 AM</td>
-  <td>break</td>
-  <td>break</td>
-  <td>break</td>
-  <td>break</td>
-  <td>break</td>
-</tr>
-<tr><td>11:00 AM</td><td>11:45 AM</td>
-  <td markdown="span" rowspan=1><b>{%include schedule_overview tag=page.day1_2.tag%}</b></td>
-  <td markdown="span"><b>{%include schedule_overview tag=page.day2_3.tag%}</b></td>
-  <td markdown="span"><b>{%include schedule_overview tag=page.day3_3.tag%}</b></td>
-  <td markdown="span"><b>{%include schedule_overview tag=page.day4_3.tag%}</b></td>
-  <td markdown="span"><b>{%include schedule_overview tag=page.day5_3.tag%}</b></td>
-</tr>
-<tr><td>11:45 AM</td><td>12:30 PM</td>
-  <td markdown="span"><b>{%include schedule_overview tag=page.day1_4.tag%}</b></td>
-  <td markdown="span"><b>{%include schedule_overview tag=page.day2_4.tag%}</b></td>
-  <td markdown="span"><b>{%include schedule_overview tag=page.day3_4.tag%}</b></td>
-  <td markdown="span"><b>{%include schedule_overview tag=page.day4_4.tag%}</b></td>
-  <td markdown="span"><b>{%include schedule_overview tag=page.day5_4.tag%}</b></td>
-</tr>
-<tr><td>12:35 PM</td><td>1:20 PM</td>
-  <td markdown="span"><b>{%include schedule_overview tag=page.day1_5.tag%}</b></td>
-  <td markdown="span"><b>{%include schedule_overview tag=page.day2_5.tag%}</b></td>
-  <td markdown="span"><b>{%include schedule_overview tag=page.day3_5.tag%}</b></td>
-  <td markdown="span"><b>{%include schedule_overview tag=page.day4_5.tag%}</b></td>
-  <td markdown="span"><b>{{page.day5_5.title}}{%include schedule_overview tag=page.day5_5.tag%}</b></td>
-</tr>
-  <tr><td>1:25 PM</td><td>2:00 PM</td>
-    <td>setup help</td>
-    <td>tutorial help</td>
-    <td>tutorial help</td>
-    <td>tutorial help</td>
-    <td>tutorial help</td>
+{%-for row in (0..rows)-%}
+  {%-assign time = row | times: page.granularity | plus: starttime | date: "%I:%M %p"-%}
+  {%-assign half_hour = row | modulo: "6"-%}
+  {%-assign timerows = rows | minus: row | plus: 1-%}
+  {%-comment-%} grow final time block to exactly end at the final time {%-endcomment-%}
+  {%-if timerows > 11-%}
+    {%-assign timerows = 6-%}
+  {%-endif-%}
+  <tr>
+  {%-if half_hour == 0 and timerows >= 6-%}
+  <td rowspan={{timerows}} {% cycle "time": "style='background: #EEE'", ""-%}> {{time}}</td>
+  {%-endif-%}
+  {% include intersect day=page.day1 column="day1" row=row-%}
+  {%-include intersect day=page.day2 column="day2" row=row-%}
+  {%-include intersect day=page.day3 column="day3" row=row-%}
+  {%-include intersect day=page.day4 column="day4" row=row-%}
+  {%-include intersect day=page.day5 column="day5" row=row %}
   </tr>
+{%-endfor-%}
+<tr><td>1:20 PM</td>
+  <td>tutorial help</td>
+  <td>tutorial help</td>
+  <td>tutorial help</td>
+  <td>tutorial help</td>
+  <td>tutorial help</td>
+</tr>
 </table>
+
 </div>
 
 <div class="col-xs-12">
