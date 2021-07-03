@@ -28,11 +28,15 @@
 {%-endif-%}
 
 <br>**recording:**
-{%-assign fn = dir | append: "recording.mp4"-%}
-{%-assign found = lectures.files | where: "path", fn | first-%}
-{%-if found %}
-  [mp4](recording.mp4)
+{%-if page.recording-%}
+  [mp4]({{page.recording}})
 {%-else %}
+  {%-assign fn = dir | append: "recording.mp4"-%}
+  {%-assign found = lectures.files | where: "path", fn | first-%}
+  {%-if found %}
+  [mp4](recording.mp4)
+  {%-else %}
   N/A
+  {%-endif-%}
 {%-endif %}
 </div>
