@@ -9,7 +9,7 @@ title: Scientific Program
 # if no duration given it is assumed to be 45min for lectures and 20min for a break
 
 start: "8:25"
-end: "13:15"
+end: "13:20"
 granularity: 300
 
 day1:
@@ -108,10 +108,7 @@ All times US Central time.
 {% assign starttime = page.start | date: "%s" | plus: 0-%}
 {%-assign endtime = page.end | date: "%s" | plus: 0-%}
 {%-assign duration = endtime | minus: starttime | plus: page.granularity | minus: 1-%}
-{%-assign rows = duration | divided_by: page.granularity %}
-
-{{ page.end | date: "%I:%M %p"}}:
-{{ rows }}
+{%-assign maxrow = duration | divided_by: page.granularity | minus: 1%}
 
 <table class="schedule">
 <tr><th> time </th>
@@ -128,16 +125,16 @@ All times US Central time.
   <td>tutorial help</td>
   <td>tutorial help</td>
 </tr>
-{%-for row in (0..rows)-%}
+{%-for row in (0..maxrow)-%}
   {%-assign time = row | times: page.granularity | plus: starttime | date: "%I:%M %p"-%}
   {%-assign half_hour = row | modulo: "6"-%}
-  {%-assign timerows = rows | minus: row | plus: 1-%}
+  {%-assign timerows = maxrow | minus: row | plus: 1-%}
   {%-comment-%} grow final time block to exactly end at the final time {%-endcomment-%}
-  {%-if timerows > 11-%}
+  {%-if timerows > 6-%}
     {%-assign timerows = 6-%}
   {%-endif-%}
   <tr>
-  {%-if half_hour == 0 and timerows >= 6-%}
+  {%-if half_hour == 0 and timerows >= 0-%}
   <td rowspan={{timerows}} {% cycle "time": "style='background: #EEE'", ""-%}> {{time}}</td>
   {%-endif-%}
   {% include intersect day=page.day1 column="day1" row=row-%}
