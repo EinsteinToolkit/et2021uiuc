@@ -14,12 +14,15 @@ author:
 {% include duration %}
 ## Short Lighning talk session I
 
+{%assign start = _dur_start%}
 {% for authorname in page.author %}
 
 {% assign tag = authorname | replace: ' ', '' | replace: '-','' %}
 {% assign talk = site.data.lightning | where: 'tag',tag | first %}
 
 <h2 id="{{talk.tag}}">{{forloop.index}}. {{ talk.title }}</h2>
+{{start | date: "%I:%M %p"}} -- {{start | plus: 540 | date: "%I:%M %p"}}
+
 <em>{{ talk.name }} ({{ talk.institution }})</em>
 {%assign fn = '/lightning/' | append: talk.tag | append: '.pdf'-%}
 {%-assign found = site.static_files | where: "path",fn | first-%}
@@ -29,4 +32,5 @@ author:
 
 {{ talk.abstract }}
 
+{% assign start = start | plus: 540 %}
 {% endfor %}
