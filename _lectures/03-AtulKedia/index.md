@@ -4,12 +4,11 @@ usemathjax: true
 title: Using LORENE data II
 author: Atul Kedia
 institution: University of Notre Dame
-slides: slides.pdf
-<!--files:
-  - file1.pdf
-  - file2.ipynb
-  - file3.mp4-->
-recording: ""
+# updload your slides as slides.pdf
+# upload your recorded talk as recording.mp4
+# all other files in this directory will show up as "additional files"
+# alternatively you can override by uncommenting and giving an explict URL:
+#recording: https://youtu.be/GYJzhxWWBB8
 ---
 {% include base.html %}
 
@@ -22,9 +21,13 @@ The abstract describing the lecture. In this lecture we will learn about
 
 and use $$\LaTeX$$ to display
 
-$$\begin{equation}E = m c^2\end{equation}$$
+$$
+\begin{equation}
+E = m c^2
+\end{equation}
+$$
 {%-endcapture-%}
 
-{% include lecture.md author=page.author institution=page.institution title=page.title abstract=abstract slides=page.slides files=page.files recording=page.recording%}
+{% include lecture.md abstract=abstract %}
 
 Anything else that should appear after the "front matter" stuff above.
