@@ -1,0 +1,53 @@
+{%-comment-%} computes the durations from -- to for a schedule item {%-endcomment-%}
+{%-assign _dur_tag = page.path | replace: "/index.md","" | replace: "_lectures/","" | split: "-" | last-%}
+{%-assign _dur_program = site.pages | where: "name", "program.md" | first -%}
+{%-assign _dur_found = 0-%}
+{%-for _dur_d in (1..5)-%}
+  {%-assign _dur_day = "day" | append: _dur_d-%}
+  {%-assign _dur_day = _dur_program[_dur_day]-%}
+  {%-for _dur_day_item in _dur_day-%} 
+    {%-assign _dur_day_tag = _dur_day_item | first | first -%}
+    {%-unless _dur_day_tag-%}
+      {%-assign _dur_day_tag = _dur_day_item-%}
+    {%-endunless-%}
+    {%-if _dur_tag == _dur_day_tag-%}
+      {%-comment-%} got the day, now compute start time {%endcomment%}
+      {%-assign _dur_start = _dur_program.start | date: "%s" | plus: 0-%}
+      {%-for _dur_item in _dur_day-%}
+        {%-assign _dur_opts = _dur_item | first | last -%}
+        {%-assign _dur_tag = _dur_item | first | first -%}
+        {%-unless _dur_tag-%}
+          {%-assign _dur_tag = _dur_item-%}
+        {%-endunless-%}
+        
+        {%-if _dur_opts.duration-%}
+          {%-assign _dur_duration = _dur_opts.duration | times: 60-%}
+        {%else%}
+          {%-if _dur_day_tag == "break"-%}
+            {%-assign _dur_duration = 20 | times: 60-%}
+          {%-else-%}
+            {%-assign _dur_duration = 45 | times: 60-%}
+          {%-endif-%}
+        {%-endif-%}
+        {%-assign _dur_end = _dur_start | plus: _dur_duration-%}
+        
+        {%-if _dur_day_tag == "break"-%}
+          {%comment%}remove implicit 5min break from previous item{%endcomment%}
+          {%-assign _dur_start = _dur_start | minus: 300-%}
+          {%-assign _dur_end = _dur_end | minus: 300-%}
+          {%-assign _dur_start = _dur_end-%}
+        {%-else-%}
+          {%-if _dur_day_tag == _dur_tag-%}
+            {{ _dur_start | date: "%I:%M %p" }} - {{ _dur_end | date: "%I:%M %p" }}
+            {%-assign _dur_found = 1-%}
+          {%-endif-%}
+          {%-assign _dur_start = _dur_end | plus: 300-%}
+        {%-endif-%}
+        {%-if _dur_found == 1-%}{%-break-%}{%-endif-%}
+      {%-endfor-%}
+    {%-endif-%}
+    {%-if _dur_found == 1-%}{%-break-%}{%-endif-%}
+  {%-endfor-%}
+  {%-if _dur_found == 1-%}{%-break-%}{%-endif-%}
+{%-endfor-%}
+
