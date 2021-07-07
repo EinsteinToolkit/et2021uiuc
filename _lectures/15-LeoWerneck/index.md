@@ -32,4 +32,4 @@ $$
 
 Anything else that should appear after the "front matter" stuff above.
 
-[Edit on GitHub](https://github.com/EinsteinToolkit/et2021uiuc/edit/master/{{page.path | replace: ".html", ".md"}})
+[Edit on GitHub](https://github.com/EinsteinToolkit/et2021uiuc/edit/master/{{page.path}})
