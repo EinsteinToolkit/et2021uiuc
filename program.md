@@ -48,11 +48,13 @@ day3:
 day4:
   - SamTootle:
       duration: 30
-  - YosefZlochower
-  - LeoWerneck
+  - YosefZlochower:
+      duration: 65
+  - LeoWerneck:
+      duration: 35
   - break
-  - TBD:
-      duration: 40
+  - LeoWerneck:
+      duration: 30
   - WolfgangKastaun:
       duration: 20
   - YosefZlochower2:
