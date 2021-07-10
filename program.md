@@ -101,9 +101,9 @@ day5:
 
 <div class="col-xs-12" markdown="1">
 ## Schedule overview
-<div class="alert alert-warning" role="alert">
+<!--<div class="alert alert-warning" role="alert">
 Tentative, subject to change without notice.
-</div>
+</div>-->
 
 All times US Central time.
 

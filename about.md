@@ -31,6 +31,8 @@ manualrows: true
 <div class="col-xs-6 col-sm-3" markdown="1">
 ## Lecturers
 * Steve Brandt
+* Peter Diener
+* Joshua Faber
 * Bruno Giacomazzo
 * Atul Kedia
 * Vassilios Mewes
@@ -41,10 +43,13 @@ manualrows: true
 
 <div class="col-xs-6 col-sm-3" markdown="1">
 ## Invited Speakers
+* Gabriele Bozzola
+* Federico Cipolleta
 * Boris Daszuta
 * Deborah Ferguson
 * Wolfgang Kastaun
 * Philipp Moesta
+* Samuel Tootle
 * Barry Wardell
 * Don Willcox
 </div>
