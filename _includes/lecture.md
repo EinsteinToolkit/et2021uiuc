@@ -28,7 +28,7 @@
 {%-endif-%}
 
 <br>**recording:**
-{%-if page.recording-%}
+{%-if page.recording %}
   [mp4]({{page.recording}})
 {%-else %}
   {%-assign fn = dir | append: "recording.mp4"-%}
