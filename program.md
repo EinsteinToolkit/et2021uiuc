@@ -20,8 +20,8 @@ day1:
   - HelviWitek:
       duration: 60
   - break
-  - SteveBrandt
   - DonWillcox
+  - SteveBrandt
   - ShortLightning1:
       duration: 30
 
