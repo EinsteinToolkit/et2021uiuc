@@ -19,6 +19,7 @@ In this tutorial you will learn how to download and compile the Einstein
 Toolkit and a how to run a simple simulation on your local computer.
 {%-endcapture-%}
 
+<div class="col-xs-12" markdown="1">
 {% include lecture.md abstract=abstract %}
 
 Please refer to the [instructions]({{base}}/instructions.html) page for login instructions into the tutorial server.
@@ -26,3 +27,4 @@ Please refer to the [instructions]({{base}}/instructions.html) page for login in
 Note: the current recording is from the [2020 worshop](https://www.cct.lsu.edu/Einsteintoolkitworkshop) at LSU.
 
 [Edit on GitHub](https://github.com/EinsteinToolkit/et2021uiuc/edit/master/{{page.path}})
+</div>
