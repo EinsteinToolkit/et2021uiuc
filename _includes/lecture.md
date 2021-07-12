@@ -1,4 +1,3 @@
-<div class="col-xs-12" markdown="1">
 {% include duration %}
 
 # {{page.title}}
@@ -39,4 +38,3 @@
   N/A
   {%-endif-%}
 {%-endif %}
-</div>
