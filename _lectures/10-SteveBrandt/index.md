@@ -13,23 +13,13 @@ institution: Louisiana State University
 {% include base.html %}
 
 {%-capture abstract-%}
-The abstract describing the lecture. In this lecture we will learn about
-
-* ham
-* spam
-* eggs
-
-and use $$\LaTeX$$ to display
-
-$$
-\begin{equation}
-E = m c^2
-\end{equation}
-$$
+Introduction to the Einstein Toolkit and tutorial for new users.
+In this tutorial you will learn how to download and compile the Einstein
+Toolkit and a how to run a simple simulation on your local computer.
 {%-endcapture-%}
 
 {% include lecture.md abstract=abstract %}
 
-Anything else that should appear after the "front matter" stuff above.
+Please refer to the [instructions]({{base}}/instructions.html) page for login instructions into the tutorial server.
 
 [Edit on GitHub](https://github.com/EinsteinToolkit/et2021uiuc/edit/master/{{page.path}})
