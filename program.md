@@ -27,7 +27,9 @@ day1:
 
 day2:
   - JoshuaFaber:
-      duration: 95
+      duration: 45
+  - JoshuaFaber:
+      duration: 45
   - AtulKedia2
   - break
   - BrunoGiacomazzo
