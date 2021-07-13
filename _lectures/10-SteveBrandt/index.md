@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: New user tutorial
+title: Introduction to the Einstein Toolkit
 author: Steven Brandt
 institution: Louisiana State University
 # updload your slides as slides.pdf
@@ -14,9 +14,22 @@ recording: https://youtu.be/UXX3qAFQPR4
 {% include base.html %}
 
 {%-capture abstract-%}
-Introduction to the Einstein Toolkit and tutorial for new users.
-In this tutorial you will learn how to download and compile the Einstein
-Toolkit and a how to run a simple simulation on your local computer.
+This course covers the basics of the Einstein Toolkit:
+
+  1. A brief history;
+  2. what the Einstein Toolkit is and can do;
+  3. How to install the ET (including prerequisites)
+  4. How to run the ET and create a rudimentary plot of some of the data generated.
+
+All of the above steps are carried out within a
+Jupyter notebook. This means that there are no hardware
+requirements for your computer.
+
+Familiarity with the linux command line is required,
+and some minimal knowledge of Python is helpful.
+
+Note that this course replicates the material available in
+the online tutorial.
 {%-endcapture-%}
 
 <div class="col-xs-12" markdown="1">
