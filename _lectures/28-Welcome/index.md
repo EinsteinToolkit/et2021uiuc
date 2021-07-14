@@ -14,25 +14,17 @@ institution: The University of Illinois Urbana Champaign
 {% include base.html %}
 
 {%-capture abstract-%}
-The abstract describing the lecture. In this lecture we will learn about
+The Einstein Toolkit is a community-driven software platform of core
+computational tools to advance and support research in relativistic
+astrophysics and gravitational physics.
 
-* ham
-* spam
-* eggs
-
-and use $$\LaTeX$$ to display
-
-$$
-\begin{equation}
-E = m c^2
-\end{equation}
-$$
+I report on current research acitivities in the current "Lorentz" release of
+the Einstein Tookkit, activity in the ticketing system and mailing and future
+development plans.
 {%-endcapture-%}
 
 <div class="col-xs-12" markdown="1">
 {% include lecture.md abstract=abstract %}
-
-Anything else that should appear after the "front matter" stuff above.
 
 [Edit on GitHub](https://github.com/EinsteinToolkit/et2021uiuc/edit/master/{{page.path}})
 </div>
