@@ -50,6 +50,16 @@ day3:
 day4:
   - SamTootle:
       duration: 30
+  - PeterDiener
+  - TBD
+  - break
+  - DeborahFerguson
+  - BarryWardell
+  - Lightning2
+
+day5:
+  - ShortLightning2:
+      duration: 30
   - YosefZlochower:
       duration: 65
   - LeoWerneck:
@@ -61,16 +71,6 @@ day4:
       duration: 20
   - YosefZlochower2:
       duration: 25
-  - Lightning2
-
-day5:
-  - ShortLightning2:
-      duration: 30
-  - PeterDiener
-  - TBD
-  - break
-  - DeborahFerguson
-  - BarryWardell
   - FutureOfTheET
 
 ---
