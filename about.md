@@ -50,7 +50,6 @@ manualrows: true
 * Boris Daszuta
 * Deborah Ferguson
 * Wolfgang Kastaun
-* Philipp Moesta
 * Samuel Tootle
 * Barry Wardell
 * Don Willcox
@@ -59,6 +58,7 @@ manualrows: true
 <div class="col-xs-6 col-sm-3" markdown="1">
 ## Contributors
 * Zachariah Etienne
+* Philipp Moesta
 * Antonios Tsokaros
 </div>
 
