@@ -1,11 +1,12 @@
 ---
 layout: default
 title: About
+manualrows: true
 
 manualrows: true
 ---
 
-<div class="row">
+<div class="row fix">
 
 <div class="col-sm-12" markdown="1">
 # About the Summer School
@@ -56,11 +57,6 @@ manualrows: true
 </div>
 
 <div class="col-xs-6 col-sm-3" markdown="1">
-## Beta Testers
-* others ...
-</div>
-
-<div class="col-xs-6 col-sm-3" markdown="1">
 ## Contributors
 * Zachariah Etienne
 * Antonios Tsokaros
@@ -69,6 +65,11 @@ manualrows: true
 <div class="col-xs-6 col-sm-3" markdown="1">
 ## Graphics design
 * Brittany Ball
+</div>
+
+<div class="col-xs-6 col-sm-3" markdown="1">
+## Beta Testers
+* others ...
 </div>
 
 </div> <!--row-->
