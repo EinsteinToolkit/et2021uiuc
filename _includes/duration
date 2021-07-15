@@ -3,6 +3,7 @@
 {%-assign _dur_program = site.pages | where: "name", "program.md" | first -%}
 {%-assign _dur_min_start = nil-%}
 {%-assign _dur_max_end = nil-%}
+{%-assign _dur_full_duration = 0-%}
 {%-for _dur_d in (1..5)-%}
   {%-assign _dur_day = "day" | append: _dur_d-%}
   {%-assign _dur_day = _dur_program[_dur_day]-%}
@@ -34,6 +35,7 @@
       {%-if _dur_day_tag == _dur_tag-%}
         {%-unless _dur_min_start-%}{%-assign _dur_min_start = _dur_start-%}{%-endunless-%}
         {%-assign _dur_max_end = _dur_end-%}
+        {%-assign _dur_full_duration = _dur_full_duration | plus: _dur_end | minus: _dur_start-%}
       {%-endif-%}
       {%-assign _dur_start = _dur_end | plus: 300-%}
     {%-endif-%}
@@ -41,5 +43,5 @@
   {%-if _dur_min_start-%}{%-break-%}{%-endif-%}
 {%-endfor-%}
 {%-if _dur_min_start-%}
-{{ _dur_min_start | date: "%I:%M %p" }} - {{ _dur_max_end | date: "%I:%M %p" }}
+{{ _dur_min_start | date: "%I:%M %p" }} - {{ _dur_max_end | date: "%I:%M %p" }} ({{ _dur_full_duration | divided_by: 60 }} min)
 {%-endif %}
