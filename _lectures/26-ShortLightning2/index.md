@@ -14,7 +14,7 @@ author:
 {% include duration %}
 ## Short Lighning talk session II
 
-{%assign start = _dur_start%}
+{%assign start = _dur_min_start%}
 {% for authorname in page.author %}
 
 {% assign tag = authorname | replace: ' ', '' | replace: '-','' %}
