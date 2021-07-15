@@ -30,6 +30,7 @@ manualrows: true
 
 <div class="col-xs-6 col-sm-3" markdown="1">
 ## Lecturers
+* Maria Babiuc
 * Steve Brandt
 * Peter Diener
 * Joshua Faber
@@ -57,6 +58,12 @@ manualrows: true
 <div class="col-xs-6 col-sm-3" markdown="1">
 ## Beta Testers
 * others ...
+</div>
+
+<div class="col-xs-6 col-sm-3" markdown="1">
+## Contributors
+* Zachariah Etienne
+* Antonios Tsokaros
 </div>
 
 <div class="col-xs-6 col-sm-3" markdown="1">
