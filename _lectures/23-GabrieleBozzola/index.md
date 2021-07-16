@@ -1,9 +1,9 @@
 ---
 layout: default
 usemathjax: true
-title: Kuibit
+title: kuibit: Analyzing Einstein Toolkit simulations with Python
 author: Gabriele Bozzola
-institution: 
+institution: University of Arizona
 # updload your slides as slides.pdf
 # upload your recorded talk as recording.mp4
 # all other files in this directory will show up as "additional files"
@@ -13,25 +13,11 @@ institution:
 {% include base.html %}
 
 {%-capture abstract-%}
-The abstract describing the lecture. In this lecture we will learn about
 
-* ham
-* spam
-* eggs
+[kuibit](https://sbozzolo.github.io/kuibit/) is a free and open-source Python library to analyze and visualize Einstein Toolkit simulations. By taking care of the low levels details (e.g., reading files, parsing the content, ...) and providing intuitive abstractions, the package allows users to focus on their scientific goals. In this talk, I am going to give a broad overview of the project. In particular, I will go over some of the most important features and discuss how to get started with using the library.
 
-and use $$\LaTeX$$ to display
-
-$$
-\begin{equation}
-E = m c^2
-\end{equation}
-$$
 {%-endcapture-%}
 
 <div class="col-xs-12" markdown="1">
 {% include lecture.md abstract=abstract %}
 
-Anything else that should appear after the "front matter" stuff above.
-
-[Edit on GitHub](https://github.com/EinsteinToolkit/et2021uiuc/edit/master/{{page.path}})
-</div>
