@@ -13,25 +13,25 @@ institution: Rochester Institute of Technology
 {% include base.html %}
 
 {%-capture abstract-%}
-The abstract describing the lecture. In this lecture we will learn about
+In this talk, I will cover many of the theoretical aspects of generating
+binary neutron star initial data.  This will include a discussion of the
+different formalisms used, as well as the different numerical
+approaches. Comparisons to black holes will include a discussion of why
+neutron stars often require different techniques due to both their
+hydrodynamic properties as well as the existence of a stellar surface,
+the latter of which presents a surprising challenge in developing
+highly accurate numerical schemes.  The talk will also discuss the
+typical physical assumptions made about NS masses, spins, and equations
+of state (the relationship between pressure and density inside the
+neutron star), as well as the physical effects that have proven to be
+more difficult to model self-consistently, in particular the inclusion
+of magnetic fields.
 
-* ham
-* spam
-* eggs
-
-and use $$\LaTeX$$ to display
-
-$$
-\begin{equation}
-E = m c^2
-\end{equation}
-$$
 {%-endcapture-%}
 
 <div class="col-xs-12" markdown="1">
 {% include lecture.md abstract=abstract %}
 
-Anything else that should appear after the "front matter" stuff above.
 
-[Edit on GitHub](https://github.com/EinsteinToolkit/et2021uiuc/edit/master/{{page.path}})
+<!--[Edit on GitHub](https://github.com/EinsteinToolkit/et2021uiuc/edit/master/{{page.path}})-->
 </div>
