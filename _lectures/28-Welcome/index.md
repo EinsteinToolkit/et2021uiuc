@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: Welcome
+title: "Welcome"
 author: Roland Haas
 institution: The University of Illinois Urbana Champaign
 # updload your slides as slides.pdf

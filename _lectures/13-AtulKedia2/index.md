@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: LORENE ID
+title: "LORENE ID"
 author: Atul Kedia
 institution: University of Notre Dame
 # updload your slides as slides.pdf

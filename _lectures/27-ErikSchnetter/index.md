@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: CarpetX
+title: "CarpetX"
 author: Erik Schnetter
 institution: Perimeter Institute
 # updload your slides as slides.pdf

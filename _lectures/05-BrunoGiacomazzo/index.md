@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: Using LORENE data 
+title: "Using LORENE data"
 author: Bruno Giacomazzo
 institution: University of Milano-Bicocca
 # updload your slides as slides.pdf

@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: NRPy+ tutorial
+title: "NRPy+ tutorial"
 author: Leonardo Werneck
 institution: West Virginia University
 # updload your slides as slides.pdf

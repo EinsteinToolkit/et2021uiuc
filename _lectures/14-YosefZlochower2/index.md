@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: SphericalNR
+title: "SphericalNR"
 author: Yosef Zlochower
 institution: RIT
 # updload your slides as slides.pdf

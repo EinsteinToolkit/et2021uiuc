@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: Introduction to the Einstein Toolkit
+title: "Introduction to the Einstein Toolkit"
 author: Steven Brandt
 institution: Louisiana State University
 # updload your slides as slides.pdf

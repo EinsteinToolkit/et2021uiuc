@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: Black hole perturbation toolkit
+title: "Black hole perturbation toolkit"
 author: Barry Wardell 
 institution: 
 # updload your slides as slides.pdf

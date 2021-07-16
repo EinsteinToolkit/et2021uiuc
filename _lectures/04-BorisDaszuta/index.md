@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: GRAthena++
+title: "GRAthena++"
 author: Boris Daszuta
 institution: 
 # updload your slides as slides.pdf

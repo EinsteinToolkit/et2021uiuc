@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: 1D self-force
+title: "1D self-force"
 author: Peter Diener
 institution: Louisiana State University 
 # updload your slides as slides.pdf

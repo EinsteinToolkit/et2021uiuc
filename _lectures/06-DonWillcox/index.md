@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: AMReX
+title: "AMReX"
 author: Don Willcox
 institution: 
 # updload your slides as slides.pdf

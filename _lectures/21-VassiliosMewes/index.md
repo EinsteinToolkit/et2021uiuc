@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: Introduction to GRMHD
+title: "Introduction to GRMHD"
 author: Vassilios Mewes
 institution:  
 # updload your slides as slides.pdf

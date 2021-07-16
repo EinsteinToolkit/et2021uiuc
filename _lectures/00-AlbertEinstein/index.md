@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: On special relativity
+title: "On special relativity"
 author: Albert Einstein
 institution: Swiss patent office
 # updload your slides as slides.pdf

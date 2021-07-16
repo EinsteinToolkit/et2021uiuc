@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: Maxwell vaccum thorn
+title: "Maxwell vaccum thorn"
 author: Yosef Zlochower
 institution: Rochester Institute of Technlogy
 # updload your slides as slides.pdf

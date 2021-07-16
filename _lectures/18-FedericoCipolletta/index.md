@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: Spritz
+title: "Spritz"
 author: Federico Cipolletta
 institution: Rochester Institute of Technology
 # updload your slides as slides.pdf

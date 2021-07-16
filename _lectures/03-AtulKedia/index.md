@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: Using LORENE data II
+title: "Using LORENE data II"
 author: Atul Kedia
 institution: University of Notre Dame
 # updload your slides as slides.pdf

@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: Binary neutron star ID theory	
+title: "Binary neutron star ID theory"
 author: Joshua Faber
 institution: Rochester Institute of Technology
 # updload your slides as slides.pdf

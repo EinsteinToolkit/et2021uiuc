@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: TBD
+title: "TBD"
 author: TBD
 institution: TBD
 # updload your slides as slides.pdf

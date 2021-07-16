@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: Con2Prim
+title: "Con2Prim"
 author: Wolfgang Kastaun
 institution: 
 # updload your slides as slides.pdf

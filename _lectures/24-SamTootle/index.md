@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: Kadath
+title: "Kadath"
 author: Sam Tootle
 institution: 
 # updload your slides as slides.pdf

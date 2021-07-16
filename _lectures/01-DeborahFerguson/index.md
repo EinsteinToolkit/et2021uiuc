@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: Gravitational wave analysis
+title: "Gravitational wave analysis"
 author: Deborah Ferguson
 institution: The University of Texas at Austin
 # updload your slides as slides.pdf
