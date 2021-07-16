@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: kuibit: Analyzing Einstein Toolkit simulations with Python
+title: "kuibit: Analyzing Einstein Toolkit simulations with Python"
 author: Gabriele Bozzola
 institution: University of Arizona
 # updload your slides as slides.pdf
