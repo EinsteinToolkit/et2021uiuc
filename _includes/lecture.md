@@ -12,12 +12,16 @@
 {%-assign lectures = site.collections | where: "label", "lectures" | first-%}
 
 **slides:**
-{%-assign fn = dir | append: "slides.pdf"-%}
-{%-assign found = lectures.files | where: "path", fn | first-%}
-{%-if found %}
-  [PDF](slides.pdf)
+{%-if page.slides %}
+  [PDF]({{page.slides}})
 {%-else %}
+  {%-assign fn = dir | append: "slides.pdf"-%}
+  {%-assign found = lectures.files | where: "path", fn | first-%}
+  {%-if found %}
+  [PDF](slides.pdf)
+  {%-else %}
   N/A
+  {%-endif-%}
 {%-endif-%}
 
 {%-assign files = lectures.files | where_exp: "file", "file.path contains dir" | where_exp: "file", "file.name != 'slides.pdf'" | where_exp: "file", "file.name != 'recording.mp4'" | map: "name" | sort -%}
