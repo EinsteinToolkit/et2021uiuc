@@ -19,7 +19,5 @@ I will present the Spritz GRMHD code aimed at the study of compact binary merger
 <div class="col-xs-12" markdown="1">
 {% include lecture.md abstract=abstract %}
 
-Anything else that should appear after the "front matter" stuff above.
-
 [Edit on GitHub](https://github.com/EinsteinToolkit/et2021uiuc/edit/master/{{page.path}})
 </div>
