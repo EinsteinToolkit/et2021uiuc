@@ -175,6 +175,10 @@ a:hover {
   border-style: solid;
 }
 
+.schedule p {
+  text-align: inherit;
+}
+
 /* no linebreaks in times */
 .day-schedule tr:nth-child(n+1) td:nth-child(-n+2) {
   white-space: nowrap;
@@ -188,6 +192,10 @@ a:hover {
   /* remove these once the layout looks ok */
   border-width: 1px;
   border-style: solid;
+}
+
+.day-schedule p {
+  text-align: inherit;
 }
 
 #participants {
