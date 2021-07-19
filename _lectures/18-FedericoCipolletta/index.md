@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: "Spritz"
+title: "Spritz: general relativistic magnetohydrodynamics with neutrinos"
 author: Federico Cipolletta
 institution: Leonardo HPC LABs - Genova, IT
 # updload your slides as slides.pdf
