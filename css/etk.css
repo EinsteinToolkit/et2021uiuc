@@ -163,6 +163,7 @@ a:hover {
 /* no linebreaks in times */
 .schedule .time {
   white-space: nowrap;
+  text-align: center;
   width: auto; /* will be around 10% = 100% - 5*18% */
 }
 /* some fixed width for class name */

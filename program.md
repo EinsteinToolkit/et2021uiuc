@@ -122,7 +122,7 @@ All times US Central time.
 <th> July 29<sup>th</sup> </th>
 <th> July 30<sup>th</sup> </th>
 </tr>
-<tr><td class="time">7:55 AM</td>
+<tr><td class="time">07:55 AM</td>
   <td>setup help</td>
   <td>tutorial help</td>
   <td>tutorial help</td>
@@ -148,7 +148,7 @@ All times US Central time.
   {%-include intersect day=page.day5 column="day5" row=row %}
   </tr>
 {%-endfor-%}
-<tr><td class="time">1:20 PM</td>
+<tr><td class="time">01:20 PM</td>
   <td>tutorial help</td>
   <td>tutorial help</td>
   <td>tutorial help</td>
