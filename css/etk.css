@@ -156,12 +156,17 @@ a:hover {
   padding-right: 0.5ex;
 }
 
+/* cannot use n-th child here since it interferes with rowspan (where there is
+ * no chid for the skipped rows)
+ */
+
 /* no linebreaks in times */
-.schedule tr:nth-child(n+1) td:nth-child(-n+1) {
+.schedule .time {
   white-space: nowrap;
+  width: auto; /* will be around 10% = 100% - 5*18% */
 }
 /* some fixed width for class name */
-.schedule td:nth-child(n+2) {
+.schedule td {
   width: 18%;
   overflow: hidden;
 }

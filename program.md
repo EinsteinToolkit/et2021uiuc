@@ -122,7 +122,7 @@ All times US Central time.
 <th> July 29<sup>th</sup> </th>
 <th> July 30<sup>th</sup> </th>
 </tr>
-<tr><td>7:55 AM</td>
+<tr><td class="time">7:55 AM</td>
   <td>setup help</td>
   <td>tutorial help</td>
   <td>tutorial help</td>
@@ -139,7 +139,7 @@ All times US Central time.
   {%-endif-%}
   <tr>
   {%-if half_hour == 0 and timerows >= 0-%}
-  <td rowspan={{timerows}} {% cycle "time": "style='background: #EEE'", ""-%}> {{time}}</td>
+  <td class="time" rowspan={{timerows}} {% cycle "time": "style='background: #EEE'", ""-%}> {{time}}</td>
   {%-endif-%}
   {% include intersect day=page.day1 column="day1" row=row-%}
   {%-include intersect day=page.day2 column="day2" row=row-%}
@@ -148,7 +148,7 @@ All times US Central time.
   {%-include intersect day=page.day5 column="day5" row=row %}
   </tr>
 {%-endfor-%}
-<tr><td>1:20 PM</td>
+<tr><td class="time">1:20 PM</td>
   <td>tutorial help</td>
   <td>tutorial help</td>
   <td>tutorial help</td>
