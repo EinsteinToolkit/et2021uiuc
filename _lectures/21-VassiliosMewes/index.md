@@ -14,7 +14,7 @@ institution: ORNL
 {% include base.html %}
 
 {%-capture abstract-%}
-This lecture will introduce the equations of general relativistic magnetohydrodynamics in a 3+1 split and how to solve them numerically in a finite volume scheme. The second part will connect the theory with a code implementation, highlighting the necessary building blocks of GRMHD and their scheduling in the GRHydro thorn. 
+This lecture will introduce the equations of general relativistic magnetohydrodynamics in a 3+1 split and how to solve them numerically in a finite volume scheme. The second part will connect the theory with a code implementation, highlighting the necessary building blocks of GRMHD and their scheduling in the $${\tt GRHydro}$$ thorn. 
 
 
 {%-endcapture-%}
