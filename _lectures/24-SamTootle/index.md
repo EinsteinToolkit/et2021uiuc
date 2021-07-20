@@ -1,9 +1,9 @@
 ---
 layout: default
 usemathjax: true
-title: "Kadath"
+title: "FUKA: A new public code for initial data of unequal-mass, spinning compact-object binaries"
 author: Sam Tootle
-institution: 
+institution: Goethe Universitaet
 # updload your slides as slides.pdf
 # upload your recorded talk as recording.mp4
 # all other files in this directory will show up as "additional files"
