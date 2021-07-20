@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: "Using LORENE data"
+title: "Using LORENE Binary Neutron Star Initial Data"
 author: Bruno Giacomazzo
 institution: University of Milano-Bicocca
 # updload your slides as slides.pdf
@@ -14,19 +14,8 @@ institution: University of Milano-Bicocca
 {% include base.html %}
 
 {%-capture abstract-%}
-The abstract describing the lecture. In this lecture we will learn about
+In this lecture we will learn how to read binary neutron star initial data generated with LORENE within the Einstein Toolkit. For this lecture we will use a simple piecewise polytropic equation of state (EOS) modeling a cold nuclear EOS.
 
-* ham
-* spam
-* eggs
-
-and use $$\LaTeX$$ to display
-
-$$
-\begin{equation}
-E = m c^2
-\end{equation}
-$$
 {%-endcapture-%}
 
 <div class="col-xs-12" markdown="1">
