@@ -11,34 +11,46 @@
 {%-comment-%}somehow this is different from site.lectures and contains the .files member I want{%-endcomment-%}
 {%-assign lectures = site.collections | where: "label", "lectures" | first-%}
 
-**slides:**
-{%-if page.slides %}
-  [PDF]({{page.slides}})
-{%-else %}
+{%-if page.slides-%}
+  {%-assign slideurl = page.slides-%}
+{%-else-%}
   {%-assign fn = dir | append: "slides.pdf"-%}
   {%-assign found = lectures.files | where: "path", fn | first-%}
-  {%-if found %}
-  [PDF](slides.pdf)
-  {%-else %}
-  N/A
+  {%-if found-%}
+  {%-assign slideurl = "slides.pdf"-%}
+  {%-else-%}
+  {%-assign slideurl = nil-%}
   {%-endif-%}
 {%-endif-%}
 
-{%-assign files = lectures.files | where_exp: "file", "file.path contains dir" | where_exp: "file", "file.name != 'slides.pdf'" | where_exp: "file", "file.name != 'recording.mp4'" | map: "name" | sort -%}
+{%-if page.recording-%}
+  {%-assign recordingurl = page.recording-%}
+{%-else-%}
+  {%-assign fn = dir | append: "recording.mp4"-%}
+  {%-assign found = lectures.files | where: "path", fn | first-%}
+  {%-if found-%}
+  {%-assign recordingurl = "recording.mp4"-%}
+  {%-else %}
+  {%-assign recordingurl = nil-%}
+  {%-endif-%}
+{%-endif-%}
+
+**slides:**
+{% if slideurl-%}
+  [PDF]({{slideurl}})
+{% else-%}
+  N/A
+{%-endif-%}
+
+{%-assign files = lectures.files | where_exp: "file", "file.path contains dir" | where_exp: "file", "file.name != slideurl" | where_exp: "file", "file.name != recordingurl" | map: "name" | sort -%}
 {%-if files != empty -%}
   <br>**additional files:**
   {% for file in files %} [{{file | split: "/" | last}}]({{file | split: "/" | last}}){% endfor-%}
 {%-endif-%}
 
 <br>**recording:**
-{%-if page.recording %}
-  [mp4]({{page.recording}})
-{%-else %}
-  {%-assign fn = dir | append: "recording.mp4"-%}
-  {%-assign found = lectures.files | where: "path", fn | first-%}
-  {%-if found %}
-  [mp4](recording.mp4)
-  {%-else %}
+{% if recordingurl-%}
+  [mp4]({{recordingurl}})
+{% else-%}
   N/A
-  {%-endif-%}
-{%-endif %}
+{%-endif-%}
