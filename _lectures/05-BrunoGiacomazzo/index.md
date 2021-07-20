@@ -21,7 +21,5 @@ In this lecture we will learn how to read binary neutron star initial data gener
 <div class="col-xs-12" markdown="1">
 {% include lecture.md abstract=abstract %}
 
-Anything else that should appear after the "front matter" stuff above.
-
 [Edit on GitHub](https://github.com/EinsteinToolkit/et2021uiuc/edit/master/{{page.path}})
 </div>
