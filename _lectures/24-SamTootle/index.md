@@ -1,8 +1,8 @@
 ---
 layout: default
 usemathjax: true
-title: "FUKA: A new public code for initial data of unequal-mass, spinning compact-object binaries"
-author: Sam Tootle
+title: "Introduction to FUKA ID"
+author: Samuel Tootle
 institution: Goethe Universitaet
 # updload your slides as slides.pdf
 # upload your recorded talk as recording.mp4
@@ -14,25 +14,14 @@ institution: Goethe Universitaet
 {% include base.html %}
 
 {%-capture abstract-%}
-The abstract describing the lecture. In this lecture we will learn about
-
-* ham
-* spam
-* eggs
-
-and use $$\LaTeX$$ to display
-
-$$
-\begin{equation}
-E = m c^2
-\end{equation}
-$$
+This talk will provide an overview of the implementation and capabilities of the FUKA initial data solvers as well as provide a brief introduction to help users to get started using the solvers.  FUKA is a new public code focused on the generation of constraint satisfying initial data of unequal-mass, spinning compact-object binaries with the added ability to perform eccentricity reduction using Post-Newtonian estimates or iterative reduction techniques.
+https://kadath.obspm.fr/fuka/
 {%-endcapture-%}
 
 <div class="col-xs-12" markdown="1">
 {% include lecture.md abstract=abstract %}
 
-Anything else that should appear after the "front matter" stuff above.
+#Anything else that should appear after the "front matter" stuff above.
 
 [Edit on GitHub](https://github.com/EinsteinToolkit/et2021uiuc/edit/master/{{page.path}})
 </div>
