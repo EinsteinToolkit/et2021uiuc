@@ -2,8 +2,8 @@
 layout: default
 usemathjax: true
 title: "Introduction to GRMHD"
-author: Vassilios Mewes
-institution:  
+author: Vassilios Mewes 
+institution: ORNL
 # updload your slides as slides.pdf
 # upload your recorded talk as recording.mp4
 # all other files in this directory will show up as "additional files"
@@ -14,25 +14,13 @@ institution:
 {% include base.html %}
 
 {%-capture abstract-%}
-The abstract describing the lecture. In this lecture we will learn about
+This lecture will introduce the equations of general relativistic magnetohydrodynamics in a 3+1 split and how to solve them numerically in a finite volume scheme. The second part will connect the theory with a code implementation, highlighting the necessary building blocks of GRMHD and their scheduling in the GRHydro thorn. 
 
-* ham
-* spam
-* eggs
 
-and use $$\LaTeX$$ to display
-
-$$
-\begin{equation}
-E = m c^2
-\end{equation}
-$$
 {%-endcapture-%}
 
 <div class="col-xs-12" markdown="1">
 {% include lecture.md abstract=abstract %}
-
-Anything else that should appear after the "front matter" stuff above.
 
 [Edit on GitHub](https://github.com/EinsteinToolkit/et2021uiuc/edit/master/{{page.path}})
 </div>
