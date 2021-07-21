@@ -48,7 +48,7 @@ day3:
   - Lightning1
 
 day4:
-  - SamTootle:
+  - SamuelTootle:
       duration: 30
   - PeterDiener
   - TBD
