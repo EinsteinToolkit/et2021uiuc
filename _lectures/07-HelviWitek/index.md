@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: "Numerical relativity"
+title: "Introduction to Numerical Relativity"
 author: Helvi Witek
 institution: The University of Illinois Urbana Champaign
 # updload your slides as slides.pdf
@@ -14,25 +14,17 @@ institution: The University of Illinois Urbana Champaign
 {% include base.html %}
 
 {%-capture abstract-%}
-The abstract describing the lecture. In this lecture we will learn about
+ In this lecture I will give a brief overview on the theoretical foundations of numerical relativity. I will describe the 3+1 decomposition of spacetime and of Einstein's equations. I will touch upon well-posedness of hyberbolic equations, mention well-posed formulations of Einstein's equations and present suitable coordinate choices for stable numerical simulations.
 
-* ham
-* spam
-* eggs
-
-and use $$\LaTeX$$ to display
-
-$$
-\begin{equation}
-E = m c^2
-\end{equation}
-$$
+The presentation should be taken as a brief overview and what-is-what of the topic. To study Numerical Relativity in depth, I recommend the excellent textbooks by
+[M. Alcubierre 2008](https://i-share-uiu.primo.exlibrisgroup.com/permalink/01CARLI_UIU/gpjosq/alma99763099712205899),
+[Baumgarte & Shapiro 2010](https://i-share-uiu.primo.exlibrisgroup.com/permalink/01CARLI_UIU/gpjosq/alma99895384312205899),
+[Shibata 2015](https://i-share-uiu.primo.exlibrisgroup.com/permalink/01CARLI_UIU/gpjosq/alma99796368012205899) and
+[Baumgarte & Shapiro 2021](https://i-share-uiu.primo.exlibrisgroup.com/permalink/01CARLI_UIU/gpjosq/alma99954855400705899).
 {%-endcapture-%}
 
 <div class="col-xs-12" markdown="1">
 {% include lecture.md abstract=abstract %}
-
-Anything else that should appear after the "front matter" stuff above.
 
 [Edit on GitHub](https://github.com/EinsteinToolkit/et2021uiuc/edit/master/{{page.path}})
 </div>
