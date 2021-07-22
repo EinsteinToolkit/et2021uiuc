@@ -14,10 +14,6 @@ p {
   max-width: 52em; /* 2 alphabets */
 }
 
-pre {
-  max-width: 52em; /* 2 alphabets */
-}
-
 td :first-child {
   margin-top: 0px;
 }
