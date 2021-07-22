@@ -3,30 +3,14 @@ layout: default
 usemathjax: true
 title: "Black hole perturbation toolkit"
 author: Barry Wardell 
-institution: 
-# updload your slides as slides.pdf
-# upload your recorded talk as recording.mp4
-# all other files in this directory will show up as "additional files"
-# alternatively you can override by uncommenting and giving an explict URL:
-#slides: myslides.pdf
-#recording: https://youtu.be/GYJzhxWWBB8
+institution: University College Dublin
 ---
 {% include base.html %}
 
 {%-capture abstract-%}
-The abstract describing the lecture. In this lecture we will learn about
+The [Black Hole Perturbation Toolkit](https://bhptoolkit.org) brings together software and data relating to black hole perturbation theory. These can then be used to model gravitational radiation from small mass ratio binaries as well as from the ringdown of black holes. The former are key sources for the future space-based gravitational wave detector, LISA.
 
-* ham
-* spam
-* eggs
-
-and use $$\LaTeX$$ to display
-
-$$
-\begin{equation}
-E = m c^2
-\end{equation}
-$$
+In this lecture we will learn about the various components of the toolkit and how they can be used to produce an adiabatic waveform model for extreme mass ratio inspirals.
 {%-endcapture-%}
 
 <div class="col-xs-12" markdown="1">
