@@ -116,11 +116,11 @@ All times US Central time.
 
 <table class="schedule">
 <tr><th> time </th>
-<th> July 26<sup>th</sup> </th>
-<th> July 27<sup>th</sup> </th>
-<th> July 28<sup>th</sup> </th>
-<th> July 29<sup>th</sup> </th>
-<th> July 30<sup>th</sup> </th>
+<th> Monday, July 26<sup>th</sup> </th>
+<th> Tuesday, July 27<sup>th</sup> </th>
+<th> Wednesday, July 28<sup>th</sup> </th>
+<th> Thursday, July 29<sup>th</sup> </th>
+<th> Friday, July 30<sup>th</sup> </th>
 </tr>
 <tr><td class="time">07:55 AM</td>
   <td>setup help</td>
@@ -167,35 +167,35 @@ All times US Central time.
 <div class="row fix">
 
 <div class="col-sm-6">
-<h3>July 26<sup>th</sup>: Numerical Relativity</h3>
+<h3>Monday, July 26<sup>th</sup>: Numerical Relativity</h3>
 
 {% include day_schedule_table.html day=page.day1 %}
 
 </div>
 
 <div class="col-sm-6">
-<h3>July 27<sup>th</sup>: Initial data</h3>
+<h3>Tuesday, July 27<sup>th</sup>: Initial data</h3>
 
 {% include day_schedule_table.html day=page.day2 %}
 
 </div>
 
 <div class="col-sm-6">
-<h3>July 28<sup>th</sup>: Relativistic (magneto)-hydrodynamics</h3>
+<h3>Wednesday, July 28<sup>th</sup>: Relativistic (magneto)-hydrodynamics</h3>
 
 {% include day_schedule_table.html day=page.day3 %}
 
 </div>
 
 <div class="col-sm-6">
-<h3>July 29<sup>th</sup>: Thorn writting</h3>
+<h3>Thursday, July 29<sup>th</sup>: Thorn writting</h3>
 
 {% include day_schedule_table.html day=page.day4 %}
 
 </div>
 
 <div class="col-sm-6">
-<h3>July 30<sup>th</sup>: Data analysis</h3>
+<h3>Friday, July 30<sup>th</sup>: Data analysis</h3>
 
 {% include day_schedule_table.html day=page.day5 %}
 
