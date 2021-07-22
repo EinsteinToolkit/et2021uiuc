@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: "Maxwell vaccum thorn"
+title: "SimpleMaxwell: A basic implementation of the Maxwell equations with linear sources"
 author: Yosef Zlochower
 institution: Rochester Institute of Technlogy
 # updload your slides as slides.pdf
@@ -14,25 +14,12 @@ institution: Rochester Institute of Technlogy
 {% include base.html %}
 
 {%-capture abstract-%}
-The abstract describing the lecture. In this lecture we will learn about
+In this tutorial, I will demonstrate how to implement a basic thorn that integrates the Maxwell system with simple linear sources within the Einstein Toolkit.
 
-* ham
-* spam
-* eggs
-
-and use $$\LaTeX$$ to display
-
-$$
-\begin{equation}
-E = m c^2
-\end{equation}
-$$
 {%-endcapture-%}
 
 <div class="col-xs-12" markdown="1">
 {% include lecture.md abstract=abstract %}
-
-Anything else that should appear after the "front matter" stuff above.
 
 [Edit on GitHub](https://github.com/EinsteinToolkit/et2021uiuc/edit/master/{{page.path}})
 </div>
