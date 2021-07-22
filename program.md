@@ -69,7 +69,7 @@ day5:
       duration: 30
   - WolfgangKastaun:
       duration: 20
-  - YosefZlochower2:
+  - VassiliosMewes2:
       duration: 25
   - FutureOfTheET
 

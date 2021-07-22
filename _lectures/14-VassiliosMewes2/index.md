@@ -2,8 +2,8 @@
 layout: default
 usemathjax: true
 title: "SphericalNR"
-author: Yosef Zlochower
-institution: RIT
+author: Vassilios Mewes
+institution: ORNL
 # updload your slides as slides.pdf
 # upload your recorded talk as recording.mp4
 # all other files in this directory will show up as "additional files"
@@ -36,4 +36,3 @@ Anything else that should appear after the "front matter" stuff above.
 
 [Edit on GitHub](https://github.com/EinsteinToolkit/et2021uiuc/edit/master/{{page.path}})
 </div>
-
