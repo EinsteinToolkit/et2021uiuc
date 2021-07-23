@@ -14,19 +14,13 @@ institution: ORNL
 {% include base.html %}
 
 {%-capture abstract-%}
-The abstract describing the lecture. In this lecture we will learn about
+$${\tt SphericalNR}$$ is a new dynamical spacetime and general relativistic 
+MHD evolution framework in spherical coordinates for the $${\tt Einstein Toolkit}$$. 
+This talk will present the framework, highlighting algorithmic developments to solve
+hyperbolic PDEs in spherical coordinates within the Cartesian code base of the 
+$${\tt Einstein Toolkit}$$ as well as recent developments, including higher order 
+reconstruction methods and an improved atmosphere treatment. 
 
-* ham
-* spam
-* eggs
-
-and use $$\LaTeX$$ to display
-
-$$
-\begin{equation}
-E = m c^2
-\end{equation}
-$$
 {%-endcapture-%}
 
 <div class="col-xs-12" markdown="1">
