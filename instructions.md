@@ -32,9 +32,9 @@ to each registered participant.
 
 ## Tutorial server
 
-We ill be using a server sponsored by the Center from Computational Technology
-at Louisina State University. Login information will be provided during the first
-day of the summer school in both the 7:55AM CDT "Setup Help"
+We will be using a server sponsored by the Center from Computational Technology
+at Louisina State University. Login information will be provided during the
+first day of the summer school in both the 7:55AM CDT "Setup Help"
 [session](program.html), during lunch break and at the beginning of the
 [first tutorial](lectures/10-SteveBrandt/index.html).
 
