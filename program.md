@@ -51,10 +51,10 @@ day4:
   - SamuelTootle:
       duration: 30
   - PeterDiener
-  - TBD
+  - BarryWardell
   - break
   - DeborahFerguson
-  - BarryWardell
+  - TBD
   - Lightning2
 
 day5:
