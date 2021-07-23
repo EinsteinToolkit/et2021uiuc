@@ -2,7 +2,7 @@
 layout: default
 usemathjax: true
 title: "Future of the Einstein Toolkit"
-author: Roland Haas
+author: Everyone
 institution: The University of Illinois Urbana Champaign
 # updload your slides as slides.pdf
 # upload your recorded talk as recording.mp4
