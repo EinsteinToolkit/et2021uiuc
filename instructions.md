@@ -39,12 +39,12 @@ day of the summer school in both the 7:55AM CDT "Setup Help"
 [first tutorial](lectures/10-SteveBrandt/index.html).
 
 The tutorial is Jupyter based and, if you prefer, you can run the tutorial
-environmnet in a Docker container on your own computer rather than using an
+environment in a Docker container on your own computer rather than using an
 account on the tutorial server.
 
 We provide a Docker compose
 [file](https://github.com/nds-org/jupyter-et/blob/master/tutorial-server/docker-compose.user.yml)
-which also cotains information on how to set this up.
+which also contains information on how to set this up.
 
 To use the file you will need `docker` and `docker-compose` installed.
 
