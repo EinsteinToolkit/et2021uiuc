@@ -14,7 +14,7 @@ institution: University of Milano-Bicocca
 {% include base.html %}
 
 {%-capture abstract-%}
-In this lecture we will learn how to read binary neutron star initial data generated with LORENE within the Einstein Toolkit. For this lecture we will use a simple piecewise polytropic equation of state (EOS) modeling a cold nuclear EOS.
+In this lecture we will learn how to read binary neutron star initial data generated with LORENE within the Einstein Toolkit. For this lecture we will use a simple piecewise polytropic equation of state (EOS) modeling a cold nuclear EOS. The initial data are contained in the tgz file in the additional data link. A Jupyter notebook will be used for this tutorial.
 
 {%-endcapture-%}
 
