@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: "LORENE ID"
+title: "Binary Neutron Star ID construction with LORENE"
 author: Atul Kedia
 institution: University of Notre Dame
 # updload your slides as slides.pdf
@@ -14,18 +14,7 @@ institution: University of Notre Dame
 {% include base.html %}
 
 {%-capture abstract-%}
-The abstract describing the lecture. In this lecture we will learn about
-
-* ham
-* spam
-* eggs
-
-and use $$\LaTeX$$ to display
-
-$$
-\begin{equation}
-E = m c^2
-\end{equation}
+In this tutorial style lecture, we will learn how to use LORENE to generate Binary Neutron Star (BNS) Initial Data (ID). We will discuss how to use the different Equations of state (EoS) formats acceptable to LORENE and perform necessary unit conversions. Further, we will discuss the process of forming Piecewise Polytropic EoSs.
 $$
 {%-endcapture-%}
 
