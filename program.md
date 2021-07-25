@@ -54,7 +54,7 @@ day4:
   - BarryWardell
   - break
   - DeborahFerguson
-  - TBD
+  - RolandHaas
   - Lightning2
 
 day5:
