@@ -16,9 +16,7 @@ day1:
   - Welcome:
       duration: 15
   - HelviWitek:
-      duration: 60
-  - HelviWitek:
-      duration: 60
+      duration: 125
   - break
   - DonWillcox
   - SteveBrandt
