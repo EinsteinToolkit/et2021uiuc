@@ -34,7 +34,9 @@
       {%-capture shaded-%}
         {%-cycle include.column: "", "background: #EEE"-%}
       {%-endcapture-%}
-      <td rowspan={{_dst_rows}} style="{{shaded}}">break</td>
+      <td rowspan={{_dst_rows}} style="{{shaded}}">
+       {{page.start | date: "%s" | plus: _dst_start | date: "%I:%M %p"}}: break
+      </td>
       {%-assign _dst_matched_item = 1-%}
     {%-endif-%}
     {%-if _dst_startrow <= include.row and include.row < _dst_endrow -%}
@@ -51,8 +53,11 @@
       {%-capture shaded-%}
         {%-cycle {{include.column}}: "", "background: #EEE"-%}
       {%-endcapture-%}
-      <td rowspan={{_dst_rows}} style="{{shaded}}">{%-include schedule_overview tag=_dst_tag-%}
-      {%-if _dst_tag == _dst_prevtag-%} (cont'd){%-endif-%}
+      {%-comment-%}TODO: this should be done in schedule_overview{%-endcomment-%}
+      <td rowspan={{_dst_rows}} style="{{shaded}}">
+        {{page.start | date: "%s" | plus: _dst_start | date: "%I:%M %p"}}:
+        {% include schedule_overview tag=_dst_tag-%}
+        {%-if _dst_tag == _dst_prevtag-%}<br>(cont'd){%-endif-%}
       </td>
     {%-endif-%}
     {%-if _dst_startrow <= include.row and include.row < _dst_endrow -%}
