@@ -26,5 +26,10 @@ The presentation should be taken as a brief overview and what-is-what of the top
 <div class="col-xs-12" markdown="1">
 {% include lecture.md abstract=abstract %}
 
+During the presentation an number of authors that have worked on well-posedness of numerical relativity were mentioned. This is a partial list of more recent publications relevant for this:
+
+* Sarbarch & Tiglio: https://inspirehep.net/literature/1095360 
+* HIlditch: https://inspirehep.net/literature/1253348 
+
 [Edit on GitHub](https://github.com/EinsteinToolkit/et2021uiuc/edit/master/{{page.path}})
 </div>
