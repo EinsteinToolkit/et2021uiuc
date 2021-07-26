@@ -30,6 +30,11 @@ The Zoom meeting opens at 7:45AM CDT each day, the school program starts at
 8:25AM CDT. Zoom login information is provided in the information package sent
 to each registered participant.
 
+## YouTube Stream
+A life stream is provided via [YouTube](https://go.illinois.edu/et2021uiuc).
+Please note that there is about a 30s delay, so please enter all questions to
+speeakers well in advance of the end of the preseentation.
+
 ## Tutorial server
 
 We will be using a server sponsored by the Center from Computational Technology

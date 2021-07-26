@@ -14,7 +14,7 @@ Time:  | 8:25 AM CDT to 1:20 PM CDT
 Abstract deadline submission:  | Abstract submission has closed.
 Chat:  | [gitter.im/<wbr>EinsteinToolkit/<wbr>workshop](https://gitter.im/EinsteinToolkit/workshop)
 Email: | [workshop@<wbr>einsteintoolkit.<wbr>org](mailto:workshop@einsteintoolkit.org)
-Venue:&nbsp;  | Online event.
+Venue:&nbsp;  | [YouTube stream](https://go.illinois.edu/et2021uiuc)
 
 
 <a class="btn btn-info" href="{{base}}/register.html" role="button">Register</a>
