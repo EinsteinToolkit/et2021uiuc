@@ -48,8 +48,8 @@ day3:
 day4:
   - SamuelTootle:
       duration: 30
-  - PeterDiener
   - BarryWardell
+  - PeterDiener
   - break
   - DeborahFerguson
   - RolandHaas
