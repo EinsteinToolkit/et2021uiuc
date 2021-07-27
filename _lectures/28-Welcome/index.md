@@ -8,8 +8,8 @@ institution: The University of Illinois Urbana Champaign
 # upload your recorded talk as recording.mp4
 # all other files in this directory will show up as "additional files"
 # alternatively you can override by uncommenting and giving an explict URL:
-#slides: myslides.pdf
-#recording: https://youtu.be/GYJzhxWWBB8
+slides: slides.pdf
+recording: https://youtu.be/dHOfYNqALys
 ---
 {% include base.html %}
 

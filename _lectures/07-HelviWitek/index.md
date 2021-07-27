@@ -9,7 +9,7 @@ institution: The University of Illinois Urbana Champaign
 # all other files in this directory will show up as "additional files"
 # alternatively you can override by uncommenting and giving an explict URL:
 slides: IntroNumericalRelativity_Lecture_26July2021-20210726_115857.pdf
-#recording: https://youtu.be/GYJzhxWWBB8
+recording: https://youtu.be/0Bn8Ez7Ahp0
 ---
 {% include base.html %}
 

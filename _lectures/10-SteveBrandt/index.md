@@ -10,7 +10,7 @@ institution: Louisiana State University
 # alternatively you can override by uncommenting and giving an explict URL:
 #slides: myslides.pdf
 #recording: https://youtu.be/GYJzhxWWBB8
-recording: https://youtu.be/UXX3qAFQPR4
+recording: https://youtu.be/yLW8avrZQ9s
 ---
 {% include base.html %}
 
@@ -37,8 +37,6 @@ the online tutorial.
 {% include lecture.md abstract=abstract %}
 
 Please refer to the [instructions]({{base}}/instructions.html) page for login instructions into the tutorial server.
-
-Note: the current recording is from the [2020 worshop](https://www.cct.lsu.edu/Einsteintoolkitworkshop) at LSU.
 
 [Edit on GitHub](https://github.com/EinsteinToolkit/et2021uiuc/edit/master/{{page.path}})
 </div>
