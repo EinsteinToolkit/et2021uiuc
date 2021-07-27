@@ -83,7 +83,6 @@ et-notebook | [I 14:13:24.359 NotebookApp] Serving notebooks from local director
 ```
 
 4. entering the Docker container
-
 You can enter ("log in" in some sense) the container hosting the notebook server using docker commands:
 
 ```bash
@@ -99,7 +98,6 @@ docker exec -it --user 0 et-notebook bash
 if you need to be root in the container to for example install extra packages.
 
 5. transferring files
-
 Docker provides commands to copy files into and out of containers:
 
 ```bash
