@@ -52,7 +52,7 @@ day4:
   - PeterDiener
   - break
   - DeborahFerguson
-  - RolandHaas
+  - HelviWitek2
   - Lightning2
 
 day5:
