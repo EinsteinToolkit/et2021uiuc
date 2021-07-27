@@ -58,17 +58,17 @@ See this link for macOS and Windows: [https://www.docker.com/products/docker-des
 On linux, you can probably use your package manager (apt, dnf, yum, etc.).
 
 1. Download this file and save it as `docker-compose.yml`:
-```
+```bash
 curl -o docker-compose.yml https://raw.githubusercontent.com/nds-org/jupyter-et/master/tutorial-server/docker-compose.user.yml
 ```
 
 2. Start the server:
-```
+```bash
 docker-compose up -d
 ```
 
 3. Get the URL for the server:
-```
+```bash
 docker-compose logs
 ```
 
@@ -82,5 +82,31 @@ et-notebook |
 et-notebook | [I 14:13:24.359 NotebookApp] Serving notebooks from local directory: /home/jovyan
 ```
 
+4. entering the Docker container
+
+You can enter ("log in" in some sense) the container hosting the notebook server using docker commands:
+
+```bash
+docker exec -it et-notebook bash
+```
+
+or
+
+```bash
+docker exec -it --user 0 et-notebook bash
+```
+
+if you need to be root in the container to for example install extra packages.
+
+5. transferring files
+
+Docker provides commands to copy files into and out of containers:
+
+```bash
+# to copy in
+docker cp file et-notebook:/home/jovyan/
+# to copy out
+docker cp et-notebook:/home/jovyan/file $PWD
+```
 
 </div>
