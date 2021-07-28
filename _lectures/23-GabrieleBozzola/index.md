@@ -9,7 +9,7 @@ institution: University of Arizona
 # all other files in this directory will show up as "additional files"
 # alternatively you can override by uncommenting and giving an explict URL:
 slides: kuibit_ET.pdf
-#recording: https://youtu.be/GYJzhxWWBB8
+recording: https://youtu.be/g-JlXfLvUZU
 ---
 {% include base.html %}
 
