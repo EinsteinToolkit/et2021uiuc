@@ -8,7 +8,7 @@ author:
   - Pedro Ildefonso
   - Mostafizur Rahman
   - Aaron Held
-  - Alexandra Wernersson
+  - break
   - Thomas Helfer
 ---
 {% include base.html %}
