@@ -9,6 +9,7 @@ institution: ORNL
 # all other files in this directory will show up as "additional files"
 # alternatively you can override by uncommenting and giving an explict URL:
 #slides: myslides.pdf
+slides: (https://github.com/EinsteinToolkit/et2021uiuc/files/6894543/slides.pdf)
 #recording: https://youtu.be/GYJzhxWWBB8
 ---
 {% include base.html %}
@@ -22,7 +23,7 @@ This lecture will introduce the equations of general relativistic magnetohydrody
 <div class="col-xs-12" markdown="1">
 {% include lecture.md abstract=abstract %}
 
-[slides.pdf](https://github.com/EinsteinToolkit/et2021uiuc/files/6894543/slides.pdf)
+
 
 [Edit on GitHub](https://github.com/EinsteinToolkit/et2021uiuc/edit/master/{{page.path}})
 </div>
