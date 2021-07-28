@@ -107,4 +107,11 @@ docker cp file et-notebook:/home/jovyan/
 docker cp et-notebook:/home/jovyan/file $PWD
 ```
 
+## xTensor tutorial
+
+To run the tutorial on your own laptop, please install the xAct package before
+class; see [xAct.es](http://www.xact.es). You will require a Mathematica
+license for this tutorial.
+
+
 </div>
