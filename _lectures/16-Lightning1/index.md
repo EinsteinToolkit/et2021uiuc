@@ -7,9 +7,9 @@ title: "Lightning I"
 author:
   - Jay Vijay Kalinani
   - Dhruv Desai
-  - Xinyu Li
   - Atul Kedia
   - Alexandru Dima
+  - Xinyu Li
 recordings:
   JayVijayKalinani:
     https://youtu.be/5HjAZVq89A4
