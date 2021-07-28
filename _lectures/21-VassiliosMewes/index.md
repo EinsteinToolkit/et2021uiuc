@@ -1,3 +1,4 @@
+[slides.pdf](https://github.com/EinsteinToolkit/et2021uiuc/files/6894543/slides.pdf)
 ---
 layout: default
 usemathjax: true
