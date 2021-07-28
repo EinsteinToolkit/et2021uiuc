@@ -10,6 +10,9 @@ author:
   - Xinyu Li
   - Atul Kedia
   - Alexandru Dima
+recordings:
+  AlexandruDima:
+    https://youtu.be/JF9cdolU1aU
 ---
 {% include base.html %}
 
