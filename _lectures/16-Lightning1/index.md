@@ -13,6 +13,8 @@ author:
 recordings:
   AlexandruDima:
     https://youtu.be/JF9cdolU1aU
+  JayVijayKalinani:
+    https://youtu.be/5HjAZVq89A4
 ---
 {% include base.html %}
 
