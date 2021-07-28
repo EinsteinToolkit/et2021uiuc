@@ -8,7 +8,7 @@ institution: Rochester Institute of Technology
 # upload your recorded talk as recording.mp4
 # all other files in this directory will show up as "additional files"
 # alternatively you can override by uncommenting and giving an explict URL:
-#slides: myslides.pdf
+slides: ETK_InitialData.pdf
 recording: https://youtu.be/J-766n5_3lo
 ---
 {% include base.html %}
