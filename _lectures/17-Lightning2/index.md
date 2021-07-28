@@ -26,10 +26,13 @@ author:
 {{start | date: "%I:%M %p"}} -- {{start | plus: 540 | date: "%I:%M %p"}}
 
 <em>{{ talk.name }} ({{ talk.institution }})</em>
-{%assign fn = '/lightning/' | append: talk.tag | append: '.pdf'-%}
+{%-assign fn = '/lightning/' | append: talk.tag | append: '.pdf'-%}
 {%-assign found = site.static_files | where: "path",fn | first-%}
 {%-if found-%}
-<a href="{{base}}/lightning/{{talk.tag}}.pdf">(slides)</a>
+<a href="{{base}}/lightning/{{talk.tag}}.pdf"> (slides)</a>
+{%-endif-%}
+{%-if page.recordings[talk.tag]-%}
+<a href="{{page.recordings[talk.tag]}}"> (recording)</a>
 {%-endif%}
 
 {{ talk.abstract }}
