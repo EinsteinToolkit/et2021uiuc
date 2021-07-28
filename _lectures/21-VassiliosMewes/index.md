@@ -1,4 +1,3 @@
-[slides.pdf](https://github.com/EinsteinToolkit/et2021uiuc/files/6894543/slides.pdf)
 ---
 layout: default
 usemathjax: true
@@ -22,6 +21,8 @@ This lecture will introduce the equations of general relativistic magnetohydrody
 
 <div class="col-xs-12" markdown="1">
 {% include lecture.md abstract=abstract %}
+
+[slides.pdf](https://github.com/EinsteinToolkit/et2021uiuc/files/6894543/slides.pdf)
 
 [Edit on GitHub](https://github.com/EinsteinToolkit/et2021uiuc/edit/master/{{page.path}})
 </div>
