@@ -1,6 +1,6 @@
 ---
 layout: default
-title: instructions
+title: Instructions
 ---
 
 <div class="container-fluid" markdown="1">

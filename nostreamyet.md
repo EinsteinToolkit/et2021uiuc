@@ -1,6 +1,6 @@
 ---
 layout: default
-title: instructions
+title: No YouTube stream yet
 ---
 
 <div class="container-fluid" markdown="1">
