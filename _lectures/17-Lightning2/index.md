@@ -9,7 +9,6 @@ author:
   - Mostafizur Rahman
   - Aaron Held
   - Thomas Helfer
-  - break
 ---
 {% include base.html %}
 
