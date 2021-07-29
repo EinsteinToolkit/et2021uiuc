@@ -15,6 +15,10 @@ recordings:
     https://youtu.be/5HjAZVq89A4
   AlexandruDima:
     https://youtu.be/L3b7wyrwE-0
+  AtulKedia:
+    https://youtu.be/HqDP_SuqAlc
+  XinyuLi:
+    https://youtu.be/YchS7SrCh14
 ---
 {% include base.html %}
 
