@@ -4,6 +4,7 @@ usemathjax: true
 title: "Black hole perturbation toolkit"
 author: Barry Wardell 
 institution: University College Dublin
+recording: https://youtu.be/ug2wXWrwtTk
 ---
 {% include base.html %}
 
