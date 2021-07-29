@@ -16,7 +16,7 @@ recordings:
   AlexandruDima:
     https://youtu.be/L3b7wyrwE-0
   AtulKedia:
-    https://youtu.be/HqDP_SuqAlc
+    https://youtu.be/XkSseOGRQGI
   XinyuLi:
     https://youtu.be/YchS7SrCh14
 ---
