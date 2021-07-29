@@ -1,7 +1,7 @@
 ---
 layout: default
 usemathjax: true
-title: "Tutorial: 3+1 decomposition with xtensor"
+title: "Tutorial: 3+1 decomposition with xTensor"
 author: Helvi Witek
 institution: University of Illinois Urbana-Champaign
 # updload your slides as slides.pdf
@@ -9,7 +9,7 @@ institution: University of Illinois Urbana-Champaign
 # all other files in this directory will show up as "additional files"
 # alternatively you can override by uncommenting and giving an explict URL:
 #slides: myslides.pdf
-#recording: https://youtu.be/GYJzhxWWBB8
+recording: https://youtu.be/Bt5iybdofgw
 ---
 {% include base.html %}
 
