@@ -7,7 +7,7 @@ title: No YouTube stream yet
 # YouTube stream
 
 YouTube streaming at [https://go.illinois.edu](https://go.illinois.edu) will
-resume tomorrow.
+resume in the monring at 7:45AM.
 
 Until then, take a look at our [recorded sessions](https://youtube.com/playlist?list=PLRxi-yB7cTGfIPyQLSNulydOAPSPHN2Hc).
 
