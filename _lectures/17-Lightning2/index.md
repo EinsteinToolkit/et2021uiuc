@@ -9,6 +9,11 @@ author:
   - Mostafizur Rahman
   - Aaron Held
   - Thomas Helfer
+recordings:
+  MostafizurRahman:
+    https://youtu.be/m2mr0pu7zQg
+  ThomasHelfer:
+    https://youtu.be/b3jgTqzURAw
 ---
 {% include base.html %}
 
