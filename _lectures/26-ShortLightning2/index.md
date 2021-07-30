@@ -8,6 +8,11 @@ author:
   - Alex Vano-Vinuales
   - Syed Naqvi
   - Shailesh Kumar
+recordings:
+  AlexVanoVinuales:
+    https://youtu.be/PL38ZUF-X4M
+  SyedNaqvi:
+    https://youtu.be/-VtNu_meqtk
 ---
 {% include base.html %}
 
