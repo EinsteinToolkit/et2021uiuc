@@ -47,7 +47,7 @@ This discussion will be open to all, though some discussion starter topics will 
   * Idea to provide tutorials similar to the ones in the school along with the existing series of Einstein Toolkit seminars
   * Surveyed interest by the audience if they would be interested in listening and als presenting in such a tutorial
   * Wolfgang would be interested in presenting in more detail on the problems concerning con2prim
-  * Alex Van-Vinuale would be interested in having more regular classes on visualization and postprocessing Einstein Toolkit data
+  * Alex Vano-Vinuales would be interested in having more regular classes on visualization and postprocessing Einstein Toolkit data
     * Wolfgang mentioned that PostCactus will receive a major update in 2 months or so and he would be happy to present
   * Steve Brandt asks for copies of any Jupyter notebooks used so that he can include them in the tutorial server so that they are available to any user using the tutorial server
   * Interest exists in short tutorials on how to write parameter files or how to set up the ET on a Linux cluster
