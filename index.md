@@ -16,8 +16,6 @@ Chat:  | [gitter.im/<wbr>EinsteinToolkit/<wbr>workshop](https://gitter.im/Einste
 Email: | [workshop@<wbr>einsteintoolkit.<wbr>org](mailto:workshop@einsteintoolkit.org)
 Venue:&nbsp;  | [Einstein Toolkit Youtube channel](https://www.youtube.com/channel/UC8IObWZ7_wEbWnbIKVIQRYQ)
 
-
-<a class="btn btn-info" href="{{base}}/register.html" role="button">Register</a>
 </div>
 
 <div class="col-xs-12 col-sm-7 col-md-8">
