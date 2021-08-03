@@ -37,7 +37,7 @@ speeakers well in advance of the end of the preseentation.
 
 ## Tutorial server
 
-We will be using a server sponsored by the Center for Computational Technology
+We will be using a server sponsored by the Center for Computation & Technology
 at Louisina State University. Login information will be provided during the
 first day of the summer school in both the 7:55AM CDT "Setup Help"
 [session](program.html), during lunch break and at the beginning of the
