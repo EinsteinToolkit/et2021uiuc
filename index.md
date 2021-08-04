@@ -14,7 +14,7 @@ Time:  | 8:25 AM CDT to 1:20 PM CDT
 Abstract deadline submission:  | Abstract submission has closed.
 Chat:  | [gitter.im/<wbr>EinsteinToolkit/<wbr>workshop](https://gitter.im/EinsteinToolkit/workshop)
 Email: | [workshop@<wbr>einsteintoolkit.<wbr>org](mailto:workshop@einsteintoolkit.org)
-Venue:&nbsp;  | [Einstein Toolkit Youtube channel](https://www.youtube.com/channel/UC8IObWZ7_wEbWnbIKVIQRYQ)
+Venue:&nbsp;  | [YouTube playlist](https://www.youtube.com/watch?v=dHOfYNqALys&list=PLRxi-yB7cTGfIPyQLSNulydOAPSPHN2Hc)
 
 </div>
 
@@ -41,8 +41,8 @@ and development.
 <div class="col-xs-12 col-sm-6 col-md-4" markdown="1">
 ## How to View
 Connection information will be emailed to you once you [register](register.html).
-Recordings will be made available in the
-[Einstein Toolkit Youtube channel](https://www.youtube.com/channel/UC8IObWZ7_wEbWnbIKVIQRYQ).
+Recordings will be made available in a
+[YouTube playlist](https://www.youtube.com/watch?v=dHOfYNqALys&list=PLRxi-yB7cTGfIPyQLSNulydOAPSPHN2Hc).
 </div>
 
 <div class="col-xs-12 col-sm-6 col-md-4" markdown="1">
