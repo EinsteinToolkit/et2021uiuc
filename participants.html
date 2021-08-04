@@ -87,8 +87,9 @@ function randomizeParticipantPhotos(id) {
       <div class="col-xs-12">
         <h1>Participants</h1>
         <div id="participant_photos" style="width: 100%; text-align: center">
+<!-- some of the cut images are one pixel row show -->
 {%for img in site.data.participant_photos-%}
-<img src="{{img}}" alt="Photo of a participant">
+<img width="325" height="186" src="{{img}}" alt="Photo of a participant">
 {%-endfor%}
         </div>
         <!-- cannot be attached to div (where I want it) via onload -->
