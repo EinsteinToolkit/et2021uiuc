@@ -9,12 +9,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- from https://github.com/typeiii/jquery-csv-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.11/jquery.csv.min.js"></script>
-</head>
-<body id="index">
-  {% include navbar.html %}
-<!-- this handles dynamically pulling and updating the list of participants -->
-<script>
-(function(){
+  <script>
+// this handles dynamically pulling and updating the list of participants
+function getPartipantsList() {
   return; // no longer done now that the school is finished
   // see https://stackoverflow.com/questions/62611127/trouble-accessing-google-sheet-as-a-tsv-file
   var url="https://script.google.com/macros/s/AKfycbzaO60lL2WDcgor8HZ_vnwc1AbDs0ezXt4Xg-tEaPHcUVBS2zqTjUDnUDYNwzq_kfWD/exec";
@@ -60,8 +57,9 @@
   };
   participantsFile.open("GET", url, true);
   participantsFile.send(null);
-})();
+}
 
+// shuffle participant photos to not always show the same person first
 function randomizeParticipantPhotos(id) {
     var div = document.getElementById(id);
     var newList = Array.from(div.children);
@@ -80,7 +78,10 @@ function randomizeParticipantPhotos(id) {
         div.append(newList[i]);
     }
 }
-</script>
+  </script>
+</head>
+<body id="index" onload="getPartipantsList()">
+  {% include navbar.html %}
   <div class="container">
     <div class="row fix">
       <div class="col-xs-12">
