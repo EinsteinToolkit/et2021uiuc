@@ -8,7 +8,7 @@ institution: Louisiana State University
 # upload your recorded talk as recording.mp4
 # all other files in this directory will show up as "additional files"
 # alternatively you can override by uncommenting and giving an explict URL:
-#slides: myslides.pdf
+slides: https://github.com/nds-org/jupyter-et/blob/e17ac189e0d98c7c66f61e94f607119717fc55bd/CactusTutorial.ipynb
 #recording: https://youtu.be/GYJzhxWWBB8
 recording: https://youtu.be/yLW8avrZQ9s
 ---

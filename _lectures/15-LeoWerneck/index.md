@@ -8,7 +8,7 @@ institution: West Virginia University
 # upload your recorded talk as recording.mp4
 # all other files in this directory will show up as "additional files"
 # alternatively you can override by uncommenting and giving an explicit URL:
-#slides: myslides.pdf
+slides: https://tinyurl.com/ETKSchoolNRPyTutorial
 recording: https://youtu.be/sCjQm2RN71s
 ---
 {% include base.html %}
