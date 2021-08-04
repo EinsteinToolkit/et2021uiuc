@@ -12,8 +12,10 @@
 </head>
 <body id="index">
   {% include navbar.html %}
+<!-- this handles dynamically pulling and updating the list of participants -->
 <script>
 (function(){
+  return; // no longer done now that the school is finished
   // see https://stackoverflow.com/questions/62611127/trouble-accessing-google-sheet-as-a-tsv-file
   var url="https://script.google.com/macros/s/AKfycbzaO60lL2WDcgor8HZ_vnwc1AbDs0ezXt4Xg-tEaPHcUVBS2zqTjUDnUDYNwzq_kfWD/exec";
   var participantsFile = new XMLHttpRequest();
@@ -91,7 +93,287 @@ function randomizeParticipantPhotos(id) {
         <!-- cannot be attached to div (where I want it) via onload -->
         <script>randomizeParticipantPhotos("participant_photos")</script>
 
-        <div id="participants"></div>
+        <div id="participants">
+          <ul>
+            <li>Aaron Held (Imperial College London)</li>
+            <li>Aaron Warren (Purdue University Northwest)</li>
+            <li>Aasim Zahoor Jan (UT-Austin/RIT)</li>
+            <li>Abhishek Chattaraj (Indian Institute of Technology Madras)</li>
+            <li>Abhishek Hegade K R (UIUC)</li>
+            <li>Abhishek Joshi (University of Illinois at Urbana-Champaign)</li>
+            <li>Abolhassan Mohammadi (University of Kurdistan)</li>
+            <li>Aldo Javier Gamboa Castillo (Universidad Nacional Autónoma de México)</li>
+            <li>Alejandro Jiménez Cano (University of Granada)</li>
+            <li>Alessandro Ciarfella (Rochester Institute of Technology)</li>
+            <li>Alex Higgins (University of Arizona)</li>
+            <li>Alex Vano-Vinuales (CENTRA, IST, University of Lisbon)</li>
+            <li>Alexandra Brosius (PSU/NASA GSFC)</li>
+            <li>Alexandra Wernersson (Utrecht University)</li>
+            <li>Alexandre M. Pombo (Aveiro University)</li>
+            <li>Alexandru Dima (SISSA)</li>
+            <li>Ali Övgün (Eastern Mediterranean University)</li>
+            <li>Aman Agarwal (University of Guelph and Perimeter Institute)</li>
+            <li>Andreas Konstantinou (University of Alberta)</li>
+            <li>ANEENA BINOY (NEWMAN COLLEGE)</li>
+            <li>Antoni Ramos-Buades (AEI Potsdam)</li>
+            <li>Antonios Manousakis (University of Sharjah)</li>
+            <li>Archi Banerjee (Indian Institute of Technology, Kharagpur)</li>
+            <li>Argyrios Loules (National and Kapodistrian University of Athens)</li>
+            <li>Ariadna Murguia Berthier (Northwestern University)</li>
+            <li>Arya Akhare (DACN)</li>
+            <li>Ashkbiz Danehkar (University of Michigan)</li>
+            <li>Ashwin Shirke (Department of Physics, Savitribai Phule Pune University)</li>
+            <li>Astrid Lawyer (Wellesley College)</li>
+            <li>Atul Kedia (University of Notre Dame)</li>
+            <li>Aviral Prakash (The Pennsylvania State University)</li>
+            <li>Axel Morales (Univesidad Nacional Autonoma de Mexico)</li>
+            <li>Ayan kumar ghosh (S N BOSE NATIONAL CENTRE FOR BASIC SCIENCES)</li>
+            <li>Ayesha Siddiqa (Quaid-i-Azam University, Islamabad)</li>
+            <li>Balázs Kacskovics (Wigner RCP, University of Pécs)</li>
+            <li>Beyhan Karakaş (Ege University)</li>
+            <li>Bill Gabella (Vanderbilt University, Nashville, TN  USA)</li>
+            <li>Bing-Jyun Tsao (University of Texas at Austin)</li>
+            <li>BINTO GEORGE BABU (NEWMAN COLLEGE THODUPUZHA, INDIA)</li>
+            <li>Bo-Xuan Ge (King's College London)</li>
+            <li>Bruno Giacomazzo (University of Milano-Bicocca)</li>
+            <li>Carlos Lousto (Rochester Institute of Technology)</li>
+            <li>Chandra Bahadur Singh (Yunnan University)</li>
+            <li>Chandra Prakash (Ramkrishna More College)</li>
+            <li>Charlie Chin (UT Austin)</li>
+            <li>Cheng-Yong Zhang (Jinan University)</li>
+            <li>Cheriyan Homey (Bits Pilani Goa campus)</li>
+            <li>Christopher Plumberg (University of Illinois at Urbana-Champaign)</li>
+            <li>Christos Mermigkas (Aristotle University of Thessaloniki)</li>
+            <li>Daniel Barta (Wigner Research Centre for Physics, Hungary)</li>
+            <li>Daniela Doneva (University of Tuebingen)</li>
+            <li>Davide Guerra (University of Valencia)</li>
+            <li>Debora Mroczek (University of Illinois Urbana-Champaign)</li>
+            <li>Deborah Ferguson (University of Texas at Austin)</li>
+            <li>Dhruv Desai (Columbia University)</li>
+            <li>Dhruv Pathak (The Institute of Mathematical Sciences (IMSc), Chennai)</li>
+            <li>Diandian Wang (UCSB)</li>
+            <li>Divya Ranjan (National Institute of Technology, Calicut)</li>
+            <li>Eduardo M. Gutiérrez (Instituto Argentino de Radioastronomía)</li>
+            <li>Elham Nazari (Ferdowsi university of Mashhad)</li>
+            <li>Enis Belgacem (Utrecht University)</li>
+            <li>Enrico Catalano (Italian Institute of Technology)</li>
+            <li>Erick Martinez (The University of Texas at Austin)</li>
+            <li>Erik Wessel (The University of Arizona)</li>
+            <li>Eslley Scatena Gonçales (Federal University  of Santa Catarina - UFSC)</li>
+            <li>Fabrizio Di Giovanni (Universitat de Valencia)</li>
+            <li>Farnaz Kazi (Techno International New Town)</li>
+            <li>Federico Cattorini (Università degli studi dell'Insubria (Como))</li>
+            <li>Federico Cipolletta (Leonardo Corporate Labs, Genova, IT)</li>
+            <li>Federico G Lopez Armengol (Rochester Institute of Technology)</li>
+            <li>Franciele Manoel da Silva (UFSC)</li>
+            <li>Gao duanyuan (huazhong university of science and technology)</li>
+            <li>Georgios Antoniou (University of Nottingham)</li>
+            <li>Geraint Pratten (University of Birmingham)</li>
+            <li>Giuseppe Ficarra (King's College London)</li>
+            <li>Gonçalo Castro (Sapienza University of Rome)</li>
+            <li>Gonzalo Morrás (Universidad Autónoma de Madrid)</li>
+            <li>Gowtham Sidharth M (Vellore Institute of technology)</li>
+            <li>Guillermo Lara (SISSA)</li>
+            <li>Gyula Fodor (Wigner Research Centre for Physics)</li>
+            <li>Haiyang Wang (Fudan University, Department of Physics)</li>
+            <li>Hamideh Hosseini (IAU Science and research branch)</li>
+            <li>Haroldo Cilas Duarte Lima Junior (Universidade Federal do Pará)</li>
+            <li>Hassan khalvati (University of Guelph)</li>
+            <li>Hayley Macpherson (University of Cambridge)</li>
+            <li>Hector O. Silva (Max Planck Institute for Gravitational Physics)</li>
+            <li>Hee Il Kim (Sogang University)</li>
+            <li>Helvi Witek (UIUC)</li>
+            <li>Hidetomo Hoshino (Waseda University)</li>
+            <li>Houyi Sun (Huazhong University of Science and Technology)</li>
+            <li>Hsiang-Yu Huang (Institute of Physics, Academia Sinica)</li>
+            <li>Ibrahim (Cornell University)</li>
+            <li>Igor Mol (Federal University of Rio de Janeiro)</li>
+            <li>Indrani Banerjee (NIT Rourkela, India)</li>
+            <li>Irvin Martinez (University of Cape Town)</li>
+            <li>İsmail Özbakır (University of Ege)</li>
+            <li>Jackson Bates (Rochester Institute of Technology)</li>
+            <li>Jacob Lange (Unversity of Texas at Austin)</li>
+            <li>Jaime (Universidad Complutense de Madrid)</li>
+            <li>Jam Sadiq (University of Santiago de compostela)</li>
+            <li>Jane Bright (University of Arizona)</li>
+            <li>Jay Vijay Kalinani (University of Padova, Italy)</li>
+            <li>Jayesh Jain (National Institute of Technology, Rourkela, India)</li>
+            <li>Jeffrey Wetter (Wellesley College)</li>
+            <li>Jelani Givens II (California State University - Los Angeles)</li>
+            <li>Jelin Raphael (National Institute of Technology, Calicut)</li>
+            <li>Jesus Eduardo Anaya Galeana (Instituto de Ciencias Nucleares, UNAM)</li>
+            <li>Jesús M. Rueda-Becerril (Rochester Institute of Technology)</li>
+            <li>João Paulo Bessa Brito (Universidade Federal do Pará (UFPA))</li>
+            <li>João Paulo Morais Graça (Universidade Federal do Rio de Janeiro)</li>
+            <li>Jordan Nicoules (Laboratoire Univers et Théories (LUTH), CNRS/Observatoire de Paris PSL/Université de Paris)</li>
+            <li>Jorge Castelo Mourelle (IGFAE, Universidade de Santiago de Compostela)</li>
+            <li>Jorge Delgado (University of Aveiro)</li>
+            <li>Jose Agustin Lozano Torres (Ruprecht-Karls-Universität Heidelberg)</li>
+            <li>José Carlos Olvera Meneses (CINVESTAV)</li>
+            <li>José Eduardo Ibañez Martínez (Universidad Nacional Autónoma de México)</li>
+            <li>Jose Manuel Sánchez Velázquez</li>
+            <li>Juan Felipe Bravo (National University of Colombia)</li>
+            <li>Juan Trenado (Institute of Cosmos Sciences (ICCUB))</li>
+            <li>Julio Arrechea (Institute of Astrophysics of Andalusia (IAA-CSIC))</li>
+            <li>Kamal Krishna Nath (IISER Bhopal)</li>
+            <li>Kaye Li (MSSL, University College London)</li>
+            <li>Kentaro TAKAMI (Kobe City College of Technology)</li>
+            <li>Kevin Gonzalez-Quesada (University of Massachusetts Dartmouth)</li>
+            <li>Konrad Topolski (Faculty of Physics, University of Warsaw)</li>
+            <li>Krystal Ruiz-Rocha (Vanderbilt University)</li>
+            <li>Kutay Arınç Çokluk (University of Ege)</li>
+            <li>Lambros Boukas</li>
+            <li>Lazaros Souvaitzis (Aristotle University of Thessaloniki)</li>
+            <li>Leanne Durkan (University College Dublin)</li>
+            <li>Leon Escobar Diaz (University of Valle)</li>
+            <li>Leonardo Machado Moreira (UFF - Fluminense Federal University)</li>
+            <li>Leonardo R. Werneck (West Virginia University)</li>
+            <li>Liu Haoyang (University of Chinese Academy of Sciences)</li>
+            <li>Liwei Ji (Florida Atlantic University)</li>
+            <li>Llibert Aresté Saló (Queen Mary University of London)</li>
+            <li>Lorena Magaña Zertuche (University of Mississippi)</li>
+            <li>Lorenzo Ennoggi (Rochester Institute of Technology)</li>
+            <li>Lucas Timotheo Sanches (UFABC)</li>
+            <li>Luciano Combii (Instituto Argentino de Radioastronomía)</li>
+            <li>Lun Song (Huazhong University of Science and Technology)</li>
+            <li>Maggie Smith (University of Arizona)</li>
+            <li>Maitraya Kanta Bhattacharyya (IISER Kolkata)</li>
+            <li>Manolis Drimalas (University of Arizona)</li>
+            <li>Manya Mahajan (Delhi University)</li>
+            <li>Marc Lilley (Observatoire de Paris)</li>
+            <li>Marco Aurélio Abreu de Paula (Federal University of Pará)</li>
+            <li>Marcus J Hatton (University of Southampton)</li>
+            <li>Maria de Lluc Planas Llompart (Universitat de les Illes Balears)</li>
+            <li>Maria Hamilton (Marshall University)</li>
+            <li>Mario Flores (Universidad de Concepcion)</li>
+            <li>Mario Luis Gutierrez Abed (Rochester Institute of Technology)</li>
+            <li>Markus Amano (The University of Alabama)</li>
+            <li>Masoumeh Delband (Shiraz University)</li>
+            <li>Matthew Elley (King's College London)</li>
+            <li>Mauricio Hippert (University of Illinois at Urbana-Champaign)</li>
+            <li>Maximilian Jacobi (TU Darmstadt)</li>
+            <li>Mayank (IIT , Varanasi)</li>
+            <li>Mert Okyay (University of Miami)</li>
+            <li>Michael Müller (University of Guelph / Perimeter Institute)</li>
+            <li>Michail Chabanov (Goethe University Frankfurt)</li>
+            <li>Michele Grasso (Center for Theoretical Physics, PAS)</li>
+            <li>Miguel Gracia (The University of Texas at Austin)</li>
+            <li>Miguel Zilhão (Instituto Superior Técnico)</li>
+            <li>Milton Ruiz (UIUC)</li>
+            <li>Mina Zamani (University of Zanjan)</li>
+            <li>Miquel Miravet-Tenés (University of Valencia)</li>
+            <li>Misba Afrin (Jamia Millia Islamia)</li>
+            <li>Morteza Khamedi (University of Padova)</li>
+            <li>Mostafizur Rahman (Indian Institute of Technology, Gandhinagar)</li>
+            <li>Mrunali M Gaijan (University of Milan)</li>
+            <li>Muhammad Asim Farooq (University of Management and Technology Lahore, Pakistan.)</li>
+            <li>Mukesh Kumar Singh (International Centre for Theoretical Sciences, TIFR, Begaluru)</li>
+            <li>Neev Shah (IISER Pune)</li>
+            <li>Neha Babbar (Savitri Bai Phule Pune University)</li>
+            <li>Nick Samaras (Charles University)</li>
+            <li>Nikil Ravi (University of Illinois at Urbana-Champaign)</li>
+            <li>Nilanjandev Bhaumik (Indian Institute of Science, Bangalore)</li>
+            <li>Nisa Amir (Quaid i Azam University, Islamabad, Pakistan.)</li>
+            <li>Olga Sergijenko (Taras Shevchenko National University of Kyiv)</li>
+            <li>Oscar Ivan Piñeiro Morales (ESFM-IPN)</li>
+            <li>Pablo Sotomayor (Instituto Argentino de Radioastronomía)</li>
+            <li>Pablo Villaseñor (Universidad Iberoamericana, Ciudad de México)</li>
+            <li>Panagiotis Iosif (Aristotle University of Thessaloniki)</li>
+            <li>Patricia Schmidt (University of Birmingham)</li>
+            <li>Pedro Espino (University of Arizona)</li>
+            <li>Pedro Henrique Barboza Rossetto (University of Otago, New Zealand)</li>
+            <li>Pedro Henrique Morais (Federal University of Paraíba)</li>
+            <li>Pedro Ildefonso (Instituto Superior Técnico, University of Lisbon)</li>
+            <li>Pedro Lucas Brito de Sá (Federal University of Pará)</li>
+            <li>Peter Hammond (University of Southampton)</li>
+            <li>Pinar Cerrahoglu (University of Delaware)</li>
+            <li>Pooja</li>
+            <li>Pranav Satheesh (Indian Institute of Technology Madras)</li>
+            <li>Prasad R (Indian Institute of Science Education and Research (IISER) Bhopal)</li>
+            <li>Pratik Wagle (University of Illinois at Urbana Champaign)</li>
+            <li>R.Jothika (Amrita Vishwa Vidyapeetham)</li>
+            <li>Rahime Matur (Ege University)</li>
+            <li>Rahul Shah (Indian Statistical Institute, Kolkata)</li>
+            <li>Ramish (NED University)</li>
+            <li>Ramprasath Rajkumar (NIT Rourkela)</li>
+            <li>Renan Batalha Magalhães (Universidade Federal do Pará)</li>
+            <li>Renato Tovar Landeo (Universidad Nacional de Ingeniería)</li>
+            <li>Ricardo Vazquez (IGFAE, Universidad de Santiago de Compostela)</li>
+            <li>Riccardo Sturani (International Institute of Physics)</li>
+            <li>Richard George (University of Texas at Austin)</li>
+            <li>Roberto Oliveri (CEICO, Czech Academy of Sciences)</li>
+            <li>Robyn Munoz (Institute of Cosmology and Gravitation, University of Portsmouth)</li>
+            <li>Rohit Thakar (Savitribai Phule Pune University)</li>
+            <li>Roland Haas (University of Illinois Urbana Champaign)</li>
+            <li>Rubén San Martín (Universidad de Concepción)</li>
+            <li>Ryan Nowicki (University of Texas at Austin)</li>
+            <li>Ryuichiro Akaho (Waseda University)</li>
+            <li>S.MULLAI VANESHWAR (NIT Calicut)</li>
+            <li>Saboura Zamani (Golestan University)</li>
+            <li>SADIA (Quaid-e-Azam University, Islamabad.)</li>
+            <li>Sagarika  Rao Valluri (RNSIT)</li>
+            <li>Sahel Dey (Indian Institute of Science &amp; Indian Institute of Astrophysics)</li>
+            <li>Samuel Cupp (Louisiana State University)</li>
+            <li>Samuel Tootle (Goethe Universaet Frankfurt)</li>
+            <li>Sanjit Das (VIT Chennai)</li>
+            <li>Santiago Jaraba (Instituto de Física Teórica (UAM-CSIC))</li>
+            <li>Sayak Datta (IUCAA)</li>
+            <li>Sebastián Nájera Valencia (ICN, UNAM)</li>
+            <li>Sérgio Vinicius Monteiro Castelo Branco Xavier (Uniersidade Federal do Pará)</li>
+            <li>Shafayat Shawqi (University of Waterloo)</li>
+            <li>Shailendra Singh (Indian Institute Of Science Education and Research, Bhopal, MP, India)</li>
+            <li>Shailesh Kumar (Indian Institute of Information Technology, Allahabad)</li>
+            <li>Shamim Haque (Indian Institute of Science Education and Research Bhopal (IISERB))</li>
+            <li>Shanshan Rodriguez (Grinnell College)</li>
+            <li>Shifang Li (The University of Manchester)</li>
+            <li>Shiladittya Debnath</li>
+            <li>Shobhit Ranjan (Delhi Technological University)</li>
+            <li>Sobhan Kazempour Ishka (University of Tabriz)</li>
+            <li>SRIKANT GUIN (C. V. Raman Global University, Bhubaneswar, Odisha)</li>
+            <li>Srivishnu.S (Amrita Vishwa Vidyapeetham)</li>
+            <li>Stamatis Vretinaris (Radboud University Nijmegen)</li>
+            <li>Stefano Ansoldi (University of Udine, Italy)</li>
+            <li>Subhadeep Bej (IIT Kharagpur)</li>
+            <li>Subhayu Bagchi (University of Mississippi)</li>
+            <li>Subhodeep Sarkar (Indian Institute of Information Technology, Allahabad)</li>
+            <li>Surajit Kalita (Indian Institute of Science, Bangalore)</li>
+            <li>Swarnim Shashank (Fudan University)</li>
+            <li>Syed Naqvi (Astronomical Observatory, Jagiellonian University)</li>
+            <li>T.S.Sachin Venkatesh (Delhi Technological University)</li>
+            <li>Tamanna Jain (DAMTP, University of Cambridge)</li>
+            <li>Tayeb Golanbari (University Of Kurdistan)</li>
+            <li>Terrence Pierre Jacques (West Virginia University)</li>
+            <li>Theo Anton (Queen Mary University of London)</li>
+            <li>Thiago Assumpção (West Virginia University)</li>
+            <li>Thomas Helfer (Johns Hopkins University)</li>
+            <li>Tomas Andrade (University of Barcelona)</li>
+            <li>Travis Dore (UIUC)</li>
+            <li>Vaibhav Garg (Delhi Technological University)</li>
+            <li>Vaishak Prasad (IUCAA)</li>
+            <li>Valentin Boyanov (Universidad Complutense de Madrid)</li>
+            <li>Valentina Sosa Fiscella (Rochester Institute of Technology)</li>
+            <li>Vanitha M K (Presidency University)</li>
+            <li>Vesselin Gueorguiev (Institute for Advanced Physical Studies (IAPS))</li>
+            <li>Victor Alexander Torres Sanchez (University of Trento)</li>
+            <li>Vikas Jadhav Y (Indian Institute of Science Education and Research Tirupati)</li>
+            <li>Xiaoyi Xie (University of Southampton)</li>
+            <li>Xinyu Li (CITA/PI)</li>
+            <li>Yi Qiu (Albert Einstein Institute (Hannover))</li>
+            <li>Yong Tang (UCAS)</li>
+            <li>Yoshinta Setyawati (Utrecht University)</li>
+            <li>Yotam (Sherf)</li>
+            <li>Yu Liu (Huazhong University of Science and Technology)</li>
+            <li>Yu-Peng Zhang (Lanzhou University)</li>
+            <li>Yufeng Luo (UIUC)</li>
+            <li>yutong wang (university of Chinese Academy of Sciences)</li>
+            <li>Zachariah Etienne (University of Idaho and West Virginia University)</li>
+            <li>Zeus Sales Moreira (Universidade Federal do Pará)</li>
+            <li>Zhong-Hao Tu (ITP/CAS)</li>
+            <li>刘文斌 (Huazhong University of Science and technology)</li>
+            <li>罗智 (China West Normal Univeraity)</li>
+            <li>陈律安 (HUST (Huazhong University of Science and Technology))</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
