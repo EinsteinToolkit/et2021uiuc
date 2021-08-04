@@ -35,22 +35,28 @@
   {%-endif-%}
 {%-endif-%}
 
-**slides:**
+<div style="text-align: left">
+<strong>slides:</strong>
 {% if slideurl-%}
-  [PDF]({{slideurl}})
+  {%-for url in slideurl %} <a href="{{url}}">{{url | split: '/' | last}}</a>{% endfor-%}
 {% else-%}
   N/A
-{%-endif-%}
+{% endif %}
+</div>
 
-{%-assign files = lectures.files | where_exp: "file", "file.path contains dir" | where_exp: "file", "file.name != slideurl" | where_exp: "file", "file.name != recordingurl" | map: "name" | sort -%}
-{%-if files != empty -%}
-  <br>**additional files:**
-  {% for file in files %} [{{file | split: "/" | last}}]({{file | split: "/" | last}}){% endfor-%}
-{%-endif-%}
+{% assign files = lectures.files | where_exp: "file", "file.path contains dir" | where_exp: "file", "file.name != slideurl" | where_exp: "file", "file.name != recordingurl" | map: "name" | sort -%}
+{%-if files != empty %}
+<div style="text-align: left">
+  <strong>additional files:</strong>
+  {% for file in files %} <a href="{{file | split: "/" | last}}">{{file | split: "/" | last}}</a>{% endfor-%}
+</div>
+{% endif %}
 
-<br>**recording:**
+<div style="text-align: left">
+<strong>recording:</strong>
 {% if recordingurl-%}
-  [mp4]({{recordingurl}})
+  <a href="{{recordingurl}}">watch</a>
 {% else-%}
   N/A
 {%-endif-%}
+</div>
