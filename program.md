@@ -25,9 +25,7 @@ day1:
 
 day2:
   - JoshuaFaber:
-      duration: 45
-  - JoshuaFaber:
-      duration: 45
+      duration: 95
   - AtulKedia2
   - break
   - BrunoGiacomazzo
@@ -37,9 +35,7 @@ day2:
 
 day3:
   - VassiliosMewes:
-      duration: 60
-  - VassiliosMewes:
-      duration: 65
+      duration: 130
   - break
   - FedericoCipolletta
   - BorisDaszuta
