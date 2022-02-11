@@ -10,6 +10,7 @@ title: Scientific Program
 
 start: "8:25"
 end: "13:20"
+# this is assumed to be 300s or 5minutes later on (6 unites per half hour)
 granularity: 300
 
 day1:
@@ -124,17 +125,22 @@ All times US Central time.
   <td>tutorial help</td>
 </tr>
 {%-for row in (0..maxrow)-%}
+  {%-comment-%} create information for row of time in alternating colours {%-endcomment-%}
   {%-assign time = row | times: page.granularity | plus: starttime | date: "%I:%M %p"-%}
   {%-assign half_hour = row | modulo: "6"-%}
+  {%-comment-%} ensure final time block is exactly end at the final time but is not longer than 30minutes (6 units of 5 minutes) {%-endcomment-%}
   {%-assign timerows = maxrow | minus: row | plus: 1-%}
-  {%-comment-%} grow final time block to exactly end at the final time {%-endcomment-%}
   {%-if timerows > 6-%}
     {%-assign timerows = 6-%}
   {%-endif-%}
+
   <tr>
+  {%-comment-%} time column {%-endcomment-%}
   {%-if half_hour == 0 and timerows >= 0-%}
   <td class="time" rowspan={{timerows}} {% cycle "time": "style='background: #EEE'", ""-%}> {{time}}</td>
   {%-endif-%}
+
+  {%-comment-%} program {%-endcomment-%}
   {% include intersect day=page.day1 column="day1" row=row-%}
   {%-include intersect day=page.day2 column="day2" row=row-%}
   {%-include intersect day=page.day3 column="day3" row=row-%}
